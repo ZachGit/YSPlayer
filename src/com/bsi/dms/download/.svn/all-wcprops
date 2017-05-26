@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 196
+/svn/DMS_DEV/!svn/ver/3552/Android_Apps/dmtp_prj/%E5%BC%80%E5%8F%91%E5%BA%93/3-%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3/3-%E7%BC%96%E7%A0%81/Release/V3.1.1.11/Player-V3.1.1.11/src/com/bsi/dms/download
+END
+DownloadThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 216
+/svn/DMS_DEV/!svn/ver/3481/Android_Apps/dmtp_prj/%E5%BC%80%E5%8F%91%E5%BA%93/3-%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3/3-%E7%BC%96%E7%A0%81/Release/V3.1.1.11/Player-V3.1.1.11/src/com/bsi/dms/download/DownloadThread.java
+END
+InfoDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 209
+/svn/DMS_DEV/!svn/ver/3481/Android_Apps/dmtp_prj/%E5%BC%80%E5%8F%91%E5%BA%93/3-%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3/3-%E7%BC%96%E7%A0%81/Release/V3.1.1.11/Player-V3.1.1.11/src/com/bsi/dms/download/InfoDao.java
+END
+FileService.java
+K 25
+svn:wc:ra_dav:version-url
+V 213
+/svn/DMS_DEV/!svn/ver/3481/Android_Apps/dmtp_prj/%E5%BC%80%E5%8F%91%E5%BA%93/3-%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3/3-%E7%BC%96%E7%A0%81/Release/V3.1.1.11/Player-V3.1.1.11/src/com/bsi/dms/download/FileService.java
+END
+ProgramAllDownloadThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 226
+/svn/DMS_DEV/!svn/ver/3481/Android_Apps/dmtp_prj/%E5%BC%80%E5%8F%91%E5%BA%93/3-%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3/3-%E7%BC%96%E7%A0%81/Release/V3.1.1.11/Player-V3.1.1.11/src/com/bsi/dms/download/ProgramAllDownloadThread.java
+END
+DownloadProgressListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 226
+/svn/DMS_DEV/!svn/ver/3481/Android_Apps/dmtp_prj/%E5%BC%80%E5%8F%91%E5%BA%93/3-%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3/3-%E7%BC%96%E7%A0%81/Release/V3.1.1.11/Player-V3.1.1.11/src/com/bsi/dms/download/DownloadProgressListener.java
+END
+DBOpenHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 214
+/svn/DMS_DEV/!svn/ver/3481/Android_Apps/dmtp_prj/%E5%BC%80%E5%8F%91%E5%BA%93/3-%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3/3-%E7%BC%96%E7%A0%81/Release/V3.1.1.11/Player-V3.1.1.11/src/com/bsi/dms/download/DBOpenHelper.java
+END
+ProgramDownloadThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 223
+/svn/DMS_DEV/!svn/ver/3481/Android_Apps/dmtp_prj/%E5%BC%80%E5%8F%91%E5%BA%93/3-%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3/3-%E7%BC%96%E7%A0%81/Release/V3.1.1.11/Player-V3.1.1.11/src/com/bsi/dms/download/ProgramDownloadThread.java
+END
+CustomHttpClient.java
+K 25
+svn:wc:ra_dav:version-url
+V 218
+/svn/DMS_DEV/!svn/ver/3481/Android_Apps/dmtp_prj/%E5%BC%80%E5%8F%91%E5%BA%93/3-%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3/3-%E7%BC%96%E7%A0%81/Release/V3.1.1.11/Player-V3.1.1.11/src/com/bsi/dms/download/CustomHttpClient.java
+END
+Info.java
+K 25
+svn:wc:ra_dav:version-url
+V 206
+/svn/DMS_DEV/!svn/ver/3481/Android_Apps/dmtp_prj/%E5%BC%80%E5%8F%91%E5%BA%93/3-%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3/3-%E7%BC%96%E7%A0%81/Release/V3.1.1.11/Player-V3.1.1.11/src/com/bsi/dms/download/Info.java
+END
+DownloadEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 216
+/svn/DMS_DEV/!svn/ver/3552/Android_Apps/dmtp_prj/%E5%BC%80%E5%8F%91%E5%BA%93/3-%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3/3-%E7%BC%96%E7%A0%81/Release/V3.1.1.11/Player-V3.1.1.11/src/com/bsi/dms/download/DownloadEngine.java
+END
+Downloader.java
+K 25
+svn:wc:ra_dav:version-url
+V 212
+/svn/DMS_DEV/!svn/ver/3552/Android_Apps/dmtp_prj/%E5%BC%80%E5%8F%91%E5%BA%93/3-%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3/3-%E7%BC%96%E7%A0%81/Release/V3.1.1.11/Player-V3.1.1.11/src/com/bsi/dms/download/Downloader.java
+END
+FileDownloader.java
+K 25
+svn:wc:ra_dav:version-url
+V 216
+/svn/DMS_DEV/!svn/ver/3481/Android_Apps/dmtp_prj/%E5%BC%80%E5%8F%91%E5%BA%93/3-%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3/3-%E7%BC%96%E7%A0%81/Release/V3.1.1.11/Player-V3.1.1.11/src/com/bsi/dms/download/FileDownloader.java
+END

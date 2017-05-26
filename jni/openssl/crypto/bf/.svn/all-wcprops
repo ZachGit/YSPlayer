@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 193
+/svn/DMS_DEV/!svn/ver/3481/Android_Apps/dmtp_prj/%E5%BC%80%E5%8F%91%E5%BA%93/3-%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3/3-%E7%BC%96%E7%A0%81/Release/V3.1.1.11/Player-V3.1.1.11/jni/openssl/crypto/bf
+END
+bf_ecb.c
+K 25
+svn:wc:ra_dav:version-url
+V 202
+/svn/DMS_DEV/!svn/ver/3481/Android_Apps/dmtp_prj/%E5%BC%80%E5%8F%91%E5%BA%93/3-%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3/3-%E7%BC%96%E7%A0%81/Release/V3.1.1.11/Player-V3.1.1.11/jni/openssl/crypto/bf/bf_ecb.c
+END
+bf_skey.c
+K 25
+svn:wc:ra_dav:version-url
+V 203
+/svn/DMS_DEV/!svn/ver/3481/Android_Apps/dmtp_prj/%E5%BC%80%E5%8F%91%E5%BA%93/3-%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3/3-%E7%BC%96%E7%A0%81/Release/V3.1.1.11/Player-V3.1.1.11/jni/openssl/crypto/bf/bf_skey.c
+END
+blowfish.h
+K 25
+svn:wc:ra_dav:version-url
+V 204
+/svn/DMS_DEV/!svn/ver/3481/Android_Apps/dmtp_prj/%E5%BC%80%E5%8F%91%E5%BA%93/3-%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3/3-%E7%BC%96%E7%A0%81/Release/V3.1.1.11/Player-V3.1.1.11/jni/openssl/crypto/bf/blowfish.h
+END
+bf_pi.h
+K 25
+svn:wc:ra_dav:version-url
+V 201
+/svn/DMS_DEV/!svn/ver/3481/Android_Apps/dmtp_prj/%E5%BC%80%E5%8F%91%E5%BA%93/3-%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3/3-%E7%BC%96%E7%A0%81/Release/V3.1.1.11/Player-V3.1.1.11/jni/openssl/crypto/bf/bf_pi.h
+END
+bf_locl.h
+K 25
+svn:wc:ra_dav:version-url
+V 203
+/svn/DMS_DEV/!svn/ver/3481/Android_Apps/dmtp_prj/%E5%BC%80%E5%8F%91%E5%BA%93/3-%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3/3-%E7%BC%96%E7%A0%81/Release/V3.1.1.11/Player-V3.1.1.11/jni/openssl/crypto/bf/bf_locl.h
+END
+COPYRIGHT
+K 25
+svn:wc:ra_dav:version-url
+V 203
+/svn/DMS_DEV/!svn/ver/3481/Android_Apps/dmtp_prj/%E5%BC%80%E5%8F%91%E5%BA%93/3-%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3/3-%E7%BC%96%E7%A0%81/Release/V3.1.1.11/Player-V3.1.1.11/jni/openssl/crypto/bf/COPYRIGHT
+END
+bf_ofb64.c
+K 25
+svn:wc:ra_dav:version-url
+V 204
+/svn/DMS_DEV/!svn/ver/3481/Android_Apps/dmtp_prj/%E5%BC%80%E5%8F%91%E5%BA%93/3-%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3/3-%E7%BC%96%E7%A0%81/Release/V3.1.1.11/Player-V3.1.1.11/jni/openssl/crypto/bf/bf_ofb64.c
+END
+bf_cfb64.c
+K 25
+svn:wc:ra_dav:version-url
+V 204
+/svn/DMS_DEV/!svn/ver/3481/Android_Apps/dmtp_prj/%E5%BC%80%E5%8F%91%E5%BA%93/3-%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3/3-%E7%BC%96%E7%A0%81/Release/V3.1.1.11/Player-V3.1.1.11/jni/openssl/crypto/bf/bf_cfb64.c
+END
+bf_enc.c
+K 25
+svn:wc:ra_dav:version-url
+V 202
+/svn/DMS_DEV/!svn/ver/3481/Android_Apps/dmtp_prj/%E5%BC%80%E5%8F%91%E5%BA%93/3-%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3/3-%E7%BC%96%E7%A0%81/Release/V3.1.1.11/Player-V3.1.1.11/jni/openssl/crypto/bf/bf_enc.c
+END

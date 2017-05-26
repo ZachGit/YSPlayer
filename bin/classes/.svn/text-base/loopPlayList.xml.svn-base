@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--plantype normal loop-->
+<PlayList PlayListID="80" PlayListName="listname" SiteID="site" plantype="loop">
+  <Plantime>
+    <StartDate>2013-05-10</StartDate>
+    <EndDate>2013-05-10</EndDate>
+    <StartTime>15:25:39</StartTime>
+    <EndTime>15:25:40</EndTime>
+    <Week>1</Week>
+  </Plantime>
+
+
+  <Programtask ProgramID="92" ProgramName="½ۄ¿1" onlinemode="onlinefirst">
+    <Time>0</Time>
+    <url>http://192.168.7.195:88/Test_DMS/MediaStore/PlayList/80/92.html</url>
+    <local protocol="http" ftpserver="" >
+      <programurl>80/92.html</programurl>
+      <res>BSIVI030000011.mp4</res>
+      <res>BSIVI030000011.mp4</res>
+    </local>
+  </Programtask>
+
+
+  <Programtask ProgramID="92" ProgramName="namepp" onlinemode="onlinefirst">
+    <Time>0</Time>
+    <url>http://192.168.7.195:88/Test_DMS/MediaStore/PlayList/80/92.html</url>
+    <local protocol="http" ftpserver="" >
+      <programurl>80/92.html</programurl>
+      <res>BSIVI030000011.mp4</res>
+      <res>BSIVI030000011.mp4</res>
+    </local>
+  </Programtask>
+
+</PlayList>

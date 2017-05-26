@@ -1,0 +1,125 @@
+K 25
+svn:wc:ra_dav:version-url
+V 193
+/svn/DMS_DEV/!svn/ver/3481/Android_Apps/dmtp_prj/%E5%BC%80%E5%8F%91%E5%BA%93/3-%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3/3-%E7%BC%96%E7%A0%81/Release/V3.1.1.11/Player-V3.1.1.11/jni/openssl/crypto/ec
+END
+ec_key.c
+K 25
+svn:wc:ra_dav:version-url
+V 202
+/svn/DMS_DEV/!svn/ver/3481/Android_Apps/dmtp_prj/%E5%BC%80%E5%8F%91%E5%BA%93/3-%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3/3-%E7%BC%96%E7%A0%81/Release/V3.1.1.11/Player-V3.1.1.11/jni/openssl/crypto/ec/ec_key.c
+END
+ec_err.c
+K 25
+svn:wc:ra_dav:version-url
+V 202
+/svn/DMS_DEV/!svn/ver/3481/Android_Apps/dmtp_prj/%E5%BC%80%E5%8F%91%E5%BA%93/3-%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3/3-%E7%BC%96%E7%A0%81/Release/V3.1.1.11/Player-V3.1.1.11/jni/openssl/crypto/ec/ec_err.c
+END
+ecp_smpl.c
+K 25
+svn:wc:ra_dav:version-url
+V 204
+/svn/DMS_DEV/!svn/ver/3481/Android_Apps/dmtp_prj/%E5%BC%80%E5%8F%91%E5%BA%93/3-%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3/3-%E7%BC%96%E7%A0%81/Release/V3.1.1.11/Player-V3.1.1.11/jni/openssl/crypto/ec/ecp_smpl.c
+END
+ec_print.c
+K 25
+svn:wc:ra_dav:version-url
+V 204
+/svn/DMS_DEV/!svn/ver/3481/Android_Apps/dmtp_prj/%E5%BC%80%E5%8F%91%E5%BA%93/3-%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3/3-%E7%BC%96%E7%A0%81/Release/V3.1.1.11/Player-V3.1.1.11/jni/openssl/crypto/ec/ec_print.c
+END
+ec_cvt.c
+K 25
+svn:wc:ra_dav:version-url
+V 202
+/svn/DMS_DEV/!svn/ver/3481/Android_Apps/dmtp_prj/%E5%BC%80%E5%8F%91%E5%BA%93/3-%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3/3-%E7%BC%96%E7%A0%81/Release/V3.1.1.11/Player-V3.1.1.11/jni/openssl/crypto/ec/ec_cvt.c
+END
+ec2_smpl.c
+K 25
+svn:wc:ra_dav:version-url
+V 204
+/svn/DMS_DEV/!svn/ver/3481/Android_Apps/dmtp_prj/%E5%BC%80%E5%8F%91%E5%BA%93/3-%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3/3-%E7%BC%96%E7%A0%81/Release/V3.1.1.11/Player-V3.1.1.11/jni/openssl/crypto/ec/ec2_smpl.c
+END
+ecp_mont.c
+K 25
+svn:wc:ra_dav:version-url
+V 204
+/svn/DMS_DEV/!svn/ver/3481/Android_Apps/dmtp_prj/%E5%BC%80%E5%8F%91%E5%BA%93/3-%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3/3-%E7%BC%96%E7%A0%81/Release/V3.1.1.11/Player-V3.1.1.11/jni/openssl/crypto/ec/ecp_mont.c
+END
+ecp_nist.c
+K 25
+svn:wc:ra_dav:version-url
+V 204
+/svn/DMS_DEV/!svn/ver/3481/Android_Apps/dmtp_prj/%E5%BC%80%E5%8F%91%E5%BA%93/3-%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3/3-%E7%BC%96%E7%A0%81/Release/V3.1.1.11/Player-V3.1.1.11/jni/openssl/crypto/ec/ecp_nist.c
+END
+ec_ameth.c
+K 25
+svn:wc:ra_dav:version-url
+V 204
+/svn/DMS_DEV/!svn/ver/3481/Android_Apps/dmtp_prj/%E5%BC%80%E5%8F%91%E5%BA%93/3-%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3/3-%E7%BC%96%E7%A0%81/Release/V3.1.1.11/Player-V3.1.1.11/jni/openssl/crypto/ec/ec_ameth.c
+END
+ec_asn1.c
+K 25
+svn:wc:ra_dav:version-url
+V 203
+/svn/DMS_DEV/!svn/ver/3481/Android_Apps/dmtp_prj/%E5%BC%80%E5%8F%91%E5%BA%93/3-%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3/3-%E7%BC%96%E7%A0%81/Release/V3.1.1.11/Player-V3.1.1.11/jni/openssl/crypto/ec/ec_asn1.c
+END
+ec2_mult.c
+K 25
+svn:wc:ra_dav:version-url
+V 204
+/svn/DMS_DEV/!svn/ver/3481/Android_Apps/dmtp_prj/%E5%BC%80%E5%8F%91%E5%BA%93/3-%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3/3-%E7%BC%96%E7%A0%81/Release/V3.1.1.11/Player-V3.1.1.11/jni/openssl/crypto/ec/ec2_mult.c
+END
+ec_lib.c
+K 25
+svn:wc:ra_dav:version-url
+V 202
+/svn/DMS_DEV/!svn/ver/3481/Android_Apps/dmtp_prj/%E5%BC%80%E5%8F%91%E5%BA%93/3-%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3/3-%E7%BC%96%E7%A0%81/Release/V3.1.1.11/Player-V3.1.1.11/jni/openssl/crypto/ec/ec_lib.c
+END
+eck_prn.c
+K 25
+svn:wc:ra_dav:version-url
+V 203
+/svn/DMS_DEV/!svn/ver/3481/Android_Apps/dmtp_prj/%E5%BC%80%E5%8F%91%E5%BA%93/3-%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3/3-%E7%BC%96%E7%A0%81/Release/V3.1.1.11/Player-V3.1.1.11/jni/openssl/crypto/ec/eck_prn.c
+END
+ec_pmeth.c
+K 25
+svn:wc:ra_dav:version-url
+V 204
+/svn/DMS_DEV/!svn/ver/3481/Android_Apps/dmtp_prj/%E5%BC%80%E5%8F%91%E5%BA%93/3-%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3/3-%E7%BC%96%E7%A0%81/Release/V3.1.1.11/Player-V3.1.1.11/jni/openssl/crypto/ec/ec_pmeth.c
+END
+ec_check.c
+K 25
+svn:wc:ra_dav:version-url
+V 204
+/svn/DMS_DEV/!svn/ver/3481/Android_Apps/dmtp_prj/%E5%BC%80%E5%8F%91%E5%BA%93/3-%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3/3-%E7%BC%96%E7%A0%81/Release/V3.1.1.11/Player-V3.1.1.11/jni/openssl/crypto/ec/ec_check.c
+END
+ec_lcl.h
+K 25
+svn:wc:ra_dav:version-url
+V 202
+/svn/DMS_DEV/!svn/ver/3481/Android_Apps/dmtp_prj/%E5%BC%80%E5%8F%91%E5%BA%93/3-%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3/3-%E7%BC%96%E7%A0%81/Release/V3.1.1.11/Player-V3.1.1.11/jni/openssl/crypto/ec/ec_lcl.h
+END
+ectest.c
+K 25
+svn:wc:ra_dav:version-url
+V 202
+/svn/DMS_DEV/!svn/ver/3481/Android_Apps/dmtp_prj/%E5%BC%80%E5%8F%91%E5%BA%93/3-%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3/3-%E7%BC%96%E7%A0%81/Release/V3.1.1.11/Player-V3.1.1.11/jni/openssl/crypto/ec/ectest.c
+END
+ec_mult.c
+K 25
+svn:wc:ra_dav:version-url
+V 203
+/svn/DMS_DEV/!svn/ver/3481/Android_Apps/dmtp_prj/%E5%BC%80%E5%8F%91%E5%BA%93/3-%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3/3-%E7%BC%96%E7%A0%81/Release/V3.1.1.11/Player-V3.1.1.11/jni/openssl/crypto/ec/ec_mult.c
+END
+ec_curve.c
+K 25
+svn:wc:ra_dav:version-url
+V 204
+/svn/DMS_DEV/!svn/ver/3481/Android_Apps/dmtp_prj/%E5%BC%80%E5%8F%91%E5%BA%93/3-%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3/3-%E7%BC%96%E7%A0%81/Release/V3.1.1.11/Player-V3.1.1.11/jni/openssl/crypto/ec/ec_curve.c
+END
+ec.h
+K 25
+svn:wc:ra_dav:version-url
+V 198
+/svn/DMS_DEV/!svn/ver/3481/Android_Apps/dmtp_prj/%E5%BC%80%E5%8F%91%E5%BA%93/3-%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3/3-%E7%BC%96%E7%A0%81/Release/V3.1.1.11/Player-V3.1.1.11/jni/openssl/crypto/ec/ec.h
+END

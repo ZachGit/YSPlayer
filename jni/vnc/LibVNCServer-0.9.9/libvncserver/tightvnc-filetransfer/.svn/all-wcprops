@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 233
+/svn/DMS_DEV/!svn/ver/3481/Android_Apps/dmtp_prj/%E5%BC%80%E5%8F%91%E5%BA%93/3-%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3/3-%E7%BC%96%E7%A0%81/Release/V3.1.1.11/Player-V3.1.1.11/jni/vnc/LibVNCServer-0.9.9/libvncserver/tightvnc-filetransfer
+END
+handlefiletransferrequest.h
+K 25
+svn:wc:ra_dav:version-url
+V 261
+/svn/DMS_DEV/!svn/ver/3481/Android_Apps/dmtp_prj/%E5%BC%80%E5%8F%91%E5%BA%93/3-%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3/3-%E7%BC%96%E7%A0%81/Release/V3.1.1.11/Player-V3.1.1.11/jni/vnc/LibVNCServer-0.9.9/libvncserver/tightvnc-filetransfer/handlefiletransferrequest.h
+END
+filetransfermsg.h
+K 25
+svn:wc:ra_dav:version-url
+V 251
+/svn/DMS_DEV/!svn/ver/3481/Android_Apps/dmtp_prj/%E5%BC%80%E5%8F%91%E5%BA%93/3-%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3/3-%E7%BC%96%E7%A0%81/Release/V3.1.1.11/Player-V3.1.1.11/jni/vnc/LibVNCServer-0.9.9/libvncserver/tightvnc-filetransfer/filetransfermsg.h
+END
+rfbtightserver.c
+K 25
+svn:wc:ra_dav:version-url
+V 250
+/svn/DMS_DEV/!svn/ver/3481/Android_Apps/dmtp_prj/%E5%BC%80%E5%8F%91%E5%BA%93/3-%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3/3-%E7%BC%96%E7%A0%81/Release/V3.1.1.11/Player-V3.1.1.11/jni/vnc/LibVNCServer-0.9.9/libvncserver/tightvnc-filetransfer/rfbtightserver.c
+END
+rfbtightproto.h
+K 25
+svn:wc:ra_dav:version-url
+V 249
+/svn/DMS_DEV/!svn/ver/3481/Android_Apps/dmtp_prj/%E5%BC%80%E5%8F%91%E5%BA%93/3-%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3/3-%E7%BC%96%E7%A0%81/Release/V3.1.1.11/Player-V3.1.1.11/jni/vnc/LibVNCServer-0.9.9/libvncserver/tightvnc-filetransfer/rfbtightproto.h
+END
+filelistinfo.c
+K 25
+svn:wc:ra_dav:version-url
+V 248
+/svn/DMS_DEV/!svn/ver/3481/Android_Apps/dmtp_prj/%E5%BC%80%E5%8F%91%E5%BA%93/3-%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3/3-%E7%BC%96%E7%A0%81/Release/V3.1.1.11/Player-V3.1.1.11/jni/vnc/LibVNCServer-0.9.9/libvncserver/tightvnc-filetransfer/filelistinfo.c
+END
+handlefiletransferrequest.c
+K 25
+svn:wc:ra_dav:version-url
+V 261
+/svn/DMS_DEV/!svn/ver/3481/Android_Apps/dmtp_prj/%E5%BC%80%E5%8F%91%E5%BA%93/3-%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3/3-%E7%BC%96%E7%A0%81/Release/V3.1.1.11/Player-V3.1.1.11/jni/vnc/LibVNCServer-0.9.9/libvncserver/tightvnc-filetransfer/handlefiletransferrequest.c
+END
+filetransfermsg.c
+K 25
+svn:wc:ra_dav:version-url
+V 251
+/svn/DMS_DEV/!svn/ver/3481/Android_Apps/dmtp_prj/%E5%BC%80%E5%8F%91%E5%BA%93/3-%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3/3-%E7%BC%96%E7%A0%81/Release/V3.1.1.11/Player-V3.1.1.11/jni/vnc/LibVNCServer-0.9.9/libvncserver/tightvnc-filetransfer/filetransfermsg.c
+END
+filelistinfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 248
+/svn/DMS_DEV/!svn/ver/3481/Android_Apps/dmtp_prj/%E5%BC%80%E5%8F%91%E5%BA%93/3-%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3/3-%E7%BC%96%E7%A0%81/Release/V3.1.1.11/Player-V3.1.1.11/jni/vnc/LibVNCServer-0.9.9/libvncserver/tightvnc-filetransfer/filelistinfo.h
+END

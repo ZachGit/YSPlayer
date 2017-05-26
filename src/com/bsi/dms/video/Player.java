@@ -1,0 +1,418 @@
+package com.bsi.dms.video;
+
+import java.io.IOException;
+
+import android.content.Context;
+import android.media.AudioManager;
+import android.media.MediaPlayer;
+import android.media.MediaPlayer.OnBufferingUpdateListener;
+import android.media.MediaPlayer.OnCompletionListener;
+import android.net.wifi.WifiManager;
+import android.os.Handler;
+import android.os.Message;
+import android.text.TextUtils;
+import android.util.Log;
+import android.view.SurfaceHolder;
+import android.view.SurfaceView;
+
+import com.bsi.dms.config.PlayerApplication;
+import com.bsi.dms.config.PlayerConst;
+import com.bsi.dms.utils.CommonUtil;
+
+public class Player implements OnBufferingUpdateListener, OnCompletionListener,
+		MediaPlayer.OnPreparedListener, MediaPlayer.OnErrorListener,
+		SurfaceHolder.Callback {
+	private static final String TAG = "BSIPlayer";
+	private static final int MEDIA_PLAYER_RETRY_TIME = 1000 * 10;
+	private static final int ENABLE_WIFI_DELAY_TIME = 1000 * 10;
+	private static final int MEDIA_RETRY = 90001;
+	private static final int ENABLE_WIFI = 90002;
+	private static final int MAX_RELOAD_MEDIA_TIMES = 10;
+	private static final int MAX_RECONNECT_WIFI_TIMES = 10;
+	private int mReloadMediaTimes;
+	private int mReconnectWifiTimes;
+	private int videoWidth;
+	private int videoHeight;
+	public MediaPlayer mediaPlayer;
+	private SurfaceHolder surfaceHolder;
+	// private SurfaceView mSurfaceView;
+	private Handler handler;
+	private Handler mPlayerWatchdogHandler;
+
+	private String singleurl;
+	private boolean mulurl;
+	private String[] urlArray;
+	private int urlNum;
+	private int curNum;
+
+	// private Timer mTimer=new Timer();
+	public Player(SurfaceView surfaceView, Handler handler) {
+		this.handler = handler;
+		mPlayerWatchdogHandler = getWatchdogHandler();
+		surfaceHolder = surfaceView.getHolder();
+		surfaceHolder.addCallback(this);
+		surfaceHolder.setType(SurfaceHolder.SURFACE_TYPE_PUSH_BUFFERS);
+
+		mulurl = false;
+		urlArray = new String[100];
+		urlNum = 0;
+		curNum = 0;
+		mReloadMediaTimes = 0;
+		mReconnectWifiTimes = 0;
+	}
+
+	private void createMediaPlayer() {
+		Log.w(TAG, "create MediaPlayer");
+		mediaPlayer = new MediaPlayer();
+		mediaPlayer.setDisplay(surfaceHolder);
+		mediaPlayer.setAudioStreamType(AudioManager.STREAM_MUSIC);
+		mediaPlayer.setOnBufferingUpdateListener(this);
+		mediaPlayer.setOnPreparedListener(this);
+		mediaPlayer.setOnCompletionListener(this);
+		mediaPlayer.setOnErrorListener(this);
+	}
+
+	public int getUrlNum() {
+		return urlNum;
+	}
+
+	private Handler getWatchdogHandler() {
+		Handler handler = new Handler() {
+			public void handleMessage(Message msg) {
+				switch (msg.what) {
+				case MEDIA_RETRY:
+					handleRetry();
+					break;
+				case ENABLE_WIFI:
+					enableWifi();
+					break;
+				default:
+					Log.d(TAG, "unknown message in playerWatchdogHandler:"
+							+ msg.what);
+					break;
+				}
+			}
+		};
+		return handler;
+	}
+
+	protected void handleRetry() {
+		Log.d(TAG, "handleRetry mReloadMediaTimes:" + mReloadMediaTimes
+				+ " mReconnectWifiTimes:" + mReconnectWifiTimes);
+		if (mReloadMediaTimes < MAX_RELOAD_MEDIA_TIMES) {
+			mReloadMediaTimes++;
+			reloadMedia();
+			return;
+		}
+		// else if (mReconnectWifiTimes < MAX_RECONNECT_WIFI_TIMES) {
+		// mReconnectWifiTimes++;
+		// reconnectWifi();
+		// reloadMedia();
+		// return;
+		// }
+		else {
+			Log.e(TAG, "faild handle IO error after reload:"
+					+ mReloadMediaTimes + " reconnect wifi:"
+					+ mReconnectWifiTimes);
+			hideSurface();
+		}
+	}
+
+	private void hideSurface() {
+		handler.sendEmptyMessage(PlayerConst.PLAY_VIDEOVIEW_HIDE);
+		Log.w(TAG, "hide surfaceView");
+	}
+
+	public boolean isMulurl() {
+		return mulurl;
+	}
+
+	private boolean isValidateUrl(String path) {
+		if (TextUtils.isEmpty(path)) {
+			return false;
+		}
+		if (path.startsWith("http://")) {
+			// player.playUrl(videoUrl);
+			if (CommonUtil.isHttpFileExist(path)) {
+				return true;
+			} else {
+				return false;
+			}
+		} else if (path.startsWith("/")) {
+			if (CommonUtil.isFileExist(path)) {
+				return true;
+			} else {
+				return false;
+			}
+		}
+		return false;
+	}
+
+	@Override
+	public void onBufferingUpdate(MediaPlayer arg0, int bufferingProgress) {
+		Log.w(TAG, "onBufferingUpdate:" + bufferingProgress);
+	}
+
+	@Override
+	public void onCompletion(MediaPlayer mp) {
+		Log.w(TAG, "onCompletion");
+		resetCounter();
+		reloadMedia();
+	}
+
+	@Override
+	public boolean onError(MediaPlayer mp, int what, int extra) {
+		Log.e(TAG, "onError in Player ,reset MediaPlayer,what=" + what
+				+ " extra=" + extra + " mReloadMediaTimes:" + mReloadMediaTimes);
+		releaseMediaPlayer();
+		if (mReloadMediaTimes < MAX_RELOAD_MEDIA_TIMES) {
+			createMediaPlayer();
+			reloadMedia();
+			mReloadMediaTimes++;
+		} else {
+			Log.e(TAG, "faild handle IO error after reload:"
+					+ mReloadMediaTimes + " reconnect wifi:"
+					+ mReconnectWifiTimes);
+			hideSurface();
+		}
+		return true;
+	}
+
+	@Override
+	/**  
+	 * 通过onPrepared播放  
+	 */
+	public void onPrepared(MediaPlayer mp) {
+		Log.w(TAG, "onPrepared");
+		videoWidth = mediaPlayer.getVideoWidth();
+		videoHeight = mediaPlayer.getVideoHeight();
+		if (videoHeight != 0 && videoWidth != 0) {
+			// showSurface();
+			mp.start();
+		}
+	}
+
+	private void resetCounter() {
+		Log.d(TAG, "resetCounter");
+		mReloadMediaTimes = 0;
+		mReconnectWifiTimes = 0;
+	}
+
+	public void pause() {
+		mediaPlayer.pause();
+	}
+
+	public void play() {
+		mediaPlayer.start();
+	}
+
+	public void playMultiUrl() {
+		try {
+			curNum = 0;
+			if (!isValidateUrl(urlArray[curNum])) {
+				Log.e("", urlArray[curNum] + "is not exist");
+				return;
+			}
+			mulurl = true;
+			mediaPlayer.reset();
+			if (urlArray[curNum] != null) {
+				mediaPlayer.setDataSource(urlArray[curNum]);
+			}
+			// mediaPlayer.setLooping(true);
+			mediaPlayer.prepareAsync();
+			// mediaPlayer.setLooping(true);
+			// mediaPlayer.start();
+			// mediaPlayer.setLooping(true);
+
+		} catch (IllegalArgumentException e) {
+			e.printStackTrace();
+		} catch (IllegalStateException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
+
+	public void playUrl(String videoUrl) {
+		try {
+			if (!isValidateUrl(videoUrl)) {
+				Log.e("", videoUrl + "is not exist");
+				return;
+			}
+			mulurl = false;
+			singleurl = new String(videoUrl);
+			mediaPlayer.reset();
+			mediaPlayer.setDataSource(videoUrl);
+			// mediaPlayer.setLooping(true);
+			// mediaPlayer.prepare();//prepare之后自动播放
+			mediaPlayer.prepareAsync();
+			// mediaPlayer).setLooping(true);
+			// mediaPlayer.start();
+			// mediaPlayer.setLooping(true);
+
+		} catch (IllegalArgumentException e) {
+			e.printStackTrace();
+		} catch (IllegalStateException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
+	
+	public void playRtsp(String videoUrl) {
+		try {
+			 
+			mulurl = false;
+			singleurl = new String(videoUrl);
+			mediaPlayer.reset();
+			mediaPlayer.setDataSource(videoUrl);
+			// mediaPlayer.setLooping(true);
+			// mediaPlayer.prepare();//prepare之后自动播放
+			mediaPlayer.prepareAsync();
+			// mediaPlayer).setLooping(true);
+			// mediaPlayer.start();
+			// mediaPlayer.setLooping(true);
+
+		} catch (IllegalArgumentException e) {
+			e.printStackTrace();
+		} catch (IllegalStateException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
+
+	private void postDelayedRetryMessage() {
+		Message msg = new Message();
+		msg.what = MEDIA_RETRY;
+		mPlayerWatchdogHandler.sendMessageDelayed(msg, MEDIA_PLAYER_RETRY_TIME);
+	}
+
+	private void reconnectWifi() {
+		disableWifi();
+		Message msg = new Message();
+		msg.what = ENABLE_WIFI;
+		mPlayerWatchdogHandler.sendMessageDelayed(msg, ENABLE_WIFI_DELAY_TIME);
+	}
+
+	private void enableWifi() {
+		Log.d(TAG, "enable wifi");
+		WifiManager wifiManager = (WifiManager) PlayerApplication.getInstance()
+				.getSystemService(Context.WIFI_SERVICE);
+		wifiManager.setWifiEnabled(true);
+	}
+
+	private void disableWifi() {
+		Log.d(TAG, "disable wifi");
+		WifiManager wifiManager = (WifiManager) PlayerApplication.getInstance()
+				.getSystemService(Context.WIFI_SERVICE);
+		wifiManager.setWifiEnabled(false);
+	}
+
+	private void releaseMediaPlayer() {
+		Log.w(TAG,"release MediaPlayer");
+		if (mediaPlayer != null) {
+			mediaPlayer.stop();
+			mediaPlayer.release();
+			mediaPlayer = null;
+		}
+	}
+
+	private void reloadMedia() {
+		Log.d(TAG,
+				"reloading media singleurl"
+						+ singleurl
+						+ " urlArray[curNum]:"
+						+ (urlArray == null ? "null"
+								: (urlArray[curNum] == null ? "null"
+										: urlArray[curNum])));
+		if (mediaPlayer == null) {
+			Log.e(TAG, "mediaPlayer == null, skip reloadMedia!");
+			return;
+		}
+		if (!this.isMulurl()) {
+			try {
+				mediaPlayer.reset();
+				mediaPlayer.setDataSource(singleurl);
+				mediaPlayer.prepareAsync();
+			} catch (IllegalArgumentException e) {
+				e.printStackTrace();
+			} catch (SecurityException e) {
+				e.printStackTrace();
+			} catch (IllegalStateException e) {
+				e.printStackTrace();
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
+		} else if (this.isMulurl()) {
+			curNum = (curNum + 1) % urlNum;
+
+			try {
+				mediaPlayer.reset();
+				mediaPlayer.setDataSource(urlArray[curNum]);
+				mediaPlayer.prepareAsync();
+			} catch (IllegalArgumentException e) {
+				e.printStackTrace();
+			} catch (SecurityException e) {
+				e.printStackTrace();
+			} catch (IllegalStateException e) {
+				e.printStackTrace();
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
+		}
+	}
+
+	public void setMultiUrl(String mulStr, int num, String sep) {
+		mulurl = true;
+		urlNum = num;
+		if (urlArray != null) {
+			urlArray = mulStr.split(sep);
+		}
+	}
+
+	public void setMulurl(boolean mulurl) {
+		this.mulurl = mulurl;
+	}
+
+	public void setUrlNum(int urlNum) {
+		this.urlNum = urlNum;
+	}
+
+	private void showSurface() {
+		mediaPlayer.setDisplay(surfaceHolder);
+		handler.sendEmptyMessage(PlayerConst.PLAY_VIDEOVIEW_SHOW);
+		Log.w(TAG, "show surfaceView");
+	}
+
+	public void stop() {
+		resetCounter();
+		if (singleurl != null) {
+			singleurl = null;
+		}
+		releaseMediaPlayer();
+		if (mulurl) {
+			mulurl = false;
+			urlNum = 0;
+		}
+	}
+
+	@Override
+	public void surfaceChanged(SurfaceHolder arg0, int arg1, int arg2, int arg3) {
+		Log.w(TAG, "surface changed arg1=" + arg1 + " arg2=" + arg2 + " arg3="
+				+ arg3);
+	}
+
+	@Override
+	public void surfaceCreated(SurfaceHolder arg0) {
+		createMediaPlayer();
+		// hideSurface();
+		Log.w(TAG, "surface created");
+	}
+
+	@Override
+	public void surfaceDestroyed(SurfaceHolder arg0) {
+		Log.w(TAG, "surface destroyed");
+	}
+
+}

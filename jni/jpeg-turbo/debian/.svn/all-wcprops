@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 193
+/svn/DMS_DEV/!svn/ver/3481/Android_Apps/dmtp_prj/%E5%BC%80%E5%8F%91%E5%BA%93/3-%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3/3-%E7%BC%96%E7%A0%81/Release/V3.1.1.11/Player-V3.1.1.11/jni/jpeg-turbo/debian
+END
+control
+K 25
+svn:wc:ra_dav:version-url
+V 201
+/svn/DMS_DEV/!svn/ver/3481/Android_Apps/dmtp_prj/%E5%BC%80%E5%8F%91%E5%BA%93/3-%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3/3-%E7%BC%96%E7%A0%81/Release/V3.1.1.11/Player-V3.1.1.11/jni/jpeg-turbo/debian/control
+END
+libjpeg-turbo-progs.postrm
+K 25
+svn:wc:ra_dav:version-url
+V 220
+/svn/DMS_DEV/!svn/ver/3481/Android_Apps/dmtp_prj/%E5%BC%80%E5%8F%91%E5%BA%93/3-%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3/3-%E7%BC%96%E7%A0%81/Release/V3.1.1.11/Player-V3.1.1.11/jni/jpeg-turbo/debian/libjpeg-turbo-progs.postrm
+END
+libjpeg-turbo-progs.preinst
+K 25
+svn:wc:ra_dav:version-url
+V 221
+/svn/DMS_DEV/!svn/ver/3481/Android_Apps/dmtp_prj/%E5%BC%80%E5%8F%91%E5%BA%93/3-%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3/3-%E7%BC%96%E7%A0%81/Release/V3.1.1.11/Player-V3.1.1.11/jni/jpeg-turbo/debian/libjpeg-turbo-progs.preinst
+END
+libjpeg-turbo62.postrm
+K 25
+svn:wc:ra_dav:version-url
+V 216
+/svn/DMS_DEV/!svn/ver/3481/Android_Apps/dmtp_prj/%E5%BC%80%E5%8F%91%E5%BA%93/3-%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3/3-%E7%BC%96%E7%A0%81/Release/V3.1.1.11/Player-V3.1.1.11/jni/jpeg-turbo/debian/libjpeg-turbo62.postrm
+END
+libjpeg-turbo62.preinst
+K 25
+svn:wc:ra_dav:version-url
+V 217
+/svn/DMS_DEV/!svn/ver/3481/Android_Apps/dmtp_prj/%E5%BC%80%E5%8F%91%E5%BA%93/3-%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3/3-%E7%BC%96%E7%A0%81/Release/V3.1.1.11/Player-V3.1.1.11/jni/jpeg-turbo/debian/libjpeg-turbo62.preinst
+END
+libjpeg-turbo62.shlibs
+K 25
+svn:wc:ra_dav:version-url
+V 216
+/svn/DMS_DEV/!svn/ver/3481/Android_Apps/dmtp_prj/%E5%BC%80%E5%8F%91%E5%BA%93/3-%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3/3-%E7%BC%96%E7%A0%81/Release/V3.1.1.11/Player-V3.1.1.11/jni/jpeg-turbo/debian/libjpeg-turbo62.shlibs
+END
+libjpeg-turbo62.install
+K 25
+svn:wc:ra_dav:version-url
+V 217
+/svn/DMS_DEV/!svn/ver/3481/Android_Apps/dmtp_prj/%E5%BC%80%E5%8F%91%E5%BA%93/3-%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3/3-%E7%BC%96%E7%A0%81/Release/V3.1.1.11/Player-V3.1.1.11/jni/jpeg-turbo/debian/libjpeg-turbo62.install
+END
+libjpeg-turbo-progs.install
+K 25
+svn:wc:ra_dav:version-url
+V 221
+/svn/DMS_DEV/!svn/ver/3481/Android_Apps/dmtp_prj/%E5%BC%80%E5%8F%91%E5%BA%93/3-%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3/3-%E7%BC%96%E7%A0%81/Release/V3.1.1.11/Player-V3.1.1.11/jni/jpeg-turbo/debian/libjpeg-turbo-progs.install
+END
+compat
+K 25
+svn:wc:ra_dav:version-url
+V 200
+/svn/DMS_DEV/!svn/ver/3481/Android_Apps/dmtp_prj/%E5%BC%80%E5%8F%91%E5%BA%93/3-%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3/3-%E7%BC%96%E7%A0%81/Release/V3.1.1.11/Player-V3.1.1.11/jni/jpeg-turbo/debian/compat
+END
+changelog
+K 25
+svn:wc:ra_dav:version-url
+V 203
+/svn/DMS_DEV/!svn/ver/3481/Android_Apps/dmtp_prj/%E5%BC%80%E5%8F%91%E5%BA%93/3-%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3/3-%E7%BC%96%E7%A0%81/Release/V3.1.1.11/Player-V3.1.1.11/jni/jpeg-turbo/debian/changelog
+END
+docs
+K 25
+svn:wc:ra_dav:version-url
+V 198
+/svn/DMS_DEV/!svn/ver/3481/Android_Apps/dmtp_prj/%E5%BC%80%E5%8F%91%E5%BA%93/3-%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3/3-%E7%BC%96%E7%A0%81/Release/V3.1.1.11/Player-V3.1.1.11/jni/jpeg-turbo/debian/docs
+END
+copyright
+K 25
+svn:wc:ra_dav:version-url
+V 203
+/svn/DMS_DEV/!svn/ver/3481/Android_Apps/dmtp_prj/%E5%BC%80%E5%8F%91%E5%BA%93/3-%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3/3-%E7%BC%96%E7%A0%81/Release/V3.1.1.11/Player-V3.1.1.11/jni/jpeg-turbo/debian/copyright
+END
+rules
+K 25
+svn:wc:ra_dav:version-url
+V 199
+/svn/DMS_DEV/!svn/ver/3481/Android_Apps/dmtp_prj/%E5%BC%80%E5%8F%91%E5%BA%93/3-%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3/3-%E7%BC%96%E7%A0%81/Release/V3.1.1.11/Player-V3.1.1.11/jni/jpeg-turbo/debian/rules
+END
+libjpeg-turbo62.lintian-overrides
+K 25
+svn:wc:ra_dav:version-url
+V 227
+/svn/DMS_DEV/!svn/ver/3481/Android_Apps/dmtp_prj/%E5%BC%80%E5%8F%91%E5%BA%93/3-%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3/3-%E7%BC%96%E7%A0%81/Release/V3.1.1.11/Player-V3.1.1.11/jni/jpeg-turbo/debian/libjpeg-turbo62.lintian-overrides
+END

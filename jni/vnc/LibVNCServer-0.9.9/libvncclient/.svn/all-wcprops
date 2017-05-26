@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 211
+/svn/DMS_DEV/!svn/ver/3481/Android_Apps/dmtp_prj/%E5%BC%80%E5%8F%91%E5%BA%93/3-%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3/3-%E7%BC%96%E7%A0%81/Release/V3.1.1.11/Player-V3.1.1.11/jni/vnc/LibVNCServer-0.9.9/libvncclient
+END
+tls_gnutls.c
+K 25
+svn:wc:ra_dav:version-url
+V 224
+/svn/DMS_DEV/!svn/ver/3481/Android_Apps/dmtp_prj/%E5%BC%80%E5%8F%91%E5%BA%93/3-%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3/3-%E7%BC%96%E7%A0%81/Release/V3.1.1.11/Player-V3.1.1.11/jni/vnc/LibVNCServer-0.9.9/libvncclient/tls_gnutls.c
+END
+listen.c
+K 25
+svn:wc:ra_dav:version-url
+V 220
+/svn/DMS_DEV/!svn/ver/3481/Android_Apps/dmtp_prj/%E5%BC%80%E5%8F%91%E5%BA%93/3-%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3/3-%E7%BC%96%E7%A0%81/Release/V3.1.1.11/Player-V3.1.1.11/jni/vnc/LibVNCServer-0.9.9/libvncclient/listen.c
+END
+zlib.c
+K 25
+svn:wc:ra_dav:version-url
+V 218
+/svn/DMS_DEV/!svn/ver/3481/Android_Apps/dmtp_prj/%E5%BC%80%E5%8F%91%E5%BA%93/3-%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3/3-%E7%BC%96%E7%A0%81/Release/V3.1.1.11/Player-V3.1.1.11/jni/vnc/LibVNCServer-0.9.9/libvncclient/zlib.c
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 223
+/svn/DMS_DEV/!svn/ver/3481/Android_Apps/dmtp_prj/%E5%BC%80%E5%8F%91%E5%BA%93/3-%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3/3-%E7%BC%96%E7%A0%81/Release/V3.1.1.11/Player-V3.1.1.11/jni/vnc/LibVNCServer-0.9.9/libvncclient/Makefile.in
+END
+hextile.c
+K 25
+svn:wc:ra_dav:version-url
+V 221
+/svn/DMS_DEV/!svn/ver/3481/Android_Apps/dmtp_prj/%E5%BC%80%E5%8F%91%E5%BA%93/3-%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3/3-%E7%BC%96%E7%A0%81/Release/V3.1.1.11/Player-V3.1.1.11/jni/vnc/LibVNCServer-0.9.9/libvncclient/hextile.c
+END
+tls_openssl.c
+K 25
+svn:wc:ra_dav:version-url
+V 225
+/svn/DMS_DEV/!svn/ver/3481/Android_Apps/dmtp_prj/%E5%BC%80%E5%8F%91%E5%BA%93/3-%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3/3-%E7%BC%96%E7%A0%81/Release/V3.1.1.11/Player-V3.1.1.11/jni/vnc/LibVNCServer-0.9.9/libvncclient/tls_openssl.c
+END
+tls.h
+K 25
+svn:wc:ra_dav:version-url
+V 217
+/svn/DMS_DEV/!svn/ver/3481/Android_Apps/dmtp_prj/%E5%BC%80%E5%8F%91%E5%BA%93/3-%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3/3-%E7%BC%96%E7%A0%81/Release/V3.1.1.11/Player-V3.1.1.11/jni/vnc/LibVNCServer-0.9.9/libvncclient/tls.h
+END
+vncviewer.c
+K 25
+svn:wc:ra_dav:version-url
+V 223
+/svn/DMS_DEV/!svn/ver/3481/Android_Apps/dmtp_prj/%E5%BC%80%E5%8F%91%E5%BA%93/3-%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3/3-%E7%BC%96%E7%A0%81/Release/V3.1.1.11/Player-V3.1.1.11/jni/vnc/LibVNCServer-0.9.9/libvncclient/vncviewer.c
+END
+corre.c
+K 25
+svn:wc:ra_dav:version-url
+V 219
+/svn/DMS_DEV/!svn/ver/3481/Android_Apps/dmtp_prj/%E5%BC%80%E5%8F%91%E5%BA%93/3-%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3/3-%E7%BC%96%E7%A0%81/Release/V3.1.1.11/Player-V3.1.1.11/jni/vnc/LibVNCServer-0.9.9/libvncclient/corre.c
+END
+sockets.c
+K 25
+svn:wc:ra_dav:version-url
+V 221
+/svn/DMS_DEV/!svn/ver/3481/Android_Apps/dmtp_prj/%E5%BC%80%E5%8F%91%E5%BA%93/3-%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3/3-%E7%BC%96%E7%A0%81/Release/V3.1.1.11/Player-V3.1.1.11/jni/vnc/LibVNCServer-0.9.9/libvncclient/sockets.c
+END
+zrle.c
+K 25
+svn:wc:ra_dav:version-url
+V 218
+/svn/DMS_DEV/!svn/ver/3481/Android_Apps/dmtp_prj/%E5%BC%80%E5%8F%91%E5%BA%93/3-%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3/3-%E7%BC%96%E7%A0%81/Release/V3.1.1.11/Player-V3.1.1.11/jni/vnc/LibVNCServer-0.9.9/libvncclient/zrle.c
+END
+cursor.c
+K 25
+svn:wc:ra_dav:version-url
+V 220
+/svn/DMS_DEV/!svn/ver/3481/Android_Apps/dmtp_prj/%E5%BC%80%E5%8F%91%E5%BA%93/3-%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3/3-%E7%BC%96%E7%A0%81/Release/V3.1.1.11/Player-V3.1.1.11/jni/vnc/LibVNCServer-0.9.9/libvncclient/cursor.c
+END
+tight.c
+K 25
+svn:wc:ra_dav:version-url
+V 219
+/svn/DMS_DEV/!svn/ver/3481/Android_Apps/dmtp_prj/%E5%BC%80%E5%8F%91%E5%BA%93/3-%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3/3-%E7%BC%96%E7%A0%81/Release/V3.1.1.11/Player-V3.1.1.11/jni/vnc/LibVNCServer-0.9.9/libvncclient/tight.c
+END
+tls_none.c
+K 25
+svn:wc:ra_dav:version-url
+V 222
+/svn/DMS_DEV/!svn/ver/3481/Android_Apps/dmtp_prj/%E5%BC%80%E5%8F%91%E5%BA%93/3-%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3/3-%E7%BC%96%E7%A0%81/Release/V3.1.1.11/Player-V3.1.1.11/jni/vnc/LibVNCServer-0.9.9/libvncclient/tls_none.c
+END
+ultra.c
+K 25
+svn:wc:ra_dav:version-url
+V 219
+/svn/DMS_DEV/!svn/ver/3481/Android_Apps/dmtp_prj/%E5%BC%80%E5%8F%91%E5%BA%93/3-%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3/3-%E7%BC%96%E7%A0%81/Release/V3.1.1.11/Player-V3.1.1.11/jni/vnc/LibVNCServer-0.9.9/libvncclient/ultra.c
+END
+rre.c
+K 25
+svn:wc:ra_dav:version-url
+V 217
+/svn/DMS_DEV/!svn/ver/3481/Android_Apps/dmtp_prj/%E5%BC%80%E5%8F%91%E5%BA%93/3-%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3/3-%E7%BC%96%E7%A0%81/Release/V3.1.1.11/Player-V3.1.1.11/jni/vnc/LibVNCServer-0.9.9/libvncclient/rre.c
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 223
+/svn/DMS_DEV/!svn/ver/3481/Android_Apps/dmtp_prj/%E5%BC%80%E5%8F%91%E5%BA%93/3-%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3/3-%E7%BC%96%E7%A0%81/Release/V3.1.1.11/Player-V3.1.1.11/jni/vnc/LibVNCServer-0.9.9/libvncclient/Makefile.am
+END
+rfbproto.c
+K 25
+svn:wc:ra_dav:version-url
+V 222
+/svn/DMS_DEV/!svn/ver/3481/Android_Apps/dmtp_prj/%E5%BC%80%E5%8F%91%E5%BA%93/3-%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3/3-%E7%BC%96%E7%A0%81/Release/V3.1.1.11/Player-V3.1.1.11/jni/vnc/LibVNCServer-0.9.9/libvncclient/rfbproto.c
+END

@@ -1,0 +1,10 @@
+<html>
+<head>
+  <title>player</title>
+  <meta http-equiv="content-type" content="text/html; charset=GBK"/> 
+</head>
+<body bgcolor="#66CC66"> 
+	  <input type="button" value="播放视频mp4" onclick="window.videobsi.playUrl('/mnt/nand/video_test/16.mp4',400,300,50,50);" />
+	  <input type="button" value="播放视频2mp4" onclick="window.videobsi.playUrl('http://192.168.2.36/DMS/MediaStore/Materials/20130427020055-[普罗米修斯]预告片_hd.mp4',500,400,500,200);" />
+</body>
+</html>

@@ -1,0 +1,131 @@
+K 25
+svn:wc:ra_dav:version-url
+V 207
+/svn/DMS_DEV/!svn/ver/3481/Android_Apps/dmtp_prj/%E5%BC%80%E5%8F%91%E5%BA%93/3-%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3/3-%E7%BC%96%E7%A0%81/Release/V3.1.1.11/Player-V3.1.1.11/jni/vnc/LibVNCServer-0.9.9/examples
+END
+rotate.c
+K 25
+svn:wc:ra_dav:version-url
+V 216
+/svn/DMS_DEV/!svn/ver/3481/Android_Apps/dmtp_prj/%E5%BC%80%E5%8F%91%E5%BA%93/3-%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3/3-%E7%BC%96%E7%A0%81/Release/V3.1.1.11/Player-V3.1.1.11/jni/vnc/LibVNCServer-0.9.9/examples/rotate.c
+END
+simple15.c
+K 25
+svn:wc:ra_dav:version-url
+V 218
+/svn/DMS_DEV/!svn/ver/3481/Android_Apps/dmtp_prj/%E5%BC%80%E5%8F%91%E5%BA%93/3-%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3/3-%E7%BC%96%E7%A0%81/Release/V3.1.1.11/Player-V3.1.1.11/jni/vnc/LibVNCServer-0.9.9/examples/simple15.c
+END
+mac.c
+K 25
+svn:wc:ra_dav:version-url
+V 213
+/svn/DMS_DEV/!svn/ver/3481/Android_Apps/dmtp_prj/%E5%BC%80%E5%8F%91%E5%BA%93/3-%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3/3-%E7%BC%96%E7%A0%81/Release/V3.1.1.11/Player-V3.1.1.11/jni/vnc/LibVNCServer-0.9.9/examples/mac.c
+END
+pnmshow24.c
+K 25
+svn:wc:ra_dav:version-url
+V 219
+/svn/DMS_DEV/!svn/ver/3481/Android_Apps/dmtp_prj/%E5%BC%80%E5%8F%91%E5%BA%93/3-%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3/3-%E7%BC%96%E7%A0%81/Release/V3.1.1.11/Player-V3.1.1.11/jni/vnc/LibVNCServer-0.9.9/examples/pnmshow24.c
+END
+colourmaptest.c
+K 25
+svn:wc:ra_dav:version-url
+V 223
+/svn/DMS_DEV/!svn/ver/3481/Android_Apps/dmtp_prj/%E5%BC%80%E5%8F%91%E5%BA%93/3-%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3/3-%E7%BC%96%E7%A0%81/Release/V3.1.1.11/Player-V3.1.1.11/jni/vnc/LibVNCServer-0.9.9/examples/colourmaptest.c
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 219
+/svn/DMS_DEV/!svn/ver/3481/Android_Apps/dmtp_prj/%E5%BC%80%E5%8F%91%E5%BA%93/3-%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3/3-%E7%BC%96%E7%A0%81/Release/V3.1.1.11/Player-V3.1.1.11/jni/vnc/LibVNCServer-0.9.9/examples/Makefile.in
+END
+radon.h
+K 25
+svn:wc:ra_dav:version-url
+V 215
+/svn/DMS_DEV/!svn/ver/3481/Android_Apps/dmtp_prj/%E5%BC%80%E5%8F%91%E5%BA%93/3-%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3/3-%E7%BC%96%E7%A0%81/Release/V3.1.1.11/Player-V3.1.1.11/jni/vnc/LibVNCServer-0.9.9/examples/radon.h
+END
+fontsel.c
+K 25
+svn:wc:ra_dav:version-url
+V 217
+/svn/DMS_DEV/!svn/ver/3481/Android_Apps/dmtp_prj/%E5%BC%80%E5%8F%91%E5%BA%93/3-%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3/3-%E7%BC%96%E7%A0%81/Release/V3.1.1.11/Player-V3.1.1.11/jni/vnc/LibVNCServer-0.9.9/examples/fontsel.c
+END
+blooptest.c
+K 25
+svn:wc:ra_dav:version-url
+V 219
+/svn/DMS_DEV/!svn/ver/3481/Android_Apps/dmtp_prj/%E5%BC%80%E5%8F%91%E5%BA%93/3-%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3/3-%E7%BC%96%E7%A0%81/Release/V3.1.1.11/Player-V3.1.1.11/jni/vnc/LibVNCServer-0.9.9/examples/blooptest.c
+END
+zippy.c
+K 25
+svn:wc:ra_dav:version-url
+V 215
+/svn/DMS_DEV/!svn/ver/3481/Android_Apps/dmtp_prj/%E5%BC%80%E5%8F%91%E5%BA%93/3-%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3/3-%E7%BC%96%E7%A0%81/Release/V3.1.1.11/Player-V3.1.1.11/jni/vnc/LibVNCServer-0.9.9/examples/zippy.c
+END
+storepasswd.c
+K 25
+svn:wc:ra_dav:version-url
+V 221
+/svn/DMS_DEV/!svn/ver/3481/Android_Apps/dmtp_prj/%E5%BC%80%E5%8F%91%E5%BA%93/3-%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3/3-%E7%BC%96%E7%A0%81/Release/V3.1.1.11/Player-V3.1.1.11/jni/vnc/LibVNCServer-0.9.9/examples/storepasswd.c
+END
+vncev.c
+K 25
+svn:wc:ra_dav:version-url
+V 215
+/svn/DMS_DEV/!svn/ver/3481/Android_Apps/dmtp_prj/%E5%BC%80%E5%8F%91%E5%BA%93/3-%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3/3-%E7%BC%96%E7%A0%81/Release/V3.1.1.11/Player-V3.1.1.11/jni/vnc/LibVNCServer-0.9.9/examples/vncev.c
+END
+regiontest.c
+K 25
+svn:wc:ra_dav:version-url
+V 220
+/svn/DMS_DEV/!svn/ver/3481/Android_Apps/dmtp_prj/%E5%BC%80%E5%8F%91%E5%BA%93/3-%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3/3-%E7%BC%96%E7%A0%81/Release/V3.1.1.11/Player-V3.1.1.11/jni/vnc/LibVNCServer-0.9.9/examples/regiontest.c
+END
+filetransfer.c
+K 25
+svn:wc:ra_dav:version-url
+V 222
+/svn/DMS_DEV/!svn/ver/3481/Android_Apps/dmtp_prj/%E5%BC%80%E5%8F%91%E5%BA%93/3-%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3/3-%E7%BC%96%E7%A0%81/Release/V3.1.1.11/Player-V3.1.1.11/jni/vnc/LibVNCServer-0.9.9/examples/filetransfer.c
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 219
+/svn/DMS_DEV/!svn/ver/3481/Android_Apps/dmtp_prj/%E5%BC%80%E5%8F%91%E5%BA%93/3-%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3/3-%E7%BC%96%E7%A0%81/Release/V3.1.1.11/Player-V3.1.1.11/jni/vnc/LibVNCServer-0.9.9/examples/Makefile.am
+END
+camera.c
+K 25
+svn:wc:ra_dav:version-url
+V 216
+/svn/DMS_DEV/!svn/ver/3481/Android_Apps/dmtp_prj/%E5%BC%80%E5%8F%91%E5%BA%93/3-%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3/3-%E7%BC%96%E7%A0%81/Release/V3.1.1.11/Player-V3.1.1.11/jni/vnc/LibVNCServer-0.9.9/examples/camera.c
+END
+backchannel.c
+K 25
+svn:wc:ra_dav:version-url
+V 221
+/svn/DMS_DEV/!svn/ver/3481/Android_Apps/dmtp_prj/%E5%BC%80%E5%8F%91%E5%BA%93/3-%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3/3-%E7%BC%96%E7%A0%81/Release/V3.1.1.11/Player-V3.1.1.11/jni/vnc/LibVNCServer-0.9.9/examples/backchannel.c
+END
+simple.c
+K 25
+svn:wc:ra_dav:version-url
+V 216
+/svn/DMS_DEV/!svn/ver/3481/Android_Apps/dmtp_prj/%E5%BC%80%E5%8F%91%E5%BA%93/3-%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3/3-%E7%BC%96%E7%A0%81/Release/V3.1.1.11/Player-V3.1.1.11/jni/vnc/LibVNCServer-0.9.9/examples/simple.c
+END
+rotatetemplate.c
+K 25
+svn:wc:ra_dav:version-url
+V 224
+/svn/DMS_DEV/!svn/ver/3481/Android_Apps/dmtp_prj/%E5%BC%80%E5%8F%91%E5%BA%93/3-%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3/3-%E7%BC%96%E7%A0%81/Release/V3.1.1.11/Player-V3.1.1.11/jni/vnc/LibVNCServer-0.9.9/examples/rotatetemplate.c
+END
+pnmshow.c
+K 25
+svn:wc:ra_dav:version-url
+V 217
+/svn/DMS_DEV/!svn/ver/3481/Android_Apps/dmtp_prj/%E5%BC%80%E5%8F%91%E5%BA%93/3-%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3/3-%E7%BC%96%E7%A0%81/Release/V3.1.1.11/Player-V3.1.1.11/jni/vnc/LibVNCServer-0.9.9/examples/pnmshow.c
+END
+example.c
+K 25
+svn:wc:ra_dav:version-url
+V 217
+/svn/DMS_DEV/!svn/ver/3481/Android_Apps/dmtp_prj/%E5%BC%80%E5%8F%91%E5%BA%93/3-%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3/3-%E7%BC%96%E7%A0%81/Release/V3.1.1.11/Player-V3.1.1.11/jni/vnc/LibVNCServer-0.9.9/examples/example.c
+END

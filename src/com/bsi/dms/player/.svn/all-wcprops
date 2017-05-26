@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 194
+/svn/DMS_DEV/!svn/ver/3557/Android_Apps/dmtp_prj/%E5%BC%80%E5%8F%91%E5%BA%93/3-%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3/3-%E7%BC%96%E7%A0%81/Release/V3.1.1.11/Player-V3.1.1.11/src/com/bsi/dms/player
+END
+PlayerController.java
+K 25
+svn:wc:ra_dav:version-url
+V 216
+/svn/DMS_DEV/!svn/ver/3553/Android_Apps/dmtp_prj/%E5%BC%80%E5%8F%91%E5%BA%93/3-%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3/3-%E7%BC%96%E7%A0%81/Release/V3.1.1.11/Player-V3.1.1.11/src/com/bsi/dms/player/PlayerController.java
+END
+TcpSessionThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 216
+/svn/DMS_DEV/!svn/ver/3481/Android_Apps/dmtp_prj/%E5%BC%80%E5%8F%91%E5%BA%93/3-%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3/3-%E7%BC%96%E7%A0%81/Release/V3.1.1.11/Player-V3.1.1.11/src/com/bsi/dms/player/TcpSessionThread.java
+END
+PlayerCmdCtr.java
+K 25
+svn:wc:ra_dav:version-url
+V 212
+/svn/DMS_DEV/!svn/ver/3553/Android_Apps/dmtp_prj/%E5%BC%80%E5%8F%91%E5%BA%93/3-%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3/3-%E7%BC%96%E7%A0%81/Release/V3.1.1.11/Player-V3.1.1.11/src/com/bsi/dms/player/PlayerCmdCtr.java
+END
+HttpSessionThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 217
+/svn/DMS_DEV/!svn/ver/3481/Android_Apps/dmtp_prj/%E5%BC%80%E5%8F%91%E5%BA%93/3-%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3/3-%E7%BC%96%E7%A0%81/Release/V3.1.1.11/Player-V3.1.1.11/src/com/bsi/dms/player/HttpSessionThread.java
+END
+SessionThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 213
+/svn/DMS_DEV/!svn/ver/3481/Android_Apps/dmtp_prj/%E5%BC%80%E5%8F%91%E5%BA%93/3-%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3/3-%E7%BC%96%E7%A0%81/Release/V3.1.1.11/Player-V3.1.1.11/src/com/bsi/dms/player/SessionThread.java
+END
+PlayerService.java
+K 25
+svn:wc:ra_dav:version-url
+V 213
+/svn/DMS_DEV/!svn/ver/3481/Android_Apps/dmtp_prj/%E5%BC%80%E5%8F%91%E5%BA%93/3-%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3/3-%E7%BC%96%E7%A0%81/Release/V3.1.1.11/Player-V3.1.1.11/src/com/bsi/dms/player/PlayerService.java
+END

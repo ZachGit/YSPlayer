@@ -1,0 +1,50 @@
+package com.bsi.dms.player.cmd;
+
+import java.io.File;
+
+import android.text.TextUtils;
+import android.util.Log;
+
+import com.bsi.dms.bean.Command;
+import com.bsi.dms.config.PlayerApplication;
+import com.bsi.dms.update.UpdateManagerImpl;
+import com.bsi.dms.utils.CommonUtil;
+
+public class RegisterCmd extends Command {
+
+	public RegisterCmd(Command cmd){
+		super(cmd.getCommtype() , cmd.getPlayerid(), cmd.getTaskno(), cmd.getValue(), cmd.getData() );
+	}
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		super.run();
+		String strValue = getParam("value");
+		String[] strArray= new String[10]; 
+		strArray=strValue.split("\\|"); 
+		if (!TextUtils.isEmpty(strArray[0])) {
+			PlayerApplication.getInstance().sysconfig
+					.setEquipmentId(strArray[0]);
+		}
+
+		if(strArray[1] != null && !strArray[1].equals("")){
+			PlayerApplication.getInstance().sysconfig.setPlayid( strArray[1] );
+		}
+		
+		if(strArray[3] != null && !strArray[3].equals("")){
+			PlayerApplication.getInstance().sysconfig
+					.setServerVirtualDir(strArray[3]);
+			PlayerApplication.getInstance().sysconfig.setBaseurl( strArray[3]+ File.separator+"MediaStore" );
+			Log.w("RegisterCmd", strArray[3]+ File.separator+"MediaStore");
+		}
+		
+		// save sysconfig
+		PlayerApplication.getInstance().saveSysconfig();
+		PlayerApplication.getInstance().saveSysconfigbak();
+		UpdateManagerImpl.getInstance().reportCurrentVersion();
+		UpdateManagerImpl.getInstance().fetchAndUpdate();
+		CommonUtil.WriteLog("终端注册", "注册成功");
+	}
+	
+	
+}

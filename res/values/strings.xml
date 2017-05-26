@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">云尚屏</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    
+    <string name="reader">读卡信息</string>
+    <string name="username">姓名：</string>
+    <string name="classname">班级：</string>
+    <string name="readtime">刷卡时间：</string> 
+    
+    
+    <string name="register">注册设置界面</string>
+    <string name="ip">IP地址</string>
+    <string name="sickroom">病房号</string>
+    <string name="group">分组</string>
+    <string name="confirm">确定</string>
+    
+    <string name="configuration">配置界面</string>
+    <string name="macaddress">mac地址  :"</string>    
+    <string name="ipaddress">IP地址  :</string>
+    <string name="serverip">服务器IP地址</string>
+    <string name="serverport">服务器端口</string>
+    <string name="playid">播放器点位</string>
+    <string name="heartbeattime">心跳间隔时间，单位秒</string>
+    <string name="baseurl">服务器资源地址</string>
+    <string name="setting">设置</string>
+    <string name="cancel">取消</string>
+    <string name="clearalldata">清除播放器数据</string>
+    
+    
+    <string name="requestplay">节目列表</string>
+    <string name="pitch">选中</string>
+    
+    <string name="cfg">修改配置</string>
+    <string name="request">点播</string>
+    <string name="setnet">配置本地网络</string>
+    <string-array name="rotation_values">
+        <item>0</item>
+        <item>90</item>
+        <item>180</item>
+        <item>270</item>
+    </string-array>
+    <string-array name="rotation_strings">
+        <item>0</item>
+        <item>90</item>
+        <item>180</item>
+        <item>270</item>
+    </string-array>
+    <string-array name="scale_values">
+        <item>150</item>
+        <item>100</item>
+        <item>50</item>
+        <item>30</item>
+        <item>20</item>
+    </string-array>
+    <string-array name="scale_strings">
+        <item>150</item>
+        <item>100</item>
+        <item>50</item>
+        <item>30</item>
+        <item>20</item>
+    </string-array>
+    <string-array name="display_mode_strings">
+        <item>Auto-detect</item>
+        <item>Framebuffer</item>
+        <item>Gralloc (Tegra2)</item>
+        <!-- <item>ADB</item> -->
+        <item>SurfaceFlinger (2.3+)</item>
+    </string-array>
+    <string-array name="display_mode_values">
+        <item>auto</item>
+        <item>fb</item>
+        <item>gralloc</item>
+        <!-- <item>adb</item> -->
+        <item>gingerbread</item>
+    </string-array>
+    <string-array name="sleep_strings">
+        <item>On</item>
+        <item>Off</item>
+    </string-array>
+    <string-array name="startonboot_strings">
+        <item>True</item>
+        <item>False</item>
+    </string-array>
+    <string-array name="startonboot_values">
+        <item>On</item>
+        <item>Off</item>
+    </string-array>        
+
+    <string name="readConfigError">读取配置信息错误</string>
+    <string name="writeConfigError">保存配置信息错误</string>
+    <string name="readWifiInfoError">获取MAC地址错误，请确认已连接无线网</string>
+    <string name="registerError">注册失败</string>
+    <string name="registerSuccess">注册成功</string>
+    <string name="networkOnline">网络已连接</string>
+    <string name="networkOffline">网络连接已断开</string>
+    <string name="saveFail">保存失败，请先连接网络!</string>
+    <string name="numInput">请输入数字!</string>
+    <string name="ipnput">请输入合法的ip地址!</string>
+    <string name="indownloading">节目正在下载，请稍后更新!</string>
+    <string name="downloadComplete">节目下载完成</string>
+    <string name="downloadError">节目下载失败</string>
+    <string name="onlineStatus">网络状态:</string>
+    <string name="online">在线</string>
+    <string name="offline">离线</string>
+    
+</resources>

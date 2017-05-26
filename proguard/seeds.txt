@@ -1,0 +1,1822 @@
+android.support.v4.app.BackStackState
+android.support.v4.app.BackStackState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.Fragment$SavedState
+android.support.v4.app.Fragment$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentActivity
+android.support.v4.app.FragmentManagerState
+android.support.v4.app.FragmentManagerState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentState
+android.support.v4.app.FragmentState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentTabHost
+android.support.v4.app.FragmentTabHost: FragmentTabHost(android.content.Context,android.util.AttributeSet)
+android.support.v4.app.FragmentTabHost$SavedState
+android.support.v4.app.FragmentTabHost$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.content.ModernAsyncTask$Status: android.support.v4.content.ModernAsyncTask$Status[] values()
+android.support.v4.content.ModernAsyncTask$Status: android.support.v4.content.ModernAsyncTask$Status valueOf(java.lang.String)
+android.support.v4.view.PagerTabStrip
+android.support.v4.view.PagerTabStrip: PagerTabStrip(android.content.Context,android.util.AttributeSet)
+android.support.v4.view.PagerTitleStrip
+android.support.v4.view.PagerTitleStrip: PagerTitleStrip(android.content.Context,android.util.AttributeSet)
+android.support.v4.view.ViewPager
+android.support.v4.view.ViewPager: ViewPager(android.content.Context,android.util.AttributeSet)
+android.support.v4.view.ViewPager$LayoutParams
+android.support.v4.view.ViewPager$LayoutParams: ViewPager$LayoutParams(android.content.Context,android.util.AttributeSet)
+android.support.v4.view.ViewPager$SavedState
+android.support.v4.view.ViewPager$SavedState: android.os.Parcelable$Creator CREATOR
+com.bsi.dms.CheckServiceInstallActivity
+com.bsi.dms.CheckServiceInstallActivity: CheckServiceInstallActivity()
+com.bsi.dms.MainActivity
+com.bsi.dms.MainActivity: MainActivity()
+com.bsi.dms.MainActivity$AudioCtr
+com.bsi.dms.MainActivity$AudioCtr: void playUrl(java.lang.String)
+com.bsi.dms.MainActivity$AudioCtr: void playLoopUrl(java.lang.String)
+com.bsi.dms.MainActivity$AudioCtr: void stopAudio()
+com.bsi.dms.MainActivity$TTSWebviewInterface
+com.bsi.dms.MainActivity$TTSWebviewInterface: MainActivity$TTSWebviewInterface(com.bsi.dms.MainActivity,android.content.Context)
+com.bsi.dms.MainActivity$TTSWebviewInterface: void stop()
+com.bsi.dms.MainActivity$TTSWebviewInterface: void speak(java.lang.String)
+com.bsi.dms.MainActivity$TTSWebviewInterface: void onDestroy()
+com.bsi.dms.MainActivity$VideoCtr
+com.bsi.dms.MainActivity$VideoCtr: MainActivity$VideoCtr(com.bsi.dms.MainActivity,android.app.Activity,android.os.Handler,android.view.SurfaceView)
+com.bsi.dms.MainActivity$VideoCtr: void playUrl(java.lang.String,int,int,int,int)
+com.bsi.dms.MainActivity$VideoCtr: void playMultiUrl(java.lang.String,int,int,int,int,int)
+com.bsi.dms.MainActivity$VideoCtr: void stopPlay()
+com.bsi.dms.activity.ConfigActivity
+com.bsi.dms.activity.ConfigActivity: ConfigActivity()
+com.bsi.dms.activity.RegisterActivity
+com.bsi.dms.activity.RegisterActivity: RegisterActivity()
+com.bsi.dms.activity.RequestPlayActivity
+com.bsi.dms.activity.RequestPlayActivity: RequestPlayActivity()
+com.bsi.dms.config.PlayerApplication
+com.bsi.dms.config.PlayerApplication: PlayerApplication()
+com.bsi.dms.player.PlayerService
+com.bsi.dms.player.PlayerService: PlayerService()
+com.bsi.dms.provider.LocalFileContentProvider
+com.bsi.dms.provider.LocalFileContentProvider: LocalFileContentProvider()
+com.bsi.dms.tts.TTSData$TTSDataState: com.bsi.dms.tts.TTSData$TTSDataState[] values()
+com.bsi.dms.tts.TTSData$TTSDataState: com.bsi.dms.tts.TTSData$TTSDataState valueOf(java.lang.String)
+com.bsi.dms.update.InstallCompleteReceiver
+com.bsi.dms.update.InstallCompleteReceiver: InstallCompleteReceiver()
+com.bsi.dms.update.UpdateManager$Status: com.bsi.dms.update.UpdateManager$Status[] values()
+com.bsi.dms.update.UpdateManager$Status: com.bsi.dms.update.UpdateManager$Status valueOf(java.lang.String)
+com.google.ads.AdActivity
+com.google.ads.AdRequest$ErrorCode: com.google.ads.AdRequest$ErrorCode[] values()
+com.google.ads.AdRequest$ErrorCode: com.google.ads.AdRequest$ErrorCode valueOf(java.lang.String)
+com.google.ads.AdRequest$Gender: com.google.ads.AdRequest$Gender[] values()
+com.google.ads.AdRequest$Gender: com.google.ads.AdRequest$Gender valueOf(java.lang.String)
+com.google.ads.AdView
+com.google.ads.AdView: AdView(android.content.Context,android.util.AttributeSet)
+com.google.ads.AdView: AdView(android.content.Context,android.util.AttributeSet,int)
+com.google.ads.ag$b: com.google.ads.ag$b[] values()
+com.google.ads.ag$b: com.google.ads.ag$b valueOf(java.lang.String)
+com.google.ads.searchads.SearchAdRequest$BorderType: com.google.ads.searchads.SearchAdRequest$BorderType[] values()
+com.google.ads.searchads.SearchAdRequest$BorderType: com.google.ads.searchads.SearchAdRequest$BorderType valueOf(java.lang.String)
+com.google.ads.util.AdUtil$UserActivityReceiver
+com.google.ads.util.AdUtil$a: com.google.ads.util.AdUtil$a[] values()
+com.google.ads.util.AdUtil$a: com.google.ads.util.AdUtil$a valueOf(java.lang.String)
+com.google.ads.util.b$a: com.google.ads.util.b$a[] values()
+com.google.ads.util.b$a: com.google.ads.util.b$a valueOf(java.lang.String)
+com.iflytek.speech.ErrorCode
+com.iflytek.speech.ErrorCode: int SUCCESS
+com.iflytek.speech.ErrorCode: int ERROR_NO_NETWORK
+com.iflytek.speech.ErrorCode: int ERROR_NETWORK_TIMEOUT
+com.iflytek.speech.ErrorCode: int ERROR_NET_EXPECTION
+com.iflytek.speech.ErrorCode: int ERROR_INVALID_RESULT
+com.iflytek.speech.ErrorCode: int ERROR_NO_MATCH
+com.iflytek.speech.ErrorCode: int ERROR_AUDIO_RECORD
+com.iflytek.speech.ErrorCode: int ERROR_NO_SPPECH
+com.iflytek.speech.ErrorCode: int ERROR_SPEECH_TIMEOUT
+com.iflytek.speech.ErrorCode: int ERROR_EMPTY_UTTERANCE
+com.iflytek.speech.ErrorCode: int ERROR_FILE_ACCESS
+com.iflytek.speech.ErrorCode: int ERROR_PLAY_MEDIA
+com.iflytek.speech.ErrorCode: int ERROR_INVALID_PARAM
+com.iflytek.speech.ErrorCode: int ERROR_TEXT_OVERFLOW
+com.iflytek.speech.ErrorCode: int ERROR_INVALID_DATA
+com.iflytek.speech.ErrorCode: int ERROR_LOGIN
+com.iflytek.speech.ErrorCode: int ERROR_PERMISSION_DENIED
+com.iflytek.speech.ErrorCode: int ERROR_INTERRUPT
+com.iflytek.speech.ErrorCode: int ERROR_UNKNOWN
+com.iflytek.speech.ErrorCode: int ERROR_COMPONENT_NOT_INSTALLED
+com.iflytek.speech.ErrorCode: int ERROR_ENGINE_NOT_SUPPORTED
+com.iflytek.speech.ErrorCode: int ERROR_ENGINE_INIT_FAIL
+com.iflytek.speech.ErrorCode: int ERROR_ENGINE_CALL_FAIL
+com.iflytek.speech.ErrorCode: int ERROR_ENGINE_BUSY
+com.iflytek.speech.ErrorCode: int ERROR_LOCAL_NO_INIT
+com.iflytek.speech.ErrorCode: int ERROR_LOCAL_RESOURCE
+com.iflytek.speech.ErrorCode: int ERROR_LOCAL_ENGINE
+com.iflytek.speech.ErrorCode: ErrorCode()
+com.iflytek.speech.GrammarListener
+com.iflytek.speech.GrammarListener: void onBuildFinish(java.lang.String,int)
+com.iflytek.speech.GrammarListener$Stub
+com.iflytek.speech.GrammarListener$Stub: java.lang.String DESCRIPTOR
+com.iflytek.speech.GrammarListener$Stub: int TRANSACTION_onBuildFinish
+com.iflytek.speech.GrammarListener$Stub: GrammarListener$Stub()
+com.iflytek.speech.GrammarListener$Stub: com.iflytek.speech.GrammarListener asInterface(android.os.IBinder)
+com.iflytek.speech.GrammarListener$Stub: android.os.IBinder asBinder()
+com.iflytek.speech.GrammarListener$Stub: boolean onTransact(int,android.os.Parcel,android.os.Parcel,int)
+com.iflytek.speech.GrammarListener$Stub$Proxy
+com.iflytek.speech.GrammarListener$Stub$Proxy: android.os.IBinder mRemote
+com.iflytek.speech.GrammarListener$Stub$Proxy: GrammarListener$Stub$Proxy(android.os.IBinder)
+com.iflytek.speech.GrammarListener$Stub$Proxy: android.os.IBinder asBinder()
+com.iflytek.speech.GrammarListener$Stub$Proxy: java.lang.String getInterfaceDescriptor()
+com.iflytek.speech.GrammarListener$Stub$Proxy: void onBuildFinish(java.lang.String,int)
+com.iflytek.speech.ISpeechModule
+com.iflytek.speech.ISpeechModule: int setParameter(java.lang.String,java.lang.String)
+com.iflytek.speech.ISpeechModule: java.lang.String getParameter(java.lang.String)
+com.iflytek.speech.ISpeechModule: android.content.Intent getIntent()
+com.iflytek.speech.ISpeechModule: boolean destory()
+com.iflytek.speech.InitListener
+com.iflytek.speech.InitListener: void onInit(com.iflytek.speech.ISpeechModule,int)
+com.iflytek.speech.LexiconListener
+com.iflytek.speech.LexiconListener: void onLexiconUpdated(java.lang.String,int)
+com.iflytek.speech.LexiconListener$Stub
+com.iflytek.speech.LexiconListener$Stub: java.lang.String DESCRIPTOR
+com.iflytek.speech.LexiconListener$Stub: int TRANSACTION_onLexiconUpdated
+com.iflytek.speech.LexiconListener$Stub: LexiconListener$Stub()
+com.iflytek.speech.LexiconListener$Stub: com.iflytek.speech.LexiconListener asInterface(android.os.IBinder)
+com.iflytek.speech.LexiconListener$Stub: android.os.IBinder asBinder()
+com.iflytek.speech.LexiconListener$Stub: boolean onTransact(int,android.os.Parcel,android.os.Parcel,int)
+com.iflytek.speech.LexiconListener$Stub$Proxy
+com.iflytek.speech.LexiconListener$Stub$Proxy: android.os.IBinder mRemote
+com.iflytek.speech.LexiconListener$Stub$Proxy: LexiconListener$Stub$Proxy(android.os.IBinder)
+com.iflytek.speech.LexiconListener$Stub$Proxy: android.os.IBinder asBinder()
+com.iflytek.speech.LexiconListener$Stub$Proxy: java.lang.String getInterfaceDescriptor()
+com.iflytek.speech.LexiconListener$Stub$Proxy: void onLexiconUpdated(java.lang.String,int)
+com.iflytek.speech.RecognizerListener
+com.iflytek.speech.RecognizerListener: void onVolumeChanged(int)
+com.iflytek.speech.RecognizerListener: void onBeginOfSpeech()
+com.iflytek.speech.RecognizerListener: void onEndOfSpeech()
+com.iflytek.speech.RecognizerListener: void onResult(com.iflytek.speech.RecognizerResult,boolean)
+com.iflytek.speech.RecognizerListener: void onError(int)
+com.iflytek.speech.RecognizerListener$Stub
+com.iflytek.speech.RecognizerListener$Stub: java.lang.String DESCRIPTOR
+com.iflytek.speech.RecognizerListener$Stub: int TRANSACTION_onVolumeChanged
+com.iflytek.speech.RecognizerListener$Stub: int TRANSACTION_onBeginOfSpeech
+com.iflytek.speech.RecognizerListener$Stub: int TRANSACTION_onEndOfSpeech
+com.iflytek.speech.RecognizerListener$Stub: int TRANSACTION_onResult
+com.iflytek.speech.RecognizerListener$Stub: int TRANSACTION_onError
+com.iflytek.speech.RecognizerListener$Stub: RecognizerListener$Stub()
+com.iflytek.speech.RecognizerListener$Stub: com.iflytek.speech.RecognizerListener asInterface(android.os.IBinder)
+com.iflytek.speech.RecognizerListener$Stub: android.os.IBinder asBinder()
+com.iflytek.speech.RecognizerListener$Stub: boolean onTransact(int,android.os.Parcel,android.os.Parcel,int)
+com.iflytek.speech.RecognizerListener$Stub$Proxy
+com.iflytek.speech.RecognizerListener$Stub$Proxy: android.os.IBinder mRemote
+com.iflytek.speech.RecognizerListener$Stub$Proxy: RecognizerListener$Stub$Proxy(android.os.IBinder)
+com.iflytek.speech.RecognizerListener$Stub$Proxy: android.os.IBinder asBinder()
+com.iflytek.speech.RecognizerListener$Stub$Proxy: java.lang.String getInterfaceDescriptor()
+com.iflytek.speech.RecognizerListener$Stub$Proxy: void onVolumeChanged(int)
+com.iflytek.speech.RecognizerListener$Stub$Proxy: void onBeginOfSpeech()
+com.iflytek.speech.RecognizerListener$Stub$Proxy: void onEndOfSpeech()
+com.iflytek.speech.RecognizerListener$Stub$Proxy: void onResult(com.iflytek.speech.RecognizerResult,boolean)
+com.iflytek.speech.RecognizerListener$Stub$Proxy: void onError(int)
+com.iflytek.speech.RecognizerResult
+com.iflytek.speech.RecognizerResult: java.lang.String json
+com.iflytek.speech.RecognizerResult: android.os.Parcelable$Creator CREATOR
+com.iflytek.speech.RecognizerResult: RecognizerResult(android.os.Parcel)
+com.iflytek.speech.RecognizerResult: RecognizerResult(java.lang.String)
+com.iflytek.speech.RecognizerResult: int describeContents()
+com.iflytek.speech.RecognizerResult: java.lang.String getResultString()
+com.iflytek.speech.RecognizerResult: void writeToParcel(android.os.Parcel,int)
+com.iflytek.speech.RecognizerResult: void <clinit>()
+com.iflytek.speech.RecognizerResult$1
+com.iflytek.speech.RecognizerResult$1: RecognizerResult$1()
+com.iflytek.speech.RecognizerResult$1: com.iflytek.speech.RecognizerResult createFromParcel(android.os.Parcel)
+com.iflytek.speech.RecognizerResult$1: com.iflytek.speech.RecognizerResult[] newArray(int)
+com.iflytek.speech.RecognizerResult$1: java.lang.Object[] newArray(int)
+com.iflytek.speech.RecognizerResult$1: java.lang.Object createFromParcel(android.os.Parcel)
+com.iflytek.speech.SpeakerVerifier
+com.iflytek.speech.SpeakerVerifier: SpeakerVerifier(android.content.Context,com.iflytek.speech.InitListener)
+com.iflytek.speech.SpeakerVerifier: int register(java.lang.String,java.lang.String,com.iflytek.speech.VerifierListener)
+com.iflytek.speech.SpeakerVerifier: int verify(java.lang.String,java.lang.String,com.iflytek.speech.VerifierListener)
+com.iflytek.speech.SpeakerVerifier: int identify(java.lang.String,java.lang.String,com.iflytek.speech.VerifierListener)
+com.iflytek.speech.SpeakerVerifier: int getPasswordList(android.content.Context,com.iflytek.speech.SpeakerVerifier$DownloadListener,java.lang.String)
+com.iflytek.speech.SpeakerVerifier: int setParameter(java.lang.String,java.lang.String)
+com.iflytek.speech.SpeakerVerifier: java.lang.String getParameter(java.lang.String)
+com.iflytek.speech.SpeakerVerifier$DownloadListener
+com.iflytek.speech.SpeakerVerifier$DownloadListener: void onData(java.util.ArrayList)
+com.iflytek.speech.SpeakerVerifier$DownloadListener: void onError(int)
+com.iflytek.speech.SpeakerVerifier$PassWord
+com.iflytek.speech.SpeakerVerifier$PassWord: java.lang.String pwdt
+com.iflytek.speech.SpeakerVerifier$PassWord: java.lang.String pwid
+com.iflytek.speech.SpeakerVerifier$PassWord: java.lang.String pwtext
+com.iflytek.speech.SpeakerVerifier$PassWord: com.iflytek.speech.SpeakerVerifier this$0
+com.iflytek.speech.SpeakerVerifier$PassWord: SpeakerVerifier$PassWord(com.iflytek.speech.SpeakerVerifier)
+com.iflytek.speech.SpeechComponent
+com.iflytek.speech.SpeechComponent: java.lang.String mPackageName
+com.iflytek.speech.SpeechComponent: java.util.ArrayList mEngines
+com.iflytek.speech.SpeechComponent: SpeechComponent(java.lang.String)
+com.iflytek.speech.SpeechComponent: java.lang.String getPackageName()
+com.iflytek.speech.SpeechComponent: java.lang.String[] getEngines()
+com.iflytek.speech.SpeechComponent: void addEngine(java.lang.String)
+com.iflytek.speech.SpeechComponent: boolean isEngineAvaible(java.lang.String)
+com.iflytek.speech.SpeechConstant
+com.iflytek.speech.SpeechConstant: java.lang.String ENGINE_TYPE
+com.iflytek.speech.SpeechConstant: java.lang.String LANGUAGE
+com.iflytek.speech.SpeechConstant: java.lang.String ACCENT
+com.iflytek.speech.SpeechConstant: java.lang.String DOMAIN
+com.iflytek.speech.SpeechConstant: java.lang.String VAD_BOS
+com.iflytek.speech.SpeechConstant: java.lang.String VAD_EOS
+com.iflytek.speech.SpeechConstant: java.lang.String SAMPLE_RATE
+com.iflytek.speech.SpeechConstant: java.lang.String PARAMS
+com.iflytek.speech.SpeechConstant: java.lang.String ENG_ASR
+com.iflytek.speech.SpeechConstant: java.lang.String ENG_TTS
+com.iflytek.speech.SpeechConstant: java.lang.String ENG_NLU
+com.iflytek.speech.SpeechConstant: java.lang.String ACTION_SPEECH_RECOGNIZER
+com.iflytek.speech.SpeechConstant: java.lang.String ACTION_SPEECH_SYNTHESIZER
+com.iflytek.speech.SpeechConstant: java.lang.String ACTION_SPEECH_UNDERSTANDER
+com.iflytek.speech.SpeechConstant: java.lang.String ACTION_TEXT_UNDERSTANDER
+com.iflytek.speech.SpeechConstant: java.lang.String KEY_CALLER_APPID
+com.iflytek.speech.SpeechConstant: java.lang.String KEY_CALLER_NAME
+com.iflytek.speech.SpeechConstant: java.lang.String KEY_CALLER_PKG_NAME
+com.iflytek.speech.SpeechConstant: java.lang.String KEY_CALLER_VER_NAME
+com.iflytek.speech.SpeechConstant: java.lang.String KEY_CALLER_VER_CODE
+com.iflytek.speech.SpeechConstant: java.lang.String METADATA_KEY_ENGINE_TYPE
+com.iflytek.speech.SpeechConstant: SpeechConstant()
+com.iflytek.speech.SpeechModule
+com.iflytek.speech.SpeechModule: java.lang.Object mSynLock
+com.iflytek.speech.SpeechModule: android.os.IInterface mService
+com.iflytek.speech.SpeechModule: android.content.Context mContext
+com.iflytek.speech.SpeechModule: android.content.ServiceConnection mConnection
+com.iflytek.speech.SpeechModule: com.iflytek.speech.InitListener mInitListener
+com.iflytek.speech.SpeechModule: java.lang.String mBindAction
+com.iflytek.speech.SpeechModule: java.lang.String mEngine
+com.iflytek.speech.SpeechModule: java.util.HashMap mParams
+com.iflytek.speech.SpeechModule: SpeechModule(android.content.Context,com.iflytek.speech.InitListener,java.lang.String,java.lang.String)
+com.iflytek.speech.SpeechModule: void bindService()
+com.iflytek.speech.SpeechModule: android.os.IInterface getService(android.os.IBinder)
+com.iflytek.speech.SpeechModule: int setParameter(java.lang.String,java.lang.String)
+com.iflytek.speech.SpeechModule: java.lang.String getParameter(java.lang.String)
+com.iflytek.speech.SpeechModule: android.content.Intent getIntent()
+com.iflytek.speech.SpeechModule: boolean destory()
+com.iflytek.speech.SpeechModule: java.lang.String getTag()
+com.iflytek.speech.SpeechModule: android.os.IInterface access$000(com.iflytek.speech.SpeechModule,android.os.IBinder)
+com.iflytek.speech.SpeechModule: com.iflytek.speech.InitListener access$100(com.iflytek.speech.SpeechModule)
+com.iflytek.speech.SpeechModule$1
+com.iflytek.speech.SpeechModule$1: com.iflytek.speech.SpeechModule this$0
+com.iflytek.speech.SpeechModule$1: SpeechModule$1(com.iflytek.speech.SpeechModule)
+com.iflytek.speech.SpeechModule$1: void onServiceConnected(android.content.ComponentName,android.os.IBinder)
+com.iflytek.speech.SpeechModule$1: void onServiceDisconnected(android.content.ComponentName)
+com.iflytek.speech.SpeechRecognizer
+com.iflytek.speech.SpeechRecognizer: java.lang.String GRAMMAR_ID
+com.iflytek.speech.SpeechRecognizer: java.lang.String GRAMMAR_TYPE
+com.iflytek.speech.SpeechRecognizer: java.lang.String GRAMMAR_ENCODEING
+com.iflytek.speech.SpeechRecognizer: java.lang.String GRAMMAR_CONTENT
+com.iflytek.speech.SpeechRecognizer: java.lang.String LEXICON_CONTENT
+com.iflytek.speech.SpeechRecognizer: java.lang.String LEXICON_NAME
+com.iflytek.speech.SpeechRecognizer: SpeechRecognizer(android.content.Context,com.iflytek.speech.InitListener)
+com.iflytek.speech.SpeechRecognizer: int setParameter(java.lang.String,java.lang.String)
+com.iflytek.speech.SpeechRecognizer: java.lang.String getParameter(java.lang.String)
+com.iflytek.speech.SpeechRecognizer: int startListening(com.iflytek.speech.RecognizerListener)
+com.iflytek.speech.SpeechRecognizer: int stopListening(com.iflytek.speech.RecognizerListener)
+com.iflytek.speech.SpeechRecognizer: int cancel(com.iflytek.speech.RecognizerListener)
+com.iflytek.speech.SpeechRecognizer: boolean destory()
+com.iflytek.speech.SpeechRecognizer: boolean isListening()
+com.iflytek.speech.SpeechRecognizer: int buildGrammar(java.lang.String,java.lang.String,com.iflytek.speech.GrammarListener)
+com.iflytek.speech.SpeechRecognizer: int updateLexicon(java.lang.String,java.lang.String,com.iflytek.speech.LexiconListener)
+com.iflytek.speech.SpeechRecognizer: android.content.Intent getIntent()
+com.iflytek.speech.SpeechSynthesizer
+com.iflytek.speech.SpeechSynthesizer: java.lang.String SPEED
+com.iflytek.speech.SpeechSynthesizer: java.lang.String PITCH
+com.iflytek.speech.SpeechSynthesizer: java.lang.String VOLUME
+com.iflytek.speech.SpeechSynthesizer: java.lang.String TEXT
+com.iflytek.speech.SpeechSynthesizer: java.lang.String STREAM_TYPE
+com.iflytek.speech.SpeechSynthesizer: java.lang.String VOICE_NAME
+com.iflytek.speech.SpeechSynthesizer: java.lang.String AUDIO_FORMAT
+com.iflytek.speech.SpeechSynthesizer: SpeechSynthesizer(android.content.Context,com.iflytek.speech.InitListener)
+com.iflytek.speech.SpeechSynthesizer: int synthesizeToUrl(java.lang.String,com.iflytek.speech.SynthesizeToUrlListener)
+com.iflytek.speech.SpeechSynthesizer: int startSpeaking(java.lang.String,com.iflytek.speech.SynthesizerListener)
+com.iflytek.speech.SpeechSynthesizer: int pauseSpeaking(com.iflytek.speech.SynthesizerListener)
+com.iflytek.speech.SpeechSynthesizer: int resumeSpeaking(com.iflytek.speech.SynthesizerListener)
+com.iflytek.speech.SpeechSynthesizer: int stopSpeaking(com.iflytek.speech.SynthesizerListener)
+com.iflytek.speech.SpeechSynthesizer: boolean isSpeaking()
+com.iflytek.speech.SpeechSynthesizer: int setParameter(java.lang.String,java.lang.String)
+com.iflytek.speech.SpeechSynthesizer: java.lang.String getParameter(java.lang.String)
+com.iflytek.speech.SpeechSynthesizer: boolean destory()
+com.iflytek.speech.SpeechSynthesizer: android.content.Intent getIntent()
+com.iflytek.speech.SpeechUnderstander
+com.iflytek.speech.SpeechUnderstander: java.lang.String SCENE
+com.iflytek.speech.SpeechUnderstander: SpeechUnderstander(android.content.Context,com.iflytek.speech.InitListener)
+com.iflytek.speech.SpeechUnderstander: int startUnderstanding(com.iflytek.speech.SpeechUnderstanderListener)
+com.iflytek.speech.SpeechUnderstander: int stopUnderstanding(com.iflytek.speech.SpeechUnderstanderListener)
+com.iflytek.speech.SpeechUnderstander: boolean isUnderstanding()
+com.iflytek.speech.SpeechUnderstander: int cancel(com.iflytek.speech.SpeechUnderstanderListener)
+com.iflytek.speech.SpeechUnderstander: int setParameter(java.lang.String,java.lang.String)
+com.iflytek.speech.SpeechUnderstander: java.lang.String getParameter(java.lang.String)
+com.iflytek.speech.SpeechUnderstander: boolean destory()
+com.iflytek.speech.SpeechUnderstander: android.content.Intent getIntent()
+com.iflytek.speech.SpeechUnderstanderListener
+com.iflytek.speech.SpeechUnderstanderListener: void onVolumeChanged(int)
+com.iflytek.speech.SpeechUnderstanderListener: void onBeginOfSpeech()
+com.iflytek.speech.SpeechUnderstanderListener: void onEndOfSpeech()
+com.iflytek.speech.SpeechUnderstanderListener: void onResult(com.iflytek.speech.UnderstanderResult)
+com.iflytek.speech.SpeechUnderstanderListener: void onError(int)
+com.iflytek.speech.SpeechUnderstanderListener$Stub
+com.iflytek.speech.SpeechUnderstanderListener$Stub: java.lang.String DESCRIPTOR
+com.iflytek.speech.SpeechUnderstanderListener$Stub: int TRANSACTION_onVolumeChanged
+com.iflytek.speech.SpeechUnderstanderListener$Stub: int TRANSACTION_onBeginOfSpeech
+com.iflytek.speech.SpeechUnderstanderListener$Stub: int TRANSACTION_onEndOfSpeech
+com.iflytek.speech.SpeechUnderstanderListener$Stub: int TRANSACTION_onResult
+com.iflytek.speech.SpeechUnderstanderListener$Stub: int TRANSACTION_onError
+com.iflytek.speech.SpeechUnderstanderListener$Stub: SpeechUnderstanderListener$Stub()
+com.iflytek.speech.SpeechUnderstanderListener$Stub: com.iflytek.speech.SpeechUnderstanderListener asInterface(android.os.IBinder)
+com.iflytek.speech.SpeechUnderstanderListener$Stub: android.os.IBinder asBinder()
+com.iflytek.speech.SpeechUnderstanderListener$Stub: boolean onTransact(int,android.os.Parcel,android.os.Parcel,int)
+com.iflytek.speech.SpeechUnderstanderListener$Stub$Proxy
+com.iflytek.speech.SpeechUnderstanderListener$Stub$Proxy: android.os.IBinder mRemote
+com.iflytek.speech.SpeechUnderstanderListener$Stub$Proxy: SpeechUnderstanderListener$Stub$Proxy(android.os.IBinder)
+com.iflytek.speech.SpeechUnderstanderListener$Stub$Proxy: android.os.IBinder asBinder()
+com.iflytek.speech.SpeechUnderstanderListener$Stub$Proxy: java.lang.String getInterfaceDescriptor()
+com.iflytek.speech.SpeechUnderstanderListener$Stub$Proxy: void onVolumeChanged(int)
+com.iflytek.speech.SpeechUnderstanderListener$Stub$Proxy: void onBeginOfSpeech()
+com.iflytek.speech.SpeechUnderstanderListener$Stub$Proxy: void onEndOfSpeech()
+com.iflytek.speech.SpeechUnderstanderListener$Stub$Proxy: void onResult(com.iflytek.speech.UnderstanderResult)
+com.iflytek.speech.SpeechUnderstanderListener$Stub$Proxy: void onError(int)
+com.iflytek.speech.SpeechUtility
+com.iflytek.speech.SpeechUtility: java.lang.String APP_ID
+com.iflytek.speech.SpeechUtility: java.lang.String APP_NAME
+com.iflytek.speech.SpeechUtility: java.lang.String APP_PKG
+com.iflytek.speech.SpeechUtility: java.lang.String APP_VER_CODE
+com.iflytek.speech.SpeechUtility: java.lang.String APP_VER_NAME
+com.iflytek.speech.SpeechUtility: java.lang.String SDK_VER_CODE
+com.iflytek.speech.SpeechUtility: java.lang.String SDK_CHANNEL_ID
+com.iflytek.speech.SpeechUtility: java.lang.String KEY_REQUEST_PACKAGE
+com.iflytek.speech.SpeechUtility: java.lang.String KEY_CHANNEL_ID
+com.iflytek.speech.SpeechUtility: java.lang.String KEY_CHANNEL_NAME
+com.iflytek.speech.SpeechUtility: java.util.HashMap callerHashMap
+com.iflytek.speech.SpeechUtility: java.lang.String mDefaultComponent
+com.iflytek.speech.SpeechUtility: java.util.ArrayList mAllComponents
+com.iflytek.speech.SpeechUtility: java.lang.String mAppId
+com.iflytek.speech.SpeechUtility: com.iflytek.speech.SpeechUtility mInstance
+com.iflytek.speech.SpeechUtility: android.content.Context mContext
+com.iflytek.speech.SpeechUtility: com.iflytek.speech.SpeechUtility getUtility(android.content.Context)
+com.iflytek.speech.SpeechUtility: SpeechUtility(android.content.Context)
+com.iflytek.speech.SpeechUtility: void initComponentInfo()
+com.iflytek.speech.SpeechUtility: void getComponentInfo(java.lang.String)
+com.iflytek.speech.SpeechUtility: com.iflytek.speech.SpeechComponent putSpeechComponent(java.lang.String)
+com.iflytek.speech.SpeechUtility: void setDefaultComponent(java.lang.String)
+com.iflytek.speech.SpeechUtility: java.lang.String getPackage(java.lang.String)
+com.iflytek.speech.SpeechUtility: com.iflytek.speech.SpeechComponent getComponentByPackage(java.lang.String)
+com.iflytek.speech.SpeechUtility: java.lang.String[] queryAvailableEngines()
+com.iflytek.speech.SpeechUtility: int notifyEngineDownload(java.lang.String[])
+com.iflytek.speech.SpeechUtility: java.lang.String getComponentUrl()
+com.iflytek.speech.SpeechUtility: void requestComponentUrl(com.iflytek.speech.ISpeechModule,com.iflytek.speech.SpeechUtility$RequestComponentUrlListener)
+com.iflytek.speech.SpeechUtility: void setAppid(java.lang.String)
+com.iflytek.speech.SpeechUtility: java.lang.String getAppid()
+com.iflytek.speech.SpeechUtility: boolean isServiceInstalled(android.content.Context,java.lang.String)
+com.iflytek.speech.SpeechUtility: void appendHttpParam(java.lang.StringBuffer,java.lang.String,java.lang.String)
+com.iflytek.speech.SpeechUtility: java.lang.String getCallerInfo(android.content.Context,java.lang.String)
+com.iflytek.speech.SpeechUtility: void <clinit>()
+com.iflytek.speech.SpeechUtility$HttpGetThread
+com.iflytek.speech.SpeechUtility$HttpGetThread: java.lang.String mUrl
+com.iflytek.speech.SpeechUtility$HttpGetThread: com.iflytek.speech.SpeechUtility$RequestComponentUrlListener mListener
+com.iflytek.speech.SpeechUtility$HttpGetThread: com.iflytek.speech.SpeechUtility this$0
+com.iflytek.speech.SpeechUtility$HttpGetThread: SpeechUtility$HttpGetThread(com.iflytek.speech.SpeechUtility,java.lang.String,com.iflytek.speech.SpeechUtility$RequestComponentUrlListener)
+com.iflytek.speech.SpeechUtility$HttpGetThread: void run()
+com.iflytek.speech.SpeechUtility$RequestComponentUrlListener
+com.iflytek.speech.SpeechUtility$RequestComponentUrlListener: void onResult(java.lang.String,int)
+com.iflytek.speech.SynthesizeToUrlListener
+com.iflytek.speech.SynthesizeToUrlListener: void onSynthesizeCompleted(java.lang.String,int)
+com.iflytek.speech.SynthesizeToUrlListener$Stub
+com.iflytek.speech.SynthesizeToUrlListener$Stub: java.lang.String DESCRIPTOR
+com.iflytek.speech.SynthesizeToUrlListener$Stub: int TRANSACTION_onSynthesizeCompleted
+com.iflytek.speech.SynthesizeToUrlListener$Stub: SynthesizeToUrlListener$Stub()
+com.iflytek.speech.SynthesizeToUrlListener$Stub: com.iflytek.speech.SynthesizeToUrlListener asInterface(android.os.IBinder)
+com.iflytek.speech.SynthesizeToUrlListener$Stub: android.os.IBinder asBinder()
+com.iflytek.speech.SynthesizeToUrlListener$Stub: boolean onTransact(int,android.os.Parcel,android.os.Parcel,int)
+com.iflytek.speech.SynthesizeToUrlListener$Stub$Proxy
+com.iflytek.speech.SynthesizeToUrlListener$Stub$Proxy: android.os.IBinder mRemote
+com.iflytek.speech.SynthesizeToUrlListener$Stub$Proxy: SynthesizeToUrlListener$Stub$Proxy(android.os.IBinder)
+com.iflytek.speech.SynthesizeToUrlListener$Stub$Proxy: android.os.IBinder asBinder()
+com.iflytek.speech.SynthesizeToUrlListener$Stub$Proxy: java.lang.String getInterfaceDescriptor()
+com.iflytek.speech.SynthesizeToUrlListener$Stub$Proxy: void onSynthesizeCompleted(java.lang.String,int)
+com.iflytek.speech.SynthesizerListener
+com.iflytek.speech.SynthesizerListener: void onSpeakBegin()
+com.iflytek.speech.SynthesizerListener: void onSpeakPaused()
+com.iflytek.speech.SynthesizerListener: void onSpeakResumed()
+com.iflytek.speech.SynthesizerListener: void onCompleted(int)
+com.iflytek.speech.SynthesizerListener: void onSpeakProgress(int)
+com.iflytek.speech.SynthesizerListener: void onBufferProgress(int)
+com.iflytek.speech.SynthesizerListener$Stub
+com.iflytek.speech.SynthesizerListener$Stub: java.lang.String DESCRIPTOR
+com.iflytek.speech.SynthesizerListener$Stub: int TRANSACTION_onSpeakBegin
+com.iflytek.speech.SynthesizerListener$Stub: int TRANSACTION_onSpeakPaused
+com.iflytek.speech.SynthesizerListener$Stub: int TRANSACTION_onSpeakResumed
+com.iflytek.speech.SynthesizerListener$Stub: int TRANSACTION_onCompleted
+com.iflytek.speech.SynthesizerListener$Stub: int TRANSACTION_onSpeakProgress
+com.iflytek.speech.SynthesizerListener$Stub: int TRANSACTION_onBufferProgress
+com.iflytek.speech.SynthesizerListener$Stub: SynthesizerListener$Stub()
+com.iflytek.speech.SynthesizerListener$Stub: com.iflytek.speech.SynthesizerListener asInterface(android.os.IBinder)
+com.iflytek.speech.SynthesizerListener$Stub: android.os.IBinder asBinder()
+com.iflytek.speech.SynthesizerListener$Stub: boolean onTransact(int,android.os.Parcel,android.os.Parcel,int)
+com.iflytek.speech.SynthesizerListener$Stub$Proxy
+com.iflytek.speech.SynthesizerListener$Stub$Proxy: android.os.IBinder mRemote
+com.iflytek.speech.SynthesizerListener$Stub$Proxy: SynthesizerListener$Stub$Proxy(android.os.IBinder)
+com.iflytek.speech.SynthesizerListener$Stub$Proxy: android.os.IBinder asBinder()
+com.iflytek.speech.SynthesizerListener$Stub$Proxy: java.lang.String getInterfaceDescriptor()
+com.iflytek.speech.SynthesizerListener$Stub$Proxy: void onSpeakBegin()
+com.iflytek.speech.SynthesizerListener$Stub$Proxy: void onSpeakPaused()
+com.iflytek.speech.SynthesizerListener$Stub$Proxy: void onSpeakResumed()
+com.iflytek.speech.SynthesizerListener$Stub$Proxy: void onCompleted(int)
+com.iflytek.speech.SynthesizerListener$Stub$Proxy: void onSpeakProgress(int)
+com.iflytek.speech.SynthesizerListener$Stub$Proxy: void onBufferProgress(int)
+com.iflytek.speech.TextUnderstander
+com.iflytek.speech.TextUnderstander: java.lang.String SCENE
+com.iflytek.speech.TextUnderstander: java.lang.String TEXT
+com.iflytek.speech.TextUnderstander: TextUnderstander(android.content.Context,com.iflytek.speech.InitListener)
+com.iflytek.speech.TextUnderstander: boolean isUnderstanding()
+com.iflytek.speech.TextUnderstander: int cancel(com.iflytek.speech.TextUnderstanderListener)
+com.iflytek.speech.TextUnderstander: int understandText(java.lang.String,com.iflytek.speech.TextUnderstanderListener)
+com.iflytek.speech.TextUnderstander: int setParameter(java.lang.String,java.lang.String)
+com.iflytek.speech.TextUnderstander: java.lang.String getParameter(java.lang.String)
+com.iflytek.speech.TextUnderstander: boolean destory()
+com.iflytek.speech.TextUnderstander: android.content.Intent getIntent()
+com.iflytek.speech.TextUnderstanderListener
+com.iflytek.speech.TextUnderstanderListener: void onResult(com.iflytek.speech.UnderstanderResult)
+com.iflytek.speech.TextUnderstanderListener: void onError(int)
+com.iflytek.speech.TextUnderstanderListener$Stub
+com.iflytek.speech.TextUnderstanderListener$Stub: java.lang.String DESCRIPTOR
+com.iflytek.speech.TextUnderstanderListener$Stub: int TRANSACTION_onResult
+com.iflytek.speech.TextUnderstanderListener$Stub: int TRANSACTION_onError
+com.iflytek.speech.TextUnderstanderListener$Stub: TextUnderstanderListener$Stub()
+com.iflytek.speech.TextUnderstanderListener$Stub: com.iflytek.speech.TextUnderstanderListener asInterface(android.os.IBinder)
+com.iflytek.speech.TextUnderstanderListener$Stub: android.os.IBinder asBinder()
+com.iflytek.speech.TextUnderstanderListener$Stub: boolean onTransact(int,android.os.Parcel,android.os.Parcel,int)
+com.iflytek.speech.TextUnderstanderListener$Stub$Proxy
+com.iflytek.speech.TextUnderstanderListener$Stub$Proxy: android.os.IBinder mRemote
+com.iflytek.speech.TextUnderstanderListener$Stub$Proxy: TextUnderstanderListener$Stub$Proxy(android.os.IBinder)
+com.iflytek.speech.TextUnderstanderListener$Stub$Proxy: android.os.IBinder asBinder()
+com.iflytek.speech.TextUnderstanderListener$Stub$Proxy: java.lang.String getInterfaceDescriptor()
+com.iflytek.speech.TextUnderstanderListener$Stub$Proxy: void onResult(com.iflytek.speech.UnderstanderResult)
+com.iflytek.speech.TextUnderstanderListener$Stub$Proxy: void onError(int)
+com.iflytek.speech.UnderstanderResult
+com.iflytek.speech.UnderstanderResult: java.lang.String mXml
+com.iflytek.speech.UnderstanderResult: android.os.Parcelable$Creator CREATOR
+com.iflytek.speech.UnderstanderResult: UnderstanderResult(android.os.Parcel)
+com.iflytek.speech.UnderstanderResult: UnderstanderResult(java.lang.String)
+com.iflytek.speech.UnderstanderResult: java.lang.String getResultString()
+com.iflytek.speech.UnderstanderResult: int describeContents()
+com.iflytek.speech.UnderstanderResult: void writeToParcel(android.os.Parcel,int)
+com.iflytek.speech.UnderstanderResult: void <clinit>()
+com.iflytek.speech.UnderstanderResult$1
+com.iflytek.speech.UnderstanderResult$1: UnderstanderResult$1()
+com.iflytek.speech.UnderstanderResult$1: com.iflytek.speech.UnderstanderResult createFromParcel(android.os.Parcel)
+com.iflytek.speech.UnderstanderResult$1: com.iflytek.speech.UnderstanderResult[] newArray(int)
+com.iflytek.speech.UnderstanderResult$1: java.lang.Object[] newArray(int)
+com.iflytek.speech.UnderstanderResult$1: java.lang.Object createFromParcel(android.os.Parcel)
+com.iflytek.speech.UtilityConfig
+com.iflytek.speech.UtilityConfig: java.lang.String SDK_VER
+com.iflytek.speech.UtilityConfig: java.lang.String SDK_TAG
+com.iflytek.speech.UtilityConfig: java.lang.String COMPONENT_URL
+com.iflytek.speech.UtilityConfig: java.lang.String DEFAULT_COMPONENT_NAME
+com.iflytek.speech.UtilityConfig: java.lang.String TAG_SPEECH
+com.iflytek.speech.UtilityConfig: java.lang.String TAG_LINGXI
+com.iflytek.speech.UtilityConfig: java.lang.String TAG_YUDIAN
+com.iflytek.speech.UtilityConfig: java.lang.String CHANNEL_ID
+com.iflytek.speech.UtilityConfig: java.lang.String CHANNEL_NAME
+com.iflytek.speech.UtilityConfig: UtilityConfig()
+com.iflytek.speech.VerifierListener
+com.iflytek.speech.VerifierListener: void onVolumeChanged(int)
+com.iflytek.speech.VerifierListener: void onBeginOfSpeech()
+com.iflytek.speech.VerifierListener: void onEndOfSpeech()
+com.iflytek.speech.VerifierListener: void onRegister(com.iflytek.speech.VerifierResult)
+com.iflytek.speech.VerifierListener: void onEnd(com.iflytek.speech.VerifierResult,int)
+com.iflytek.speech.VerifierListener: void onCancel()
+com.iflytek.speech.VerifierResult
+com.iflytek.speech.VerifierResult: java.lang.String sst
+com.iflytek.speech.VerifierResult: boolean ret
+com.iflytek.speech.VerifierResult: java.lang.String dcs
+com.iflytek.speech.VerifierResult: java.lang.String vid
+com.iflytek.speech.VerifierResult: int suc
+com.iflytek.speech.VerifierResult: int rgn
+com.iflytek.speech.VerifierResult: java.lang.String trs
+com.iflytek.speech.VerifierResult: java.lang.String source
+com.iflytek.speech.VerifierResult: VerifierResult()
+com.iflytek.speech.VoiceWakeuper
+com.iflytek.speech.VoiceWakeuper: VoiceWakeuper(android.content.Context,com.iflytek.speech.InitListener)
+com.iflytek.speech.VoiceWakeuper: int startListening(com.iflytek.speech.WakeuperListener)
+com.iflytek.speech.VoiceWakeuper: int cancel(com.iflytek.speech.WakeuperListener)
+com.iflytek.speech.VoiceWakeuper: boolean destory()
+com.iflytek.speech.VoiceWakeuper: boolean isListening()
+com.iflytek.speech.VoiceWakeuper: int setParameter(java.lang.String,java.lang.String)
+com.iflytek.speech.VoiceWakeuper: java.lang.String getParameter(java.lang.String)
+com.iflytek.speech.WakeuperListener
+com.iflytek.speech.WakeuperListener: void onVolumeChanged(int)
+com.iflytek.speech.WakeuperListener: void onBeginOfSpeech()
+com.iflytek.speech.WakeuperListener: void onEndOfSpeech()
+com.iflytek.speech.WakeuperListener: void onResult(com.iflytek.speech.WakeuperResult)
+com.iflytek.speech.WakeuperListener: void onError(int)
+com.iflytek.speech.WakeuperResult
+com.iflytek.speech.WakeuperResult: java.lang.String json
+com.iflytek.speech.WakeuperResult: WakeuperResult()
+com.iflytek.speech.WakeuperResult: java.lang.String getResultString()
+com.iflytek.speech.aidl.ISpeechRecognizer
+com.iflytek.speech.aidl.ISpeechRecognizer: void startListening(android.content.Intent,com.iflytek.speech.RecognizerListener)
+com.iflytek.speech.aidl.ISpeechRecognizer: void stopListening(com.iflytek.speech.RecognizerListener)
+com.iflytek.speech.aidl.ISpeechRecognizer: void cancel(com.iflytek.speech.RecognizerListener)
+com.iflytek.speech.aidl.ISpeechRecognizer: boolean isListening()
+com.iflytek.speech.aidl.ISpeechRecognizer: void buildGrammar(android.content.Intent,com.iflytek.speech.GrammarListener)
+com.iflytek.speech.aidl.ISpeechRecognizer: void updateLexicon(android.content.Intent,com.iflytek.speech.LexiconListener)
+com.iflytek.speech.aidl.ISpeechRecognizer$Stub
+com.iflytek.speech.aidl.ISpeechRecognizer$Stub: java.lang.String DESCRIPTOR
+com.iflytek.speech.aidl.ISpeechRecognizer$Stub: int TRANSACTION_startListening
+com.iflytek.speech.aidl.ISpeechRecognizer$Stub: int TRANSACTION_stopListening
+com.iflytek.speech.aidl.ISpeechRecognizer$Stub: int TRANSACTION_cancel
+com.iflytek.speech.aidl.ISpeechRecognizer$Stub: int TRANSACTION_isListening
+com.iflytek.speech.aidl.ISpeechRecognizer$Stub: int TRANSACTION_buildGrammar
+com.iflytek.speech.aidl.ISpeechRecognizer$Stub: int TRANSACTION_updateLexicon
+com.iflytek.speech.aidl.ISpeechRecognizer$Stub: ISpeechRecognizer$Stub()
+com.iflytek.speech.aidl.ISpeechRecognizer$Stub: com.iflytek.speech.aidl.ISpeechRecognizer asInterface(android.os.IBinder)
+com.iflytek.speech.aidl.ISpeechRecognizer$Stub: android.os.IBinder asBinder()
+com.iflytek.speech.aidl.ISpeechRecognizer$Stub: boolean onTransact(int,android.os.Parcel,android.os.Parcel,int)
+com.iflytek.speech.aidl.ISpeechRecognizer$Stub$Proxy
+com.iflytek.speech.aidl.ISpeechRecognizer$Stub$Proxy: android.os.IBinder mRemote
+com.iflytek.speech.aidl.ISpeechRecognizer$Stub$Proxy: ISpeechRecognizer$Stub$Proxy(android.os.IBinder)
+com.iflytek.speech.aidl.ISpeechRecognizer$Stub$Proxy: android.os.IBinder asBinder()
+com.iflytek.speech.aidl.ISpeechRecognizer$Stub$Proxy: java.lang.String getInterfaceDescriptor()
+com.iflytek.speech.aidl.ISpeechRecognizer$Stub$Proxy: void startListening(android.content.Intent,com.iflytek.speech.RecognizerListener)
+com.iflytek.speech.aidl.ISpeechRecognizer$Stub$Proxy: void stopListening(com.iflytek.speech.RecognizerListener)
+com.iflytek.speech.aidl.ISpeechRecognizer$Stub$Proxy: void cancel(com.iflytek.speech.RecognizerListener)
+com.iflytek.speech.aidl.ISpeechRecognizer$Stub$Proxy: boolean isListening()
+com.iflytek.speech.aidl.ISpeechRecognizer$Stub$Proxy: void buildGrammar(android.content.Intent,com.iflytek.speech.GrammarListener)
+com.iflytek.speech.aidl.ISpeechRecognizer$Stub$Proxy: void updateLexicon(android.content.Intent,com.iflytek.speech.LexiconListener)
+com.iflytek.speech.aidl.ISpeechSynthesizer
+com.iflytek.speech.aidl.ISpeechSynthesizer: int synthesizeToUrl(android.content.Intent,com.iflytek.speech.SynthesizeToUrlListener)
+com.iflytek.speech.aidl.ISpeechSynthesizer: int startSpeaking(android.content.Intent,com.iflytek.speech.SynthesizerListener)
+com.iflytek.speech.aidl.ISpeechSynthesizer: int pauseSpeaking(com.iflytek.speech.SynthesizerListener)
+com.iflytek.speech.aidl.ISpeechSynthesizer: int resumeSpeaking(com.iflytek.speech.SynthesizerListener)
+com.iflytek.speech.aidl.ISpeechSynthesizer: int stopSpeaking(com.iflytek.speech.SynthesizerListener)
+com.iflytek.speech.aidl.ISpeechSynthesizer: boolean isSpeaking()
+com.iflytek.speech.aidl.ISpeechSynthesizer$Stub
+com.iflytek.speech.aidl.ISpeechSynthesizer$Stub: java.lang.String DESCRIPTOR
+com.iflytek.speech.aidl.ISpeechSynthesizer$Stub: int TRANSACTION_synthesizeToUrl
+com.iflytek.speech.aidl.ISpeechSynthesizer$Stub: int TRANSACTION_startSpeaking
+com.iflytek.speech.aidl.ISpeechSynthesizer$Stub: int TRANSACTION_pauseSpeaking
+com.iflytek.speech.aidl.ISpeechSynthesizer$Stub: int TRANSACTION_resumeSpeaking
+com.iflytek.speech.aidl.ISpeechSynthesizer$Stub: int TRANSACTION_stopSpeaking
+com.iflytek.speech.aidl.ISpeechSynthesizer$Stub: int TRANSACTION_isSpeaking
+com.iflytek.speech.aidl.ISpeechSynthesizer$Stub: ISpeechSynthesizer$Stub()
+com.iflytek.speech.aidl.ISpeechSynthesizer$Stub: com.iflytek.speech.aidl.ISpeechSynthesizer asInterface(android.os.IBinder)
+com.iflytek.speech.aidl.ISpeechSynthesizer$Stub: android.os.IBinder asBinder()
+com.iflytek.speech.aidl.ISpeechSynthesizer$Stub: boolean onTransact(int,android.os.Parcel,android.os.Parcel,int)
+com.iflytek.speech.aidl.ISpeechSynthesizer$Stub$Proxy
+com.iflytek.speech.aidl.ISpeechSynthesizer$Stub$Proxy: android.os.IBinder mRemote
+com.iflytek.speech.aidl.ISpeechSynthesizer$Stub$Proxy: ISpeechSynthesizer$Stub$Proxy(android.os.IBinder)
+com.iflytek.speech.aidl.ISpeechSynthesizer$Stub$Proxy: android.os.IBinder asBinder()
+com.iflytek.speech.aidl.ISpeechSynthesizer$Stub$Proxy: java.lang.String getInterfaceDescriptor()
+com.iflytek.speech.aidl.ISpeechSynthesizer$Stub$Proxy: int synthesizeToUrl(android.content.Intent,com.iflytek.speech.SynthesizeToUrlListener)
+com.iflytek.speech.aidl.ISpeechSynthesizer$Stub$Proxy: int startSpeaking(android.content.Intent,com.iflytek.speech.SynthesizerListener)
+com.iflytek.speech.aidl.ISpeechSynthesizer$Stub$Proxy: int pauseSpeaking(com.iflytek.speech.SynthesizerListener)
+com.iflytek.speech.aidl.ISpeechSynthesizer$Stub$Proxy: int resumeSpeaking(com.iflytek.speech.SynthesizerListener)
+com.iflytek.speech.aidl.ISpeechSynthesizer$Stub$Proxy: int stopSpeaking(com.iflytek.speech.SynthesizerListener)
+com.iflytek.speech.aidl.ISpeechSynthesizer$Stub$Proxy: boolean isSpeaking()
+com.iflytek.speech.aidl.ISpeechUnderstander
+com.iflytek.speech.aidl.ISpeechUnderstander: void startUnderstanding(android.content.Intent,com.iflytek.speech.SpeechUnderstanderListener)
+com.iflytek.speech.aidl.ISpeechUnderstander: void stopUnderstanding(com.iflytek.speech.SpeechUnderstanderListener)
+com.iflytek.speech.aidl.ISpeechUnderstander: void cancel(com.iflytek.speech.SpeechUnderstanderListener)
+com.iflytek.speech.aidl.ISpeechUnderstander: boolean isUnderstanding()
+com.iflytek.speech.aidl.ISpeechUnderstander$Stub
+com.iflytek.speech.aidl.ISpeechUnderstander$Stub: java.lang.String DESCRIPTOR
+com.iflytek.speech.aidl.ISpeechUnderstander$Stub: int TRANSACTION_startUnderstanding
+com.iflytek.speech.aidl.ISpeechUnderstander$Stub: int TRANSACTION_stopUnderstanding
+com.iflytek.speech.aidl.ISpeechUnderstander$Stub: int TRANSACTION_cancel
+com.iflytek.speech.aidl.ISpeechUnderstander$Stub: int TRANSACTION_isUnderstanding
+com.iflytek.speech.aidl.ISpeechUnderstander$Stub: ISpeechUnderstander$Stub()
+com.iflytek.speech.aidl.ISpeechUnderstander$Stub: com.iflytek.speech.aidl.ISpeechUnderstander asInterface(android.os.IBinder)
+com.iflytek.speech.aidl.ISpeechUnderstander$Stub: android.os.IBinder asBinder()
+com.iflytek.speech.aidl.ISpeechUnderstander$Stub: boolean onTransact(int,android.os.Parcel,android.os.Parcel,int)
+com.iflytek.speech.aidl.ISpeechUnderstander$Stub$Proxy
+com.iflytek.speech.aidl.ISpeechUnderstander$Stub$Proxy: android.os.IBinder mRemote
+com.iflytek.speech.aidl.ISpeechUnderstander$Stub$Proxy: ISpeechUnderstander$Stub$Proxy(android.os.IBinder)
+com.iflytek.speech.aidl.ISpeechUnderstander$Stub$Proxy: android.os.IBinder asBinder()
+com.iflytek.speech.aidl.ISpeechUnderstander$Stub$Proxy: java.lang.String getInterfaceDescriptor()
+com.iflytek.speech.aidl.ISpeechUnderstander$Stub$Proxy: void startUnderstanding(android.content.Intent,com.iflytek.speech.SpeechUnderstanderListener)
+com.iflytek.speech.aidl.ISpeechUnderstander$Stub$Proxy: void stopUnderstanding(com.iflytek.speech.SpeechUnderstanderListener)
+com.iflytek.speech.aidl.ISpeechUnderstander$Stub$Proxy: void cancel(com.iflytek.speech.SpeechUnderstanderListener)
+com.iflytek.speech.aidl.ISpeechUnderstander$Stub$Proxy: boolean isUnderstanding()
+com.iflytek.speech.aidl.ITextUnderstander
+com.iflytek.speech.aidl.ITextUnderstander: void understandText(android.content.Intent,com.iflytek.speech.TextUnderstanderListener)
+com.iflytek.speech.aidl.ITextUnderstander: void cancel(com.iflytek.speech.TextUnderstanderListener)
+com.iflytek.speech.aidl.ITextUnderstander: boolean isUnderstanding()
+com.iflytek.speech.aidl.ITextUnderstander$Stub
+com.iflytek.speech.aidl.ITextUnderstander$Stub: java.lang.String DESCRIPTOR
+com.iflytek.speech.aidl.ITextUnderstander$Stub: int TRANSACTION_understandText
+com.iflytek.speech.aidl.ITextUnderstander$Stub: int TRANSACTION_cancel
+com.iflytek.speech.aidl.ITextUnderstander$Stub: int TRANSACTION_isUnderstanding
+com.iflytek.speech.aidl.ITextUnderstander$Stub: ITextUnderstander$Stub()
+com.iflytek.speech.aidl.ITextUnderstander$Stub: com.iflytek.speech.aidl.ITextUnderstander asInterface(android.os.IBinder)
+com.iflytek.speech.aidl.ITextUnderstander$Stub: android.os.IBinder asBinder()
+com.iflytek.speech.aidl.ITextUnderstander$Stub: boolean onTransact(int,android.os.Parcel,android.os.Parcel,int)
+com.iflytek.speech.aidl.ITextUnderstander$Stub$Proxy
+com.iflytek.speech.aidl.ITextUnderstander$Stub$Proxy: android.os.IBinder mRemote
+com.iflytek.speech.aidl.ITextUnderstander$Stub$Proxy: ITextUnderstander$Stub$Proxy(android.os.IBinder)
+com.iflytek.speech.aidl.ITextUnderstander$Stub$Proxy: android.os.IBinder asBinder()
+com.iflytek.speech.aidl.ITextUnderstander$Stub$Proxy: java.lang.String getInterfaceDescriptor()
+com.iflytek.speech.aidl.ITextUnderstander$Stub$Proxy: void understandText(android.content.Intent,com.iflytek.speech.TextUnderstanderListener)
+com.iflytek.speech.aidl.ITextUnderstander$Stub$Proxy: void cancel(com.iflytek.speech.TextUnderstanderListener)
+com.iflytek.speech.aidl.ITextUnderstander$Stub$Proxy: boolean isUnderstanding()
+org.apache.commons.net.ftp.FTPCmd: org.apache.commons.net.ftp.FTPCmd[] values()
+org.apache.commons.net.ftp.FTPCmd: org.apache.commons.net.ftp.FTPCmd valueOf(java.lang.String)
+org.apache.commons.net.imap.AuthenticatingIMAPClient$AUTH_METHOD: org.apache.commons.net.imap.AuthenticatingIMAPClient$AUTH_METHOD[] values()
+org.apache.commons.net.imap.AuthenticatingIMAPClient$AUTH_METHOD: org.apache.commons.net.imap.AuthenticatingIMAPClient$AUTH_METHOD valueOf(java.lang.String)
+org.apache.commons.net.imap.IMAP$IMAPState: org.apache.commons.net.imap.IMAP$IMAPState[] values()
+org.apache.commons.net.imap.IMAP$IMAPState: org.apache.commons.net.imap.IMAP$IMAPState valueOf(java.lang.String)
+org.apache.commons.net.imap.IMAPClient$FETCH_ITEM_NAMES: org.apache.commons.net.imap.IMAPClient$FETCH_ITEM_NAMES[] values()
+org.apache.commons.net.imap.IMAPClient$FETCH_ITEM_NAMES: org.apache.commons.net.imap.IMAPClient$FETCH_ITEM_NAMES valueOf(java.lang.String)
+org.apache.commons.net.imap.IMAPClient$SEARCH_CRITERIA: org.apache.commons.net.imap.IMAPClient$SEARCH_CRITERIA[] values()
+org.apache.commons.net.imap.IMAPClient$SEARCH_CRITERIA: org.apache.commons.net.imap.IMAPClient$SEARCH_CRITERIA valueOf(java.lang.String)
+org.apache.commons.net.imap.IMAPClient$STATUS_DATA_ITEMS: org.apache.commons.net.imap.IMAPClient$STATUS_DATA_ITEMS[] values()
+org.apache.commons.net.imap.IMAPClient$STATUS_DATA_ITEMS: org.apache.commons.net.imap.IMAPClient$STATUS_DATA_ITEMS valueOf(java.lang.String)
+org.apache.commons.net.imap.IMAPCommand: org.apache.commons.net.imap.IMAPCommand[] values()
+org.apache.commons.net.imap.IMAPCommand: org.apache.commons.net.imap.IMAPCommand valueOf(java.lang.String)
+org.apache.commons.net.pop3.ExtendedPOP3Client$AUTH_METHOD: org.apache.commons.net.pop3.ExtendedPOP3Client$AUTH_METHOD[] values()
+org.apache.commons.net.pop3.ExtendedPOP3Client$AUTH_METHOD: org.apache.commons.net.pop3.ExtendedPOP3Client$AUTH_METHOD valueOf(java.lang.String)
+org.apache.commons.net.smtp.AuthenticatingSMTPClient$AUTH_METHOD: org.apache.commons.net.smtp.AuthenticatingSMTPClient$AUTH_METHOD[] values()
+org.apache.commons.net.smtp.AuthenticatingSMTPClient$AUTH_METHOD: org.apache.commons.net.smtp.AuthenticatingSMTPClient$AUTH_METHOD valueOf(java.lang.String)
+org.apache.http.entity.mime.HttpMultipartMode: org.apache.http.entity.mime.HttpMultipartMode[] values()
+org.apache.http.entity.mime.HttpMultipartMode: org.apache.http.entity.mime.HttpMultipartMode valueOf(java.lang.String)
+org.kobjects.base64.Base64
+org.kobjects.base64.Base64: char[] charTab
+org.kobjects.base64.Base64: Base64()
+org.kobjects.base64.Base64: java.lang.String encode(byte[])
+org.kobjects.base64.Base64: java.lang.StringBuffer encode(byte[],int,int,java.lang.StringBuffer)
+org.kobjects.base64.Base64: int decode(char)
+org.kobjects.base64.Base64: byte[] decode(java.lang.String)
+org.kobjects.base64.Base64: void decode(java.lang.String,java.io.OutputStream)
+org.kobjects.base64.Base64: void <clinit>()
+org.kobjects.crypt.Crypt
+org.kobjects.crypt.Crypt: int ITERATIONS
+org.kobjects.crypt.Crypt: int[] con_salt
+org.kobjects.crypt.Crypt: boolean[] shifts2
+org.kobjects.crypt.Crypt: int[][] skb
+org.kobjects.crypt.Crypt: int[][] SPtrans
+org.kobjects.crypt.Crypt: int[] cov_2char
+org.kobjects.crypt.Crypt: Crypt()
+org.kobjects.crypt.Crypt: int byteToUnsigned(byte)
+org.kobjects.crypt.Crypt: int fourBytesToInt(byte[],int)
+org.kobjects.crypt.Crypt: void intToFourBytes(int,byte[],int)
+org.kobjects.crypt.Crypt: void PERM_OP(int,int,int,int,int[])
+org.kobjects.crypt.Crypt: int HPERM_OP(int,int,int)
+org.kobjects.crypt.Crypt: int[] des_set_key(byte[])
+org.kobjects.crypt.Crypt: int D_ENCRYPT(int,int,int,int,int,int[])
+org.kobjects.crypt.Crypt: int[] body(int[],int,int)
+org.kobjects.crypt.Crypt: java.lang.String generate(java.lang.String)
+org.kobjects.crypt.Crypt: boolean match(java.lang.String,java.lang.String)
+org.kobjects.crypt.Crypt: java.lang.String crypt(java.lang.String,java.lang.String)
+org.kobjects.crypt.Crypt: void main(java.lang.String[])
+org.kobjects.crypt.Crypt: void <clinit>()
+org.kobjects.io.BoundInputStream
+org.kobjects.io.BoundInputStream: int remaining
+org.kobjects.io.BoundInputStream: java.io.InputStream is
+org.kobjects.io.BoundInputStream: BoundInputStream(java.io.InputStream,int)
+org.kobjects.io.BoundInputStream: int available()
+org.kobjects.io.BoundInputStream: int read()
+org.kobjects.io.BoundInputStream: int read(byte[],int,int)
+org.kobjects.io.BoundInputStream: void close()
+org.kobjects.io.LookAheadReader
+org.kobjects.io.LookAheadReader: char[] buf
+org.kobjects.io.LookAheadReader: int bufPos
+org.kobjects.io.LookAheadReader: int bufValid
+org.kobjects.io.LookAheadReader: java.io.Reader reader
+org.kobjects.io.LookAheadReader: LookAheadReader(java.io.Reader)
+org.kobjects.io.LookAheadReader: int read(char[],int,int)
+org.kobjects.io.LookAheadReader: java.lang.String readTo(java.lang.String)
+org.kobjects.io.LookAheadReader: java.lang.String readTo(char)
+org.kobjects.io.LookAheadReader: void close()
+org.kobjects.io.LookAheadReader: int read()
+org.kobjects.io.LookAheadReader: int peek(int)
+org.kobjects.io.LookAheadReader: java.lang.String readLine()
+org.kobjects.io.LookAheadReader: java.lang.String readWhile(java.lang.String)
+org.kobjects.io.LookAheadReader: void skip(java.lang.String)
+org.kobjects.isodate.IsoDate
+org.kobjects.isodate.IsoDate: int DATE
+org.kobjects.isodate.IsoDate: int TIME
+org.kobjects.isodate.IsoDate: int DATE_TIME
+org.kobjects.isodate.IsoDate: IsoDate()
+org.kobjects.isodate.IsoDate: void dd(java.lang.StringBuffer,int)
+org.kobjects.isodate.IsoDate: java.lang.String dateToString(java.util.Date,int)
+org.kobjects.isodate.IsoDate: java.util.Date stringToDate(java.lang.String,int)
+org.kobjects.mime.Decoder
+org.kobjects.mime.Decoder: java.io.InputStream is
+org.kobjects.mime.Decoder: java.util.Hashtable header
+org.kobjects.mime.Decoder: boolean eof
+org.kobjects.mime.Decoder: boolean consumed
+org.kobjects.mime.Decoder: java.lang.String boundary
+org.kobjects.mime.Decoder: java.lang.String characterEncoding
+org.kobjects.mime.Decoder: char[] buf
+org.kobjects.mime.Decoder: java.lang.String readLine()
+org.kobjects.mime.Decoder: java.util.Hashtable getHeaderElements(java.lang.String)
+org.kobjects.mime.Decoder: Decoder(java.io.InputStream,java.lang.String)
+org.kobjects.mime.Decoder: Decoder(java.io.InputStream,java.lang.String,java.lang.String)
+org.kobjects.mime.Decoder: java.util.Enumeration getHeaderNames()
+org.kobjects.mime.Decoder: java.lang.String getHeader(java.lang.String)
+org.kobjects.mime.Decoder: java.lang.String readContent()
+org.kobjects.mime.Decoder: void readContent(java.io.OutputStream)
+org.kobjects.mime.Decoder: boolean next()
+org.kobjects.pim.PimField
+org.kobjects.pim.PimField: java.lang.String name
+org.kobjects.pim.PimField: java.lang.Object value
+org.kobjects.pim.PimField: java.util.Hashtable properties
+org.kobjects.pim.PimField: PimField(org.kobjects.pim.PimField)
+org.kobjects.pim.PimField: PimField(java.lang.String)
+org.kobjects.pim.PimField: java.util.Enumeration propertyNames()
+org.kobjects.pim.PimField: void setProperty(java.lang.String,java.lang.String)
+org.kobjects.pim.PimField: void setValue(java.lang.Object)
+org.kobjects.pim.PimField: java.lang.Object getValue()
+org.kobjects.pim.PimField: java.lang.String toString()
+org.kobjects.pim.PimField: java.lang.String getProperty(java.lang.String)
+org.kobjects.pim.PimField: boolean getAttribute(java.lang.String)
+org.kobjects.pim.PimField: void setAttribute(java.lang.String,boolean)
+org.kobjects.pim.PimItem
+org.kobjects.pim.PimItem: java.util.Hashtable fields
+org.kobjects.pim.PimItem: int TYPE_STRING
+org.kobjects.pim.PimItem: int TYPE_STRING_ARRAY
+org.kobjects.pim.PimItem: PimItem()
+org.kobjects.pim.PimItem: PimItem(org.kobjects.pim.PimItem)
+org.kobjects.pim.PimItem: java.util.Enumeration fieldNames()
+org.kobjects.pim.PimItem: void addField(org.kobjects.pim.PimField)
+org.kobjects.pim.PimItem: java.util.Enumeration fields()
+org.kobjects.pim.PimItem: java.util.Enumeration fields(java.lang.String)
+org.kobjects.pim.PimItem: org.kobjects.pim.PimField getField(java.lang.String,int)
+org.kobjects.pim.PimItem: int getFieldCount(java.lang.String)
+org.kobjects.pim.PimItem: java.lang.String getType()
+org.kobjects.pim.PimItem: int getArraySize(java.lang.String)
+org.kobjects.pim.PimItem: int getType(java.lang.String)
+org.kobjects.pim.PimItem: void removeField(java.lang.String,int)
+org.kobjects.pim.PimItem: java.lang.String toString()
+org.kobjects.pim.PimParser
+org.kobjects.pim.PimParser: org.kobjects.io.LookAheadReader reader
+org.kobjects.pim.PimParser: java.lang.Class type
+org.kobjects.pim.PimParser: PimParser(java.io.Reader,java.lang.Class)
+org.kobjects.pim.PimParser: org.kobjects.pim.PimItem readItem()
+org.kobjects.pim.PimParser: java.lang.String readName()
+org.kobjects.pim.PimParser: java.lang.String[] readArrayValue(int)
+org.kobjects.pim.PimParser: java.lang.String readStringValue()
+org.kobjects.pim.PimParser: void readProperties(org.kobjects.pim.PimField)
+org.kobjects.pim.PimWriter
+org.kobjects.pim.PimWriter: java.io.Writer writer
+org.kobjects.pim.PimWriter: PimWriter(java.io.Writer)
+org.kobjects.pim.PimWriter: void writeEntry(org.kobjects.pim.PimItem)
+org.kobjects.pim.VCard
+org.kobjects.pim.VCard: VCard()
+org.kobjects.pim.VCard: VCard(org.kobjects.pim.VCard)
+org.kobjects.pim.VCard: java.lang.String getType()
+org.kobjects.pim.VCard: int getArraySize(java.lang.String)
+org.kobjects.rss.RssReader
+org.kobjects.rss.RssReader: int TITLE
+org.kobjects.rss.RssReader: int LINK
+org.kobjects.rss.RssReader: int DESCRIPTION
+org.kobjects.rss.RssReader: int DATE
+org.kobjects.rss.RssReader: int AUTHOR
+org.kobjects.rss.RssReader: org.kobjects.xml.XmlReader xr
+org.kobjects.rss.RssReader: RssReader(java.io.Reader)
+org.kobjects.rss.RssReader: void readText(java.lang.StringBuffer)
+org.kobjects.rss.RssReader: java.lang.String[] next()
+org.kobjects.util.ChainedRuntimeException
+org.kobjects.util.ChainedRuntimeException: java.lang.Exception chain
+org.kobjects.util.ChainedRuntimeException: org.kobjects.util.ChainedRuntimeException create(java.lang.Exception,java.lang.String)
+org.kobjects.util.ChainedRuntimeException: ChainedRuntimeException()
+org.kobjects.util.ChainedRuntimeException: ChainedRuntimeException(java.lang.Exception,java.lang.String)
+org.kobjects.util.ChainedRuntimeException: org.kobjects.util.ChainedRuntimeException _create(java.lang.Exception,java.lang.String)
+org.kobjects.util.ChainedRuntimeException: java.lang.Exception getChained()
+org.kobjects.util.ChainedRuntimeException: void printStackTrace()
+org.kobjects.util.Csv
+org.kobjects.util.Csv: Csv()
+org.kobjects.util.Csv: java.lang.String encode(java.lang.String,char)
+org.kobjects.util.Csv: java.lang.String encode(java.lang.Object[])
+org.kobjects.util.Csv: java.lang.String[] decode(java.lang.String)
+org.kobjects.util.SingleEnumeration
+org.kobjects.util.SingleEnumeration: java.lang.Object object
+org.kobjects.util.SingleEnumeration: SingleEnumeration(java.lang.Object)
+org.kobjects.util.SingleEnumeration: boolean hasMoreElements()
+org.kobjects.util.SingleEnumeration: java.lang.Object nextElement()
+org.kobjects.util.Strings
+org.kobjects.util.Strings: Strings()
+org.kobjects.util.Strings: java.lang.String replace(java.lang.String,java.lang.String,java.lang.String)
+org.kobjects.util.Strings: java.lang.String toAscii(java.lang.String)
+org.kobjects.util.Strings: java.lang.String fill(java.lang.String,int,char)
+org.kobjects.util.Strings: java.lang.String beautify(java.lang.String)
+org.kobjects.util.Strings: java.lang.String lTrim(java.lang.String,java.lang.String)
+org.kobjects.util.Strings: java.lang.String rTrim(java.lang.String,java.lang.String)
+org.kobjects.util.Util
+org.kobjects.util.Util: Util()
+org.kobjects.util.Util: java.io.OutputStream streamcopy(java.io.InputStream,java.io.OutputStream)
+org.kobjects.util.Util: int indexOf(java.lang.Object[],java.lang.Object)
+org.kobjects.util.Util: java.lang.String buildUrl(java.lang.String,java.lang.String)
+org.kobjects.util.Util: void sort(java.lang.Object[],int,int)
+org.kobjects.xml.XmlReader
+org.kobjects.xml.XmlReader: int START_DOCUMENT
+org.kobjects.xml.XmlReader: int END_DOCUMENT
+org.kobjects.xml.XmlReader: int START_TAG
+org.kobjects.xml.XmlReader: int END_TAG
+org.kobjects.xml.XmlReader: int TEXT
+org.kobjects.xml.XmlReader: int CDSECT
+org.kobjects.xml.XmlReader: int ENTITY_REF
+org.kobjects.xml.XmlReader: java.lang.String UNEXPECTED_EOF
+org.kobjects.xml.XmlReader: int LEGACY
+org.kobjects.xml.XmlReader: boolean relaxed
+org.kobjects.xml.XmlReader: java.util.Hashtable entityMap
+org.kobjects.xml.XmlReader: int depth
+org.kobjects.xml.XmlReader: java.lang.String[] elementStack
+org.kobjects.xml.XmlReader: java.io.Reader reader
+org.kobjects.xml.XmlReader: char[] srcBuf
+org.kobjects.xml.XmlReader: int srcPos
+org.kobjects.xml.XmlReader: int srcCount
+org.kobjects.xml.XmlReader: boolean eof
+org.kobjects.xml.XmlReader: int line
+org.kobjects.xml.XmlReader: int column
+org.kobjects.xml.XmlReader: int peek0
+org.kobjects.xml.XmlReader: int peek1
+org.kobjects.xml.XmlReader: char[] txtBuf
+org.kobjects.xml.XmlReader: int txtPos
+org.kobjects.xml.XmlReader: int type
+org.kobjects.xml.XmlReader: java.lang.String text
+org.kobjects.xml.XmlReader: boolean isWhitespace
+org.kobjects.xml.XmlReader: java.lang.String name
+org.kobjects.xml.XmlReader: boolean degenerated
+org.kobjects.xml.XmlReader: int attributeCount
+org.kobjects.xml.XmlReader: java.lang.String[] attributes
+org.kobjects.xml.XmlReader: java.lang.String[] TYPES
+org.kobjects.xml.XmlReader: int read()
+org.kobjects.xml.XmlReader: void exception(java.lang.String)
+org.kobjects.xml.XmlReader: void push(int)
+org.kobjects.xml.XmlReader: void read(char)
+org.kobjects.xml.XmlReader: void skip()
+org.kobjects.xml.XmlReader: java.lang.String pop(int)
+org.kobjects.xml.XmlReader: java.lang.String readName()
+org.kobjects.xml.XmlReader: void parseLegacy(boolean)
+org.kobjects.xml.XmlReader: void parseDoctype()
+org.kobjects.xml.XmlReader: void parseEndTag()
+org.kobjects.xml.XmlReader: int peekType()
+org.kobjects.xml.XmlReader: java.lang.String[] ensureCapacity(java.lang.String[],int)
+org.kobjects.xml.XmlReader: void parseStartTag()
+org.kobjects.xml.XmlReader: boolean pushEntity()
+org.kobjects.xml.XmlReader: boolean pushText(int)
+org.kobjects.xml.XmlReader: XmlReader(java.io.Reader)
+org.kobjects.xml.XmlReader: void defineCharacterEntity(java.lang.String,java.lang.String)
+org.kobjects.xml.XmlReader: int getDepth()
+org.kobjects.xml.XmlReader: java.lang.String getPositionDescription()
+org.kobjects.xml.XmlReader: int getLineNumber()
+org.kobjects.xml.XmlReader: int getColumnNumber()
+org.kobjects.xml.XmlReader: boolean isWhitespace()
+org.kobjects.xml.XmlReader: java.lang.String getText()
+org.kobjects.xml.XmlReader: java.lang.String getName()
+org.kobjects.xml.XmlReader: boolean isEmptyElementTag()
+org.kobjects.xml.XmlReader: int getAttributeCount()
+org.kobjects.xml.XmlReader: java.lang.String getAttributeName(int)
+org.kobjects.xml.XmlReader: java.lang.String getAttributeValue(int)
+org.kobjects.xml.XmlReader: java.lang.String getAttributeValue(java.lang.String)
+org.kobjects.xml.XmlReader: int getType()
+org.kobjects.xml.XmlReader: int next()
+org.kobjects.xml.XmlReader: void require(int,java.lang.String)
+org.kobjects.xml.XmlReader: java.lang.String readText()
+org.kobjects.xmlrpc.Driver
+org.kobjects.xmlrpc.Driver: Driver()
+org.kobjects.xmlrpc.Driver: void main(java.lang.String[])
+org.kobjects.xmlrpc.XmlRpcParser
+org.kobjects.xmlrpc.XmlRpcParser: org.kobjects.xml.XmlReader parser
+org.kobjects.xmlrpc.XmlRpcParser: XmlRpcParser(org.kobjects.xml.XmlReader)
+org.kobjects.xmlrpc.XmlRpcParser: java.util.Hashtable parseStruct()
+org.kobjects.xmlrpc.XmlRpcParser: java.lang.Object parseValue()
+org.kobjects.xmlrpc.XmlRpcParser: java.util.Vector parseArray()
+org.kobjects.xmlrpc.XmlRpcParser: java.lang.Object parseFault()
+org.kobjects.xmlrpc.XmlRpcParser: java.lang.Object parseParams()
+org.kobjects.xmlrpc.XmlRpcParser: java.lang.Object parseResponse()
+org.kobjects.xmlrpc.XmlRpcParser: int nextTag()
+org.kobjects.xmlrpc.XmlRpcParser: java.lang.String nextText()
+org.ksoap2.HeaderProperty
+org.ksoap2.HeaderProperty: java.lang.String key
+org.ksoap2.HeaderProperty: java.lang.String value
+org.ksoap2.HeaderProperty: HeaderProperty(java.lang.String,java.lang.String)
+org.ksoap2.HeaderProperty: java.lang.String getKey()
+org.ksoap2.HeaderProperty: void setKey(java.lang.String)
+org.ksoap2.HeaderProperty: java.lang.String getValue()
+org.ksoap2.HeaderProperty: void setValue(java.lang.String)
+org.ksoap2.SoapEnvelope
+org.ksoap2.SoapEnvelope: int VER10
+org.ksoap2.SoapEnvelope: int VER11
+org.ksoap2.SoapEnvelope: int VER12
+org.ksoap2.SoapEnvelope: java.lang.String ENV2003
+org.ksoap2.SoapEnvelope: java.lang.String ENC2003
+org.ksoap2.SoapEnvelope: java.lang.String ENV
+org.ksoap2.SoapEnvelope: java.lang.String ENC
+org.ksoap2.SoapEnvelope: java.lang.String XSD
+org.ksoap2.SoapEnvelope: java.lang.String XSI
+org.ksoap2.SoapEnvelope: java.lang.String XSD1999
+org.ksoap2.SoapEnvelope: java.lang.String XSI1999
+org.ksoap2.SoapEnvelope: java.lang.Object bodyIn
+org.ksoap2.SoapEnvelope: java.lang.Object bodyOut
+org.ksoap2.SoapEnvelope: org.kxml2.kdom.Element[] headerIn
+org.ksoap2.SoapEnvelope: org.kxml2.kdom.Element[] headerOut
+org.ksoap2.SoapEnvelope: java.lang.String encodingStyle
+org.ksoap2.SoapEnvelope: int version
+org.ksoap2.SoapEnvelope: java.lang.String env
+org.ksoap2.SoapEnvelope: java.lang.String enc
+org.ksoap2.SoapEnvelope: java.lang.String xsi
+org.ksoap2.SoapEnvelope: java.lang.String xsd
+org.ksoap2.SoapEnvelope: boolean stringToBoolean(java.lang.String)
+org.ksoap2.SoapEnvelope: SoapEnvelope(int)
+org.ksoap2.SoapEnvelope: void parse(org.xmlpull.v1.XmlPullParser)
+org.ksoap2.SoapEnvelope: void parseHeader(org.xmlpull.v1.XmlPullParser)
+org.ksoap2.SoapEnvelope: void parseBody(org.xmlpull.v1.XmlPullParser)
+org.ksoap2.SoapEnvelope: void write(org.xmlpull.v1.XmlSerializer)
+org.ksoap2.SoapEnvelope: void writeHeader(org.xmlpull.v1.XmlSerializer)
+org.ksoap2.SoapEnvelope: void writeBody(org.xmlpull.v1.XmlSerializer)
+org.ksoap2.SoapEnvelope: void setOutputSoapObject(java.lang.Object)
+org.ksoap2.SoapFault
+org.ksoap2.SoapFault: long serialVersionUID
+org.ksoap2.SoapFault: java.lang.String faultcode
+org.ksoap2.SoapFault: java.lang.String faultstring
+org.ksoap2.SoapFault: java.lang.String faultactor
+org.ksoap2.SoapFault: org.kxml2.kdom.Node detail
+org.ksoap2.SoapFault: int version
+org.ksoap2.SoapFault: SoapFault()
+org.ksoap2.SoapFault: SoapFault(int)
+org.ksoap2.SoapFault: void parse(org.xmlpull.v1.XmlPullParser)
+org.ksoap2.SoapFault: void write(org.xmlpull.v1.XmlSerializer)
+org.ksoap2.SoapFault: java.lang.String getMessage()
+org.ksoap2.SoapFault: java.lang.String toString()
+org.ksoap2.SoapFault12
+org.ksoap2.SoapFault12: long serialVersionUID
+org.ksoap2.SoapFault12: org.kxml2.kdom.Node Code
+org.ksoap2.SoapFault12: org.kxml2.kdom.Node Reason
+org.ksoap2.SoapFault12: org.kxml2.kdom.Node Node
+org.ksoap2.SoapFault12: org.kxml2.kdom.Node Role
+org.ksoap2.SoapFault12: org.kxml2.kdom.Node Detail
+org.ksoap2.SoapFault12: SoapFault12()
+org.ksoap2.SoapFault12: SoapFault12(int)
+org.ksoap2.SoapFault12: void parse(org.xmlpull.v1.XmlPullParser)
+org.ksoap2.SoapFault12: void parseSelf(org.xmlpull.v1.XmlPullParser)
+org.ksoap2.SoapFault12: void write(org.xmlpull.v1.XmlSerializer)
+org.ksoap2.SoapFault12: java.lang.String getMessage()
+org.ksoap2.SoapFault12: java.lang.String toString()
+org.ksoap2.serialization.AttributeContainer
+org.ksoap2.serialization.AttributeContainer: java.util.Vector attributes
+org.ksoap2.serialization.AttributeContainer: AttributeContainer()
+org.ksoap2.serialization.AttributeContainer: void getAttributeInfo(int,org.ksoap2.serialization.AttributeInfo)
+org.ksoap2.serialization.AttributeContainer: java.lang.Object getAttribute(int)
+org.ksoap2.serialization.AttributeContainer: java.lang.String getAttributeAsString(int)
+org.ksoap2.serialization.AttributeContainer: java.lang.Object getAttribute(java.lang.String)
+org.ksoap2.serialization.AttributeContainer: java.lang.String getAttributeAsString(java.lang.String)
+org.ksoap2.serialization.AttributeContainer: boolean hasAttribute(java.lang.String)
+org.ksoap2.serialization.AttributeContainer: java.lang.Object getAttributeSafely(java.lang.String)
+org.ksoap2.serialization.AttributeContainer: java.lang.Object getAttributeSafelyAsString(java.lang.String)
+org.ksoap2.serialization.AttributeContainer: java.lang.Integer attributeIndex(java.lang.String)
+org.ksoap2.serialization.AttributeContainer: int getAttributeCount()
+org.ksoap2.serialization.AttributeContainer: boolean attributesAreEqual(org.ksoap2.serialization.AttributeContainer)
+org.ksoap2.serialization.AttributeContainer: void addAttribute(java.lang.String,java.lang.Object)
+org.ksoap2.serialization.AttributeContainer: void addAttributeIfValue(java.lang.String,java.lang.Object)
+org.ksoap2.serialization.AttributeContainer: void addAttribute(org.ksoap2.serialization.AttributeInfo)
+org.ksoap2.serialization.AttributeContainer: void addAttributeIfValue(org.ksoap2.serialization.AttributeInfo)
+org.ksoap2.serialization.AttributeInfo
+org.ksoap2.serialization.AttributeInfo: AttributeInfo()
+org.ksoap2.serialization.DM
+org.ksoap2.serialization.DM: DM()
+org.ksoap2.serialization.DM: java.lang.Object readInstance(org.xmlpull.v1.XmlPullParser,java.lang.String,java.lang.String,org.ksoap2.serialization.PropertyInfo)
+org.ksoap2.serialization.DM: void writeInstance(org.xmlpull.v1.XmlSerializer,java.lang.Object)
+org.ksoap2.serialization.DM: void register(org.ksoap2.serialization.SoapSerializationEnvelope)
+org.ksoap2.serialization.FwdRef
+org.ksoap2.serialization.FwdRef: org.ksoap2.serialization.FwdRef next
+org.ksoap2.serialization.FwdRef: java.lang.Object obj
+org.ksoap2.serialization.FwdRef: int index
+org.ksoap2.serialization.FwdRef: FwdRef()
+org.ksoap2.serialization.KvmSerializable
+org.ksoap2.serialization.KvmSerializable: java.lang.Object getProperty(int)
+org.ksoap2.serialization.KvmSerializable: int getPropertyCount()
+org.ksoap2.serialization.KvmSerializable: void setProperty(int,java.lang.Object)
+org.ksoap2.serialization.KvmSerializable: void getPropertyInfo(int,java.util.Hashtable,org.ksoap2.serialization.PropertyInfo)
+org.ksoap2.serialization.Marshal
+org.ksoap2.serialization.Marshal: java.lang.Object readInstance(org.xmlpull.v1.XmlPullParser,java.lang.String,java.lang.String,org.ksoap2.serialization.PropertyInfo)
+org.ksoap2.serialization.Marshal: void writeInstance(org.xmlpull.v1.XmlSerializer,java.lang.Object)
+org.ksoap2.serialization.Marshal: void register(org.ksoap2.serialization.SoapSerializationEnvelope)
+org.ksoap2.serialization.MarshalBase64
+org.ksoap2.serialization.MarshalBase64: java.lang.Class BYTE_ARRAY_CLASS
+org.ksoap2.serialization.MarshalBase64: MarshalBase64()
+org.ksoap2.serialization.MarshalBase64: java.lang.Object readInstance(org.xmlpull.v1.XmlPullParser,java.lang.String,java.lang.String,org.ksoap2.serialization.PropertyInfo)
+org.ksoap2.serialization.MarshalBase64: void writeInstance(org.xmlpull.v1.XmlSerializer,java.lang.Object)
+org.ksoap2.serialization.MarshalBase64: void register(org.ksoap2.serialization.SoapSerializationEnvelope)
+org.ksoap2.serialization.MarshalBase64: void <clinit>()
+org.ksoap2.serialization.MarshalDate
+org.ksoap2.serialization.MarshalDate: java.lang.Class DATE_CLASS
+org.ksoap2.serialization.MarshalDate: MarshalDate()
+org.ksoap2.serialization.MarshalDate: java.lang.Object readInstance(org.xmlpull.v1.XmlPullParser,java.lang.String,java.lang.String,org.ksoap2.serialization.PropertyInfo)
+org.ksoap2.serialization.MarshalDate: void writeInstance(org.xmlpull.v1.XmlSerializer,java.lang.Object)
+org.ksoap2.serialization.MarshalDate: void register(org.ksoap2.serialization.SoapSerializationEnvelope)
+org.ksoap2.serialization.MarshalDate: void <clinit>()
+org.ksoap2.serialization.MarshalFloat
+org.ksoap2.serialization.MarshalFloat: java.lang.Class class$java$lang$Float
+org.ksoap2.serialization.MarshalFloat: java.lang.Class class$java$lang$Double
+org.ksoap2.serialization.MarshalFloat: java.lang.Class class$java$math$BigDecimal
+org.ksoap2.serialization.MarshalFloat: MarshalFloat()
+org.ksoap2.serialization.MarshalFloat: java.lang.Object readInstance(org.xmlpull.v1.XmlPullParser,java.lang.String,java.lang.String,org.ksoap2.serialization.PropertyInfo)
+org.ksoap2.serialization.MarshalFloat: void writeInstance(org.xmlpull.v1.XmlSerializer,java.lang.Object)
+org.ksoap2.serialization.MarshalFloat: void register(org.ksoap2.serialization.SoapSerializationEnvelope)
+org.ksoap2.serialization.MarshalFloat: java.lang.Class class$(java.lang.String)
+org.ksoap2.serialization.MarshalHashtable
+org.ksoap2.serialization.MarshalHashtable: java.lang.String NAMESPACE
+org.ksoap2.serialization.MarshalHashtable: java.lang.String NAME
+org.ksoap2.serialization.MarshalHashtable: java.lang.Class HASHTABLE_CLASS
+org.ksoap2.serialization.MarshalHashtable: org.ksoap2.serialization.SoapSerializationEnvelope envelope
+org.ksoap2.serialization.MarshalHashtable: MarshalHashtable()
+org.ksoap2.serialization.MarshalHashtable: java.lang.Object readInstance(org.xmlpull.v1.XmlPullParser,java.lang.String,java.lang.String,org.ksoap2.serialization.PropertyInfo)
+org.ksoap2.serialization.MarshalHashtable: void writeInstance(org.xmlpull.v1.XmlSerializer,java.lang.Object)
+org.ksoap2.serialization.MarshalHashtable: void register(org.ksoap2.serialization.SoapSerializationEnvelope)
+org.ksoap2.serialization.MarshalHashtable: void <clinit>()
+org.ksoap2.serialization.MarshalHashtable$ItemSoapObject
+org.ksoap2.serialization.MarshalHashtable$ItemSoapObject: java.util.Hashtable h
+org.ksoap2.serialization.MarshalHashtable$ItemSoapObject: int resolvedIndex
+org.ksoap2.serialization.MarshalHashtable$ItemSoapObject: org.ksoap2.serialization.MarshalHashtable this$0
+org.ksoap2.serialization.MarshalHashtable$ItemSoapObject: MarshalHashtable$ItemSoapObject(org.ksoap2.serialization.MarshalHashtable,java.util.Hashtable)
+org.ksoap2.serialization.MarshalHashtable$ItemSoapObject: void setProperty(int,java.lang.Object)
+org.ksoap2.serialization.NullSoapObject
+org.ksoap2.serialization.NullSoapObject: NullSoapObject()
+org.ksoap2.serialization.NullSoapObject: java.lang.String toString()
+org.ksoap2.serialization.PropertyInfo
+org.ksoap2.serialization.PropertyInfo: java.lang.Class OBJECT_CLASS
+org.ksoap2.serialization.PropertyInfo: java.lang.Class STRING_CLASS
+org.ksoap2.serialization.PropertyInfo: java.lang.Class INTEGER_CLASS
+org.ksoap2.serialization.PropertyInfo: java.lang.Class LONG_CLASS
+org.ksoap2.serialization.PropertyInfo: java.lang.Class BOOLEAN_CLASS
+org.ksoap2.serialization.PropertyInfo: java.lang.Class VECTOR_CLASS
+org.ksoap2.serialization.PropertyInfo: org.ksoap2.serialization.PropertyInfo OBJECT_TYPE
+org.ksoap2.serialization.PropertyInfo: int TRANSIENT
+org.ksoap2.serialization.PropertyInfo: int MULTI_REF
+org.ksoap2.serialization.PropertyInfo: int REF_ONLY
+org.ksoap2.serialization.PropertyInfo: java.lang.String name
+org.ksoap2.serialization.PropertyInfo: java.lang.String namespace
+org.ksoap2.serialization.PropertyInfo: int flags
+org.ksoap2.serialization.PropertyInfo: java.lang.Object value
+org.ksoap2.serialization.PropertyInfo: java.lang.Object type
+org.ksoap2.serialization.PropertyInfo: boolean multiRef
+org.ksoap2.serialization.PropertyInfo: org.ksoap2.serialization.PropertyInfo elementType
+org.ksoap2.serialization.PropertyInfo: PropertyInfo()
+org.ksoap2.serialization.PropertyInfo: void clear()
+org.ksoap2.serialization.PropertyInfo: org.ksoap2.serialization.PropertyInfo getElementType()
+org.ksoap2.serialization.PropertyInfo: void setElementType(org.ksoap2.serialization.PropertyInfo)
+org.ksoap2.serialization.PropertyInfo: int getFlags()
+org.ksoap2.serialization.PropertyInfo: void setFlags(int)
+org.ksoap2.serialization.PropertyInfo: boolean isMultiRef()
+org.ksoap2.serialization.PropertyInfo: void setMultiRef(boolean)
+org.ksoap2.serialization.PropertyInfo: java.lang.String getName()
+org.ksoap2.serialization.PropertyInfo: void setName(java.lang.String)
+org.ksoap2.serialization.PropertyInfo: java.lang.String getNamespace()
+org.ksoap2.serialization.PropertyInfo: void setNamespace(java.lang.String)
+org.ksoap2.serialization.PropertyInfo: java.lang.Object getType()
+org.ksoap2.serialization.PropertyInfo: void setType(java.lang.Object)
+org.ksoap2.serialization.PropertyInfo: java.lang.Object getValue()
+org.ksoap2.serialization.PropertyInfo: void setValue(java.lang.Object)
+org.ksoap2.serialization.PropertyInfo: java.lang.String toString()
+org.ksoap2.serialization.PropertyInfo: java.lang.Object clone()
+org.ksoap2.serialization.PropertyInfo: void <clinit>()
+org.ksoap2.serialization.SoapObject
+org.ksoap2.serialization.SoapObject: java.lang.String EMPTY_STRING
+org.ksoap2.serialization.SoapObject: java.lang.String namespace
+org.ksoap2.serialization.SoapObject: java.lang.String name
+org.ksoap2.serialization.SoapObject: java.util.Vector properties
+org.ksoap2.serialization.SoapObject: java.lang.Class class$org$ksoap2$serialization$SoapObject
+org.ksoap2.serialization.SoapObject: java.lang.Class class$java$lang$String
+org.ksoap2.serialization.SoapObject: SoapObject()
+org.ksoap2.serialization.SoapObject: SoapObject(java.lang.String,java.lang.String)
+org.ksoap2.serialization.SoapObject: boolean equals(java.lang.Object)
+org.ksoap2.serialization.SoapObject: boolean isPropertyEqual(java.lang.Object,int)
+org.ksoap2.serialization.SoapObject: java.lang.String getName()
+org.ksoap2.serialization.SoapObject: java.lang.String getNamespace()
+org.ksoap2.serialization.SoapObject: java.lang.Object getProperty(int)
+org.ksoap2.serialization.SoapObject: java.lang.String getPropertyAsString(int)
+org.ksoap2.serialization.SoapObject: java.lang.Object getProperty(java.lang.String)
+org.ksoap2.serialization.SoapObject: java.lang.String getPropertyAsString(java.lang.String)
+org.ksoap2.serialization.SoapObject: boolean hasProperty(java.lang.String)
+org.ksoap2.serialization.SoapObject: java.lang.Object getPropertySafely(java.lang.String)
+org.ksoap2.serialization.SoapObject: java.lang.String getPropertySafelyAsString(java.lang.String)
+org.ksoap2.serialization.SoapObject: java.lang.Object getPropertySafely(java.lang.String,java.lang.Object)
+org.ksoap2.serialization.SoapObject: java.lang.String getPropertySafelyAsString(java.lang.String,java.lang.Object)
+org.ksoap2.serialization.SoapObject: java.lang.Object getPrimitiveProperty(java.lang.String)
+org.ksoap2.serialization.SoapObject: java.lang.String getPrimitivePropertyAsString(java.lang.String)
+org.ksoap2.serialization.SoapObject: java.lang.Object getPrimitivePropertySafely(java.lang.String)
+org.ksoap2.serialization.SoapObject: java.lang.String getPrimitivePropertySafelyAsString(java.lang.String)
+org.ksoap2.serialization.SoapObject: java.lang.Integer propertyIndex(java.lang.String)
+org.ksoap2.serialization.SoapObject: int getPropertyCount()
+org.ksoap2.serialization.SoapObject: void getPropertyInfo(int,java.util.Hashtable,org.ksoap2.serialization.PropertyInfo)
+org.ksoap2.serialization.SoapObject: void getPropertyInfo(int,org.ksoap2.serialization.PropertyInfo)
+org.ksoap2.serialization.SoapObject: org.ksoap2.serialization.SoapObject newInstance()
+org.ksoap2.serialization.SoapObject: void setProperty(int,java.lang.Object)
+org.ksoap2.serialization.SoapObject: org.ksoap2.serialization.SoapObject addProperty(java.lang.String,java.lang.Object)
+org.ksoap2.serialization.SoapObject: org.ksoap2.serialization.SoapObject addPropertyIfValue(java.lang.String,java.lang.Object)
+org.ksoap2.serialization.SoapObject: org.ksoap2.serialization.SoapObject addPropertyIfValue(org.ksoap2.serialization.PropertyInfo,java.lang.Object)
+org.ksoap2.serialization.SoapObject: org.ksoap2.serialization.SoapObject addProperty(org.ksoap2.serialization.PropertyInfo)
+org.ksoap2.serialization.SoapObject: org.ksoap2.serialization.SoapObject addPropertyIfValue(org.ksoap2.serialization.PropertyInfo)
+org.ksoap2.serialization.SoapObject: org.ksoap2.serialization.SoapObject addSoapObject(org.ksoap2.serialization.SoapObject)
+org.ksoap2.serialization.SoapObject: java.lang.String toString()
+org.ksoap2.serialization.SoapObject: java.lang.Class class$(java.lang.String)
+org.ksoap2.serialization.SoapPrimitive
+org.ksoap2.serialization.SoapPrimitive: java.lang.String namespace
+org.ksoap2.serialization.SoapPrimitive: java.lang.String name
+org.ksoap2.serialization.SoapPrimitive: java.lang.String value
+org.ksoap2.serialization.SoapPrimitive: SoapPrimitive(java.lang.String,java.lang.String,java.lang.String)
+org.ksoap2.serialization.SoapPrimitive: boolean equals(java.lang.Object)
+org.ksoap2.serialization.SoapPrimitive: int hashCode()
+org.ksoap2.serialization.SoapPrimitive: java.lang.String toString()
+org.ksoap2.serialization.SoapPrimitive: java.lang.String getNamespace()
+org.ksoap2.serialization.SoapPrimitive: java.lang.String getName()
+org.ksoap2.serialization.SoapSerializationEnvelope
+org.ksoap2.serialization.SoapSerializationEnvelope: int QNAME_TYPE
+org.ksoap2.serialization.SoapSerializationEnvelope: int QNAME_NAMESPACE
+org.ksoap2.serialization.SoapSerializationEnvelope: int QNAME_MARSHAL
+org.ksoap2.serialization.SoapSerializationEnvelope: java.lang.String ANY_TYPE_LABEL
+org.ksoap2.serialization.SoapSerializationEnvelope: java.lang.String ARRAY_MAPPING_NAME
+org.ksoap2.serialization.SoapSerializationEnvelope: java.lang.String NULL_LABEL
+org.ksoap2.serialization.SoapSerializationEnvelope: java.lang.String NIL_LABEL
+org.ksoap2.serialization.SoapSerializationEnvelope: java.lang.String HREF_LABEL
+org.ksoap2.serialization.SoapSerializationEnvelope: java.lang.String ID_LABEL
+org.ksoap2.serialization.SoapSerializationEnvelope: java.lang.String ROOT_LABEL
+org.ksoap2.serialization.SoapSerializationEnvelope: java.lang.String TYPE_LABEL
+org.ksoap2.serialization.SoapSerializationEnvelope: java.lang.String ITEM_LABEL
+org.ksoap2.serialization.SoapSerializationEnvelope: java.lang.String ARRAY_TYPE_LABEL
+org.ksoap2.serialization.SoapSerializationEnvelope: org.ksoap2.serialization.Marshal DEFAULT_MARSHAL
+org.ksoap2.serialization.SoapSerializationEnvelope: java.util.Hashtable properties
+org.ksoap2.serialization.SoapSerializationEnvelope: java.util.Hashtable idMap
+org.ksoap2.serialization.SoapSerializationEnvelope: java.util.Vector multiRef
+org.ksoap2.serialization.SoapSerializationEnvelope: boolean implicitTypes
+org.ksoap2.serialization.SoapSerializationEnvelope: boolean dotNet
+org.ksoap2.serialization.SoapSerializationEnvelope: boolean avoidExceptionForUnknownProperty
+org.ksoap2.serialization.SoapSerializationEnvelope: java.util.Hashtable qNameToClass
+org.ksoap2.serialization.SoapSerializationEnvelope: java.util.Hashtable classToQName
+org.ksoap2.serialization.SoapSerializationEnvelope: boolean addAdornments
+org.ksoap2.serialization.SoapSerializationEnvelope: java.lang.Class class$org$ksoap2$serialization$SoapObject
+org.ksoap2.serialization.SoapSerializationEnvelope: SoapSerializationEnvelope(int)
+org.ksoap2.serialization.SoapSerializationEnvelope: boolean isAddAdornments()
+org.ksoap2.serialization.SoapSerializationEnvelope: void setAddAdornments(boolean)
+org.ksoap2.serialization.SoapSerializationEnvelope: void setBodyOutEmpty(boolean)
+org.ksoap2.serialization.SoapSerializationEnvelope: void parseBody(org.xmlpull.v1.XmlPullParser)
+org.ksoap2.serialization.SoapSerializationEnvelope: void readSerializable(org.xmlpull.v1.XmlPullParser,org.ksoap2.serialization.SoapObject)
+org.ksoap2.serialization.SoapSerializationEnvelope: void readSerializable(org.xmlpull.v1.XmlPullParser,org.ksoap2.serialization.KvmSerializable)
+org.ksoap2.serialization.SoapSerializationEnvelope: java.lang.Object readUnknown(org.xmlpull.v1.XmlPullParser,java.lang.String,java.lang.String)
+org.ksoap2.serialization.SoapSerializationEnvelope: int getIndex(java.lang.String,int,int)
+org.ksoap2.serialization.SoapSerializationEnvelope: void readVector(org.xmlpull.v1.XmlPullParser,java.util.Vector,org.ksoap2.serialization.PropertyInfo)
+org.ksoap2.serialization.SoapSerializationEnvelope: java.lang.Object read(org.xmlpull.v1.XmlPullParser,java.lang.Object,int,java.lang.String,java.lang.String,org.ksoap2.serialization.PropertyInfo)
+org.ksoap2.serialization.SoapSerializationEnvelope: java.lang.Object readInstance(org.xmlpull.v1.XmlPullParser,java.lang.String,java.lang.String,org.ksoap2.serialization.PropertyInfo)
+org.ksoap2.serialization.SoapSerializationEnvelope: java.lang.Object[] getInfo(java.lang.Object,java.lang.Object)
+org.ksoap2.serialization.SoapSerializationEnvelope: void addMapping(java.lang.String,java.lang.String,java.lang.Class,org.ksoap2.serialization.Marshal)
+org.ksoap2.serialization.SoapSerializationEnvelope: void addMapping(java.lang.String,java.lang.String,java.lang.Class)
+org.ksoap2.serialization.SoapSerializationEnvelope: void addTemplate(org.ksoap2.serialization.SoapObject)
+org.ksoap2.serialization.SoapSerializationEnvelope: java.lang.Object getResponse()
+org.ksoap2.serialization.SoapSerializationEnvelope: void writeBody(org.xmlpull.v1.XmlSerializer)
+org.ksoap2.serialization.SoapSerializationEnvelope: void writeObjectBody(org.xmlpull.v1.XmlSerializer,org.ksoap2.serialization.SoapObject)
+org.ksoap2.serialization.SoapSerializationEnvelope: void writeObjectBody(org.xmlpull.v1.XmlSerializer,org.ksoap2.serialization.KvmSerializable)
+org.ksoap2.serialization.SoapSerializationEnvelope: void writeProperty(org.xmlpull.v1.XmlSerializer,java.lang.Object,org.ksoap2.serialization.PropertyInfo)
+org.ksoap2.serialization.SoapSerializationEnvelope: void writeElement(org.xmlpull.v1.XmlSerializer,java.lang.Object,org.ksoap2.serialization.PropertyInfo,java.lang.Object)
+org.ksoap2.serialization.SoapSerializationEnvelope: void writeVectorBody(org.xmlpull.v1.XmlSerializer,java.util.Vector,org.ksoap2.serialization.PropertyInfo)
+org.ksoap2.serialization.SoapSerializationEnvelope: java.lang.Class class$(java.lang.String)
+org.ksoap2.serialization.SoapSerializationEnvelope: void <clinit>()
+org.ksoap2.transport.HttpTransportSE
+org.ksoap2.transport.HttpTransportSE: HttpTransportSE(java.lang.String)
+org.ksoap2.transport.HttpTransportSE: HttpTransportSE(java.net.Proxy,java.lang.String)
+org.ksoap2.transport.HttpTransportSE: HttpTransportSE(java.lang.String,int)
+org.ksoap2.transport.HttpTransportSE: HttpTransportSE(java.net.Proxy,java.lang.String,int)
+org.ksoap2.transport.HttpTransportSE: HttpTransportSE(java.lang.String,int,int)
+org.ksoap2.transport.HttpTransportSE: HttpTransportSE(java.net.Proxy,java.lang.String,int,int)
+org.ksoap2.transport.HttpTransportSE: void call(java.lang.String,org.ksoap2.SoapEnvelope)
+org.ksoap2.transport.HttpTransportSE: java.util.List call(java.lang.String,org.ksoap2.SoapEnvelope,java.util.List)
+org.ksoap2.transport.HttpTransportSE: java.util.List call(java.lang.String,org.ksoap2.SoapEnvelope,java.util.List,java.io.File)
+org.ksoap2.transport.HttpTransportSE: java.io.InputStream readDebug(java.io.InputStream,int,java.io.File)
+org.ksoap2.transport.HttpTransportSE: java.io.InputStream getUnZippedInputStream(java.io.InputStream)
+org.ksoap2.transport.HttpTransportSE: org.ksoap2.transport.ServiceConnection getServiceConnection()
+org.ksoap2.transport.HttpsServiceConnectionSE
+org.ksoap2.transport.HttpsServiceConnectionSE: javax.net.ssl.HttpsURLConnection connection
+org.ksoap2.transport.HttpsServiceConnectionSE: HttpsServiceConnectionSE(java.lang.String,int,java.lang.String,int)
+org.ksoap2.transport.HttpsServiceConnectionSE: HttpsServiceConnectionSE(java.net.Proxy,java.lang.String,int,java.lang.String,int)
+org.ksoap2.transport.HttpsServiceConnectionSE: void updateConnectionParameters(int)
+org.ksoap2.transport.HttpsServiceConnectionSE: void connect()
+org.ksoap2.transport.HttpsServiceConnectionSE: void disconnect()
+org.ksoap2.transport.HttpsServiceConnectionSE: java.util.List getResponseProperties()
+org.ksoap2.transport.HttpsServiceConnectionSE: int getResponseCode()
+org.ksoap2.transport.HttpsServiceConnectionSE: void setRequestProperty(java.lang.String,java.lang.String)
+org.ksoap2.transport.HttpsServiceConnectionSE: void setRequestMethod(java.lang.String)
+org.ksoap2.transport.HttpsServiceConnectionSE: void setFixedLengthStreamingMode(int)
+org.ksoap2.transport.HttpsServiceConnectionSE: java.io.OutputStream openOutputStream()
+org.ksoap2.transport.HttpsServiceConnectionSE: java.io.InputStream openInputStream()
+org.ksoap2.transport.HttpsServiceConnectionSE: java.io.InputStream getErrorStream()
+org.ksoap2.transport.HttpsServiceConnectionSE: java.lang.String getHost()
+org.ksoap2.transport.HttpsServiceConnectionSE: int getPort()
+org.ksoap2.transport.HttpsServiceConnectionSE: java.lang.String getPath()
+org.ksoap2.transport.HttpsServiceConnectionSE: void setSSLSocketFactory(javax.net.ssl.SSLSocketFactory)
+org.ksoap2.transport.HttpsServiceConnectionSEIgnoringConnectionClose
+org.ksoap2.transport.HttpsServiceConnectionSEIgnoringConnectionClose: HttpsServiceConnectionSEIgnoringConnectionClose(java.lang.String,int,java.lang.String,int)
+org.ksoap2.transport.HttpsServiceConnectionSEIgnoringConnectionClose: void setRequestProperty(java.lang.String,java.lang.String)
+org.ksoap2.transport.HttpsTransportSE
+org.ksoap2.transport.HttpsTransportSE: java.lang.String PROTOCOL
+org.ksoap2.transport.HttpsTransportSE: java.lang.String PROTOCOL_FULL
+org.ksoap2.transport.HttpsTransportSE: java.lang.String host
+org.ksoap2.transport.HttpsTransportSE: int port
+org.ksoap2.transport.HttpsTransportSE: java.lang.String file
+org.ksoap2.transport.HttpsTransportSE: HttpsTransportSE(java.lang.String,int,java.lang.String,int)
+org.ksoap2.transport.HttpsTransportSE: HttpsTransportSE(java.net.Proxy,java.lang.String,int,java.lang.String,int)
+org.ksoap2.transport.HttpsTransportSE: org.ksoap2.transport.ServiceConnection getServiceConnection()
+org.ksoap2.transport.KeepAliveHttpTransportSE
+org.ksoap2.transport.KeepAliveHttpTransportSE: KeepAliveHttpTransportSE(java.lang.String)
+org.ksoap2.transport.KeepAliveHttpTransportSE: KeepAliveHttpTransportSE(java.net.Proxy,java.lang.String)
+org.ksoap2.transport.KeepAliveHttpTransportSE: KeepAliveHttpTransportSE(java.lang.String,int)
+org.ksoap2.transport.KeepAliveHttpTransportSE: KeepAliveHttpTransportSE(java.net.Proxy,java.lang.String,int)
+org.ksoap2.transport.KeepAliveHttpTransportSE: KeepAliveHttpTransportSE(java.lang.String,int,int)
+org.ksoap2.transport.KeepAliveHttpTransportSE: KeepAliveHttpTransportSE(java.net.Proxy,java.lang.String,int,int)
+org.ksoap2.transport.KeepAliveHttpTransportSE: java.util.List call(java.lang.String,org.ksoap2.SoapEnvelope,java.util.List)
+org.ksoap2.transport.KeepAliveHttpTransportSE: org.ksoap2.HeaderProperty getHeader(java.util.List,java.lang.String)
+org.ksoap2.transport.KeepAliveHttpsTransportSE
+org.ksoap2.transport.KeepAliveHttpsTransportSE: KeepAliveHttpsTransportSE(java.lang.String,int,java.lang.String,int)
+org.ksoap2.transport.KeepAliveHttpsTransportSE: org.ksoap2.transport.ServiceConnection getServiceConnection()
+org.ksoap2.transport.ServiceConnection
+org.ksoap2.transport.ServiceConnection: int DEFAULT_TIMEOUT
+org.ksoap2.transport.ServiceConnection: int DEFAULT_BUFFER_SIZE
+org.ksoap2.transport.ServiceConnection: void connect()
+org.ksoap2.transport.ServiceConnection: void disconnect()
+org.ksoap2.transport.ServiceConnection: java.util.List getResponseProperties()
+org.ksoap2.transport.ServiceConnection: int getResponseCode()
+org.ksoap2.transport.ServiceConnection: void setRequestProperty(java.lang.String,java.lang.String)
+org.ksoap2.transport.ServiceConnection: void setRequestMethod(java.lang.String)
+org.ksoap2.transport.ServiceConnection: void setFixedLengthStreamingMode(int)
+org.ksoap2.transport.ServiceConnection: java.io.OutputStream openOutputStream()
+org.ksoap2.transport.ServiceConnection: java.io.InputStream openInputStream()
+org.ksoap2.transport.ServiceConnection: java.io.InputStream getErrorStream()
+org.ksoap2.transport.ServiceConnection: java.lang.String getHost()
+org.ksoap2.transport.ServiceConnection: int getPort()
+org.ksoap2.transport.ServiceConnection: java.lang.String getPath()
+org.ksoap2.transport.ServiceConnectionSE
+org.ksoap2.transport.ServiceConnectionSE: java.net.HttpURLConnection connection
+org.ksoap2.transport.ServiceConnectionSE: ServiceConnectionSE(java.lang.String)
+org.ksoap2.transport.ServiceConnectionSE: ServiceConnectionSE(java.net.Proxy,java.lang.String)
+org.ksoap2.transport.ServiceConnectionSE: ServiceConnectionSE(java.lang.String,int)
+org.ksoap2.transport.ServiceConnectionSE: ServiceConnectionSE(java.net.Proxy,java.lang.String,int)
+org.ksoap2.transport.ServiceConnectionSE: void connect()
+org.ksoap2.transport.ServiceConnectionSE: void disconnect()
+org.ksoap2.transport.ServiceConnectionSE: java.util.List getResponseProperties()
+org.ksoap2.transport.ServiceConnectionSE: int getResponseCode()
+org.ksoap2.transport.ServiceConnectionSE: void setRequestProperty(java.lang.String,java.lang.String)
+org.ksoap2.transport.ServiceConnectionSE: void setRequestMethod(java.lang.String)
+org.ksoap2.transport.ServiceConnectionSE: void setFixedLengthStreamingMode(int)
+org.ksoap2.transport.ServiceConnectionSE: java.io.OutputStream openOutputStream()
+org.ksoap2.transport.ServiceConnectionSE: java.io.InputStream openInputStream()
+org.ksoap2.transport.ServiceConnectionSE: java.io.InputStream getErrorStream()
+org.ksoap2.transport.ServiceConnectionSE: java.lang.String getHost()
+org.ksoap2.transport.ServiceConnectionSE: int getPort()
+org.ksoap2.transport.ServiceConnectionSE: java.lang.String getPath()
+org.ksoap2.transport.Transport
+org.ksoap2.transport.Transport: java.net.Proxy proxy
+org.ksoap2.transport.Transport: java.lang.String url
+org.ksoap2.transport.Transport: int timeout
+org.ksoap2.transport.Transport: boolean debug
+org.ksoap2.transport.Transport: java.lang.String requestDump
+org.ksoap2.transport.Transport: java.lang.String responseDump
+org.ksoap2.transport.Transport: java.lang.String xmlVersionTag
+org.ksoap2.transport.Transport: java.lang.String CONTENT_TYPE_XML_CHARSET_UTF_8
+org.ksoap2.transport.Transport: java.lang.String CONTENT_TYPE_SOAP_XML_CHARSET_UTF_8
+org.ksoap2.transport.Transport: java.lang.String USER_AGENT
+org.ksoap2.transport.Transport: int bufferLength
+org.ksoap2.transport.Transport: Transport()
+org.ksoap2.transport.Transport: Transport(java.lang.String)
+org.ksoap2.transport.Transport: Transport(java.lang.String,int)
+org.ksoap2.transport.Transport: Transport(java.lang.String,int,int)
+org.ksoap2.transport.Transport: Transport(java.net.Proxy,java.lang.String)
+org.ksoap2.transport.Transport: Transport(java.net.Proxy,java.lang.String,int)
+org.ksoap2.transport.Transport: Transport(java.net.Proxy,java.lang.String,int,int)
+org.ksoap2.transport.Transport: void parseResponse(org.ksoap2.SoapEnvelope,java.io.InputStream)
+org.ksoap2.transport.Transport: byte[] createRequestData(org.ksoap2.SoapEnvelope,java.lang.String)
+org.ksoap2.transport.Transport: byte[] createRequestData(org.ksoap2.SoapEnvelope)
+org.ksoap2.transport.Transport: void setUrl(java.lang.String)
+org.ksoap2.transport.Transport: void setXmlVersionTag(java.lang.String)
+org.ksoap2.transport.Transport: void reset()
+org.ksoap2.transport.Transport: java.util.List call(java.lang.String,org.ksoap2.SoapEnvelope,java.util.List)
+org.ksoap2.transport.Transport: java.util.List call(java.lang.String,org.ksoap2.SoapEnvelope,java.util.List,java.io.File)
+org.ksoap2.transport.Transport: void call(java.lang.String,org.ksoap2.SoapEnvelope)
+org.ksoap2.transport.Transport: java.lang.String getHost()
+org.ksoap2.transport.Transport: int getPort()
+org.ksoap2.transport.Transport: java.lang.String getPath()
+org.ksoap2.transport.Transport: org.ksoap2.transport.ServiceConnection getServiceConnection()
+org.kxml2.io.KXmlParser
+org.kxml2.io.KXmlParser: java.lang.Object location
+org.kxml2.io.KXmlParser: java.lang.String UNEXPECTED_EOF
+org.kxml2.io.KXmlParser: java.lang.String ILLEGAL_TYPE
+org.kxml2.io.KXmlParser: int LEGACY
+org.kxml2.io.KXmlParser: int XML_DECL
+org.kxml2.io.KXmlParser: java.lang.String version
+org.kxml2.io.KXmlParser: java.lang.Boolean standalone
+org.kxml2.io.KXmlParser: boolean processNsp
+org.kxml2.io.KXmlParser: boolean relaxed
+org.kxml2.io.KXmlParser: java.util.Hashtable entityMap
+org.kxml2.io.KXmlParser: int depth
+org.kxml2.io.KXmlParser: java.lang.String[] elementStack
+org.kxml2.io.KXmlParser: java.lang.String[] nspStack
+org.kxml2.io.KXmlParser: int[] nspCounts
+org.kxml2.io.KXmlParser: java.io.Reader reader
+org.kxml2.io.KXmlParser: java.lang.String encoding
+org.kxml2.io.KXmlParser: char[] srcBuf
+org.kxml2.io.KXmlParser: int srcPos
+org.kxml2.io.KXmlParser: int srcCount
+org.kxml2.io.KXmlParser: int line
+org.kxml2.io.KXmlParser: int column
+org.kxml2.io.KXmlParser: char[] txtBuf
+org.kxml2.io.KXmlParser: int txtPos
+org.kxml2.io.KXmlParser: int type
+org.kxml2.io.KXmlParser: boolean isWhitespace
+org.kxml2.io.KXmlParser: java.lang.String namespace
+org.kxml2.io.KXmlParser: java.lang.String prefix
+org.kxml2.io.KXmlParser: java.lang.String name
+org.kxml2.io.KXmlParser: boolean degenerated
+org.kxml2.io.KXmlParser: int attributeCount
+org.kxml2.io.KXmlParser: java.lang.String[] attributes
+org.kxml2.io.KXmlParser: java.lang.String error
+org.kxml2.io.KXmlParser: int[] peek
+org.kxml2.io.KXmlParser: int peekCount
+org.kxml2.io.KXmlParser: boolean wasCR
+org.kxml2.io.KXmlParser: boolean unresolved
+org.kxml2.io.KXmlParser: boolean token
+org.kxml2.io.KXmlParser: KXmlParser()
+org.kxml2.io.KXmlParser: boolean isProp(java.lang.String,boolean,java.lang.String)
+org.kxml2.io.KXmlParser: boolean adjustNsp()
+org.kxml2.io.KXmlParser: java.lang.String[] ensureCapacity(java.lang.String[],int)
+org.kxml2.io.KXmlParser: void error(java.lang.String)
+org.kxml2.io.KXmlParser: void exception(java.lang.String)
+org.kxml2.io.KXmlParser: void nextImpl()
+org.kxml2.io.KXmlParser: int parseLegacy(boolean)
+org.kxml2.io.KXmlParser: void parseDoctype(boolean)
+org.kxml2.io.KXmlParser: void parseEndTag()
+org.kxml2.io.KXmlParser: int peekType()
+org.kxml2.io.KXmlParser: java.lang.String get(int)
+org.kxml2.io.KXmlParser: void push(int)
+org.kxml2.io.KXmlParser: void parseStartTag(boolean)
+org.kxml2.io.KXmlParser: void pushEntity()
+org.kxml2.io.KXmlParser: void pushText(int,boolean)
+org.kxml2.io.KXmlParser: void read(char)
+org.kxml2.io.KXmlParser: int read()
+org.kxml2.io.KXmlParser: int peek(int)
+org.kxml2.io.KXmlParser: java.lang.String readName()
+org.kxml2.io.KXmlParser: void skip()
+org.kxml2.io.KXmlParser: void setInput(java.io.Reader)
+org.kxml2.io.KXmlParser: void setInput(java.io.InputStream,java.lang.String)
+org.kxml2.io.KXmlParser: boolean getFeature(java.lang.String)
+org.kxml2.io.KXmlParser: java.lang.String getInputEncoding()
+org.kxml2.io.KXmlParser: void defineEntityReplacementText(java.lang.String,java.lang.String)
+org.kxml2.io.KXmlParser: java.lang.Object getProperty(java.lang.String)
+org.kxml2.io.KXmlParser: int getNamespaceCount(int)
+org.kxml2.io.KXmlParser: java.lang.String getNamespacePrefix(int)
+org.kxml2.io.KXmlParser: java.lang.String getNamespaceUri(int)
+org.kxml2.io.KXmlParser: java.lang.String getNamespace(java.lang.String)
+org.kxml2.io.KXmlParser: int getDepth()
+org.kxml2.io.KXmlParser: java.lang.String getPositionDescription()
+org.kxml2.io.KXmlParser: int getLineNumber()
+org.kxml2.io.KXmlParser: int getColumnNumber()
+org.kxml2.io.KXmlParser: boolean isWhitespace()
+org.kxml2.io.KXmlParser: java.lang.String getText()
+org.kxml2.io.KXmlParser: char[] getTextCharacters(int[])
+org.kxml2.io.KXmlParser: java.lang.String getNamespace()
+org.kxml2.io.KXmlParser: java.lang.String getName()
+org.kxml2.io.KXmlParser: java.lang.String getPrefix()
+org.kxml2.io.KXmlParser: boolean isEmptyElementTag()
+org.kxml2.io.KXmlParser: int getAttributeCount()
+org.kxml2.io.KXmlParser: java.lang.String getAttributeType(int)
+org.kxml2.io.KXmlParser: boolean isAttributeDefault(int)
+org.kxml2.io.KXmlParser: java.lang.String getAttributeNamespace(int)
+org.kxml2.io.KXmlParser: java.lang.String getAttributeName(int)
+org.kxml2.io.KXmlParser: java.lang.String getAttributePrefix(int)
+org.kxml2.io.KXmlParser: java.lang.String getAttributeValue(int)
+org.kxml2.io.KXmlParser: java.lang.String getAttributeValue(java.lang.String,java.lang.String)
+org.kxml2.io.KXmlParser: int getEventType()
+org.kxml2.io.KXmlParser: int next()
+org.kxml2.io.KXmlParser: int nextToken()
+org.kxml2.io.KXmlParser: int nextTag()
+org.kxml2.io.KXmlParser: void require(int,java.lang.String,java.lang.String)
+org.kxml2.io.KXmlParser: java.lang.String nextText()
+org.kxml2.io.KXmlParser: void setFeature(java.lang.String,boolean)
+org.kxml2.io.KXmlParser: void setProperty(java.lang.String,java.lang.Object)
+org.kxml2.io.KXmlParser: void skipSubTree()
+org.kxml2.io.KXmlSerializer
+org.kxml2.io.KXmlSerializer: java.io.Writer writer
+org.kxml2.io.KXmlSerializer: boolean pending
+org.kxml2.io.KXmlSerializer: int auto
+org.kxml2.io.KXmlSerializer: int depth
+org.kxml2.io.KXmlSerializer: java.lang.String[] elementStack
+org.kxml2.io.KXmlSerializer: int[] nspCounts
+org.kxml2.io.KXmlSerializer: java.lang.String[] nspStack
+org.kxml2.io.KXmlSerializer: boolean[] indent
+org.kxml2.io.KXmlSerializer: boolean unicode
+org.kxml2.io.KXmlSerializer: java.lang.String encoding
+org.kxml2.io.KXmlSerializer: KXmlSerializer()
+org.kxml2.io.KXmlSerializer: void check(boolean)
+org.kxml2.io.KXmlSerializer: void writeEscaped(java.lang.String,int)
+org.kxml2.io.KXmlSerializer: void docdecl(java.lang.String)
+org.kxml2.io.KXmlSerializer: void endDocument()
+org.kxml2.io.KXmlSerializer: void entityRef(java.lang.String)
+org.kxml2.io.KXmlSerializer: boolean getFeature(java.lang.String)
+org.kxml2.io.KXmlSerializer: java.lang.String getPrefix(java.lang.String,boolean)
+org.kxml2.io.KXmlSerializer: java.lang.String getPrefix(java.lang.String,boolean,boolean)
+org.kxml2.io.KXmlSerializer: java.lang.Object getProperty(java.lang.String)
+org.kxml2.io.KXmlSerializer: void ignorableWhitespace(java.lang.String)
+org.kxml2.io.KXmlSerializer: void setFeature(java.lang.String,boolean)
+org.kxml2.io.KXmlSerializer: void setProperty(java.lang.String,java.lang.Object)
+org.kxml2.io.KXmlSerializer: void setPrefix(java.lang.String,java.lang.String)
+org.kxml2.io.KXmlSerializer: void setOutput(java.io.Writer)
+org.kxml2.io.KXmlSerializer: void setOutput(java.io.OutputStream,java.lang.String)
+org.kxml2.io.KXmlSerializer: void startDocument(java.lang.String,java.lang.Boolean)
+org.kxml2.io.KXmlSerializer: org.xmlpull.v1.XmlSerializer startTag(java.lang.String,java.lang.String)
+org.kxml2.io.KXmlSerializer: org.xmlpull.v1.XmlSerializer attribute(java.lang.String,java.lang.String,java.lang.String)
+org.kxml2.io.KXmlSerializer: void flush()
+org.kxml2.io.KXmlSerializer: org.xmlpull.v1.XmlSerializer endTag(java.lang.String,java.lang.String)
+org.kxml2.io.KXmlSerializer: java.lang.String getNamespace()
+org.kxml2.io.KXmlSerializer: java.lang.String getName()
+org.kxml2.io.KXmlSerializer: int getDepth()
+org.kxml2.io.KXmlSerializer: org.xmlpull.v1.XmlSerializer text(java.lang.String)
+org.kxml2.io.KXmlSerializer: org.xmlpull.v1.XmlSerializer text(char[],int,int)
+org.kxml2.io.KXmlSerializer: void cdsect(java.lang.String)
+org.kxml2.io.KXmlSerializer: void comment(java.lang.String)
+org.kxml2.io.KXmlSerializer: void processingInstruction(java.lang.String)
+org.kxml2.kdom.Document
+org.kxml2.kdom.Document: int rootIndex
+org.kxml2.kdom.Document: java.lang.String encoding
+org.kxml2.kdom.Document: java.lang.Boolean standalone
+org.kxml2.kdom.Document: Document()
+org.kxml2.kdom.Document: java.lang.String getEncoding()
+org.kxml2.kdom.Document: void setEncoding(java.lang.String)
+org.kxml2.kdom.Document: void setStandalone(java.lang.Boolean)
+org.kxml2.kdom.Document: java.lang.Boolean getStandalone()
+org.kxml2.kdom.Document: java.lang.String getName()
+org.kxml2.kdom.Document: void addChild(int,int,java.lang.Object)
+org.kxml2.kdom.Document: void parse(org.xmlpull.v1.XmlPullParser)
+org.kxml2.kdom.Document: void removeChild(int)
+org.kxml2.kdom.Document: org.kxml2.kdom.Element getRootElement()
+org.kxml2.kdom.Document: void write(org.xmlpull.v1.XmlSerializer)
+org.kxml2.kdom.Element
+org.kxml2.kdom.Element: java.lang.String namespace
+org.kxml2.kdom.Element: java.lang.String name
+org.kxml2.kdom.Element: java.util.Vector attributes
+org.kxml2.kdom.Element: org.kxml2.kdom.Node parent
+org.kxml2.kdom.Element: java.util.Vector prefixes
+org.kxml2.kdom.Element: Element()
+org.kxml2.kdom.Element: void init()
+org.kxml2.kdom.Element: void clear()
+org.kxml2.kdom.Element: org.kxml2.kdom.Element createElement(java.lang.String,java.lang.String)
+org.kxml2.kdom.Element: int getAttributeCount()
+org.kxml2.kdom.Element: java.lang.String getAttributeNamespace(int)
+org.kxml2.kdom.Element: java.lang.String getAttributeName(int)
+org.kxml2.kdom.Element: java.lang.String getAttributeValue(int)
+org.kxml2.kdom.Element: java.lang.String getAttributeValue(java.lang.String,java.lang.String)
+org.kxml2.kdom.Element: org.kxml2.kdom.Node getRoot()
+org.kxml2.kdom.Element: java.lang.String getName()
+org.kxml2.kdom.Element: java.lang.String getNamespace()
+org.kxml2.kdom.Element: java.lang.String getNamespaceUri(java.lang.String)
+org.kxml2.kdom.Element: int getNamespaceCount()
+org.kxml2.kdom.Element: java.lang.String getNamespacePrefix(int)
+org.kxml2.kdom.Element: java.lang.String getNamespaceUri(int)
+org.kxml2.kdom.Element: org.kxml2.kdom.Node getParent()
+org.kxml2.kdom.Element: void parse(org.xmlpull.v1.XmlPullParser)
+org.kxml2.kdom.Element: void setAttribute(java.lang.String,java.lang.String,java.lang.String)
+org.kxml2.kdom.Element: void setPrefix(java.lang.String,java.lang.String)
+org.kxml2.kdom.Element: void setName(java.lang.String)
+org.kxml2.kdom.Element: void setNamespace(java.lang.String)
+org.kxml2.kdom.Element: void setParent(org.kxml2.kdom.Node)
+org.kxml2.kdom.Element: void write(org.xmlpull.v1.XmlSerializer)
+org.kxml2.kdom.Node
+org.kxml2.kdom.Node: int DOCUMENT
+org.kxml2.kdom.Node: int ELEMENT
+org.kxml2.kdom.Node: int TEXT
+org.kxml2.kdom.Node: int CDSECT
+org.kxml2.kdom.Node: int ENTITY_REF
+org.kxml2.kdom.Node: int IGNORABLE_WHITESPACE
+org.kxml2.kdom.Node: int PROCESSING_INSTRUCTION
+org.kxml2.kdom.Node: int COMMENT
+org.kxml2.kdom.Node: int DOCDECL
+org.kxml2.kdom.Node: java.util.Vector children
+org.kxml2.kdom.Node: java.lang.StringBuffer types
+org.kxml2.kdom.Node: Node()
+org.kxml2.kdom.Node: void addChild(int,int,java.lang.Object)
+org.kxml2.kdom.Node: void addChild(int,java.lang.Object)
+org.kxml2.kdom.Node: org.kxml2.kdom.Element createElement(java.lang.String,java.lang.String)
+org.kxml2.kdom.Node: java.lang.Object getChild(int)
+org.kxml2.kdom.Node: int getChildCount()
+org.kxml2.kdom.Node: org.kxml2.kdom.Element getElement(int)
+org.kxml2.kdom.Node: org.kxml2.kdom.Element getElement(java.lang.String,java.lang.String)
+org.kxml2.kdom.Node: java.lang.String getText(int)
+org.kxml2.kdom.Node: int getType(int)
+org.kxml2.kdom.Node: int indexOf(java.lang.String,java.lang.String,int)
+org.kxml2.kdom.Node: boolean isText(int)
+org.kxml2.kdom.Node: void parse(org.xmlpull.v1.XmlPullParser)
+org.kxml2.kdom.Node: void removeChild(int)
+org.kxml2.kdom.Node: void write(org.xmlpull.v1.XmlSerializer)
+org.kxml2.kdom.Node: void writeChildren(org.xmlpull.v1.XmlSerializer)
+org.kxml2.wap.Wbxml
+org.kxml2.wap.Wbxml: int SWITCH_PAGE
+org.kxml2.wap.Wbxml: int END
+org.kxml2.wap.Wbxml: int ENTITY
+org.kxml2.wap.Wbxml: int STR_I
+org.kxml2.wap.Wbxml: int LITERAL
+org.kxml2.wap.Wbxml: int EXT_I_0
+org.kxml2.wap.Wbxml: int EXT_I_1
+org.kxml2.wap.Wbxml: int EXT_I_2
+org.kxml2.wap.Wbxml: int PI
+org.kxml2.wap.Wbxml: int LITERAL_C
+org.kxml2.wap.Wbxml: int EXT_T_0
+org.kxml2.wap.Wbxml: int EXT_T_1
+org.kxml2.wap.Wbxml: int EXT_T_2
+org.kxml2.wap.Wbxml: int STR_T
+org.kxml2.wap.Wbxml: int LITERAL_A
+org.kxml2.wap.Wbxml: int EXT_0
+org.kxml2.wap.Wbxml: int EXT_1
+org.kxml2.wap.Wbxml: int EXT_2
+org.kxml2.wap.Wbxml: int OPAQUE
+org.kxml2.wap.Wbxml: int LITERAL_AC
+org.kxml2.wap.WbxmlParser
+org.kxml2.wap.WbxmlParser: java.lang.String HEX_DIGITS
+org.kxml2.wap.WbxmlParser: int WAP_EXTENSION
+org.kxml2.wap.WbxmlParser: java.lang.String UNEXPECTED_EOF
+org.kxml2.wap.WbxmlParser: java.lang.String ILLEGAL_TYPE
+org.kxml2.wap.WbxmlParser: java.io.InputStream in
+org.kxml2.wap.WbxmlParser: int TAG_TABLE
+org.kxml2.wap.WbxmlParser: int ATTR_START_TABLE
+org.kxml2.wap.WbxmlParser: int ATTR_VALUE_TABLE
+org.kxml2.wap.WbxmlParser: java.lang.String[] attrStartTable
+org.kxml2.wap.WbxmlParser: java.lang.String[] attrValueTable
+org.kxml2.wap.WbxmlParser: java.lang.String[] tagTable
+org.kxml2.wap.WbxmlParser: byte[] stringTable
+org.kxml2.wap.WbxmlParser: java.util.Hashtable cacheStringTable
+org.kxml2.wap.WbxmlParser: boolean processNsp
+org.kxml2.wap.WbxmlParser: int depth
+org.kxml2.wap.WbxmlParser: java.lang.String[] elementStack
+org.kxml2.wap.WbxmlParser: java.lang.String[] nspStack
+org.kxml2.wap.WbxmlParser: int[] nspCounts
+org.kxml2.wap.WbxmlParser: int attributeCount
+org.kxml2.wap.WbxmlParser: java.lang.String[] attributes
+org.kxml2.wap.WbxmlParser: int nextId
+org.kxml2.wap.WbxmlParser: java.util.Vector tables
+org.kxml2.wap.WbxmlParser: int version
+org.kxml2.wap.WbxmlParser: int publicIdentifierId
+org.kxml2.wap.WbxmlParser: java.lang.String prefix
+org.kxml2.wap.WbxmlParser: java.lang.String namespace
+org.kxml2.wap.WbxmlParser: java.lang.String name
+org.kxml2.wap.WbxmlParser: java.lang.String text
+org.kxml2.wap.WbxmlParser: java.lang.Object wapExtensionData
+org.kxml2.wap.WbxmlParser: int wapCode
+org.kxml2.wap.WbxmlParser: int type
+org.kxml2.wap.WbxmlParser: boolean degenerated
+org.kxml2.wap.WbxmlParser: boolean isWhitespace
+org.kxml2.wap.WbxmlParser: java.lang.String encoding
+org.kxml2.wap.WbxmlParser: WbxmlParser()
+org.kxml2.wap.WbxmlParser: boolean getFeature(java.lang.String)
+org.kxml2.wap.WbxmlParser: java.lang.String getInputEncoding()
+org.kxml2.wap.WbxmlParser: void defineEntityReplacementText(java.lang.String,java.lang.String)
+org.kxml2.wap.WbxmlParser: java.lang.Object getProperty(java.lang.String)
+org.kxml2.wap.WbxmlParser: int getNamespaceCount(int)
+org.kxml2.wap.WbxmlParser: java.lang.String getNamespacePrefix(int)
+org.kxml2.wap.WbxmlParser: java.lang.String getNamespaceUri(int)
+org.kxml2.wap.WbxmlParser: java.lang.String getNamespace(java.lang.String)
+org.kxml2.wap.WbxmlParser: int getDepth()
+org.kxml2.wap.WbxmlParser: java.lang.String getPositionDescription()
+org.kxml2.wap.WbxmlParser: int getLineNumber()
+org.kxml2.wap.WbxmlParser: int getColumnNumber()
+org.kxml2.wap.WbxmlParser: boolean isWhitespace()
+org.kxml2.wap.WbxmlParser: java.lang.String getText()
+org.kxml2.wap.WbxmlParser: char[] getTextCharacters(int[])
+org.kxml2.wap.WbxmlParser: java.lang.String getNamespace()
+org.kxml2.wap.WbxmlParser: java.lang.String getName()
+org.kxml2.wap.WbxmlParser: java.lang.String getPrefix()
+org.kxml2.wap.WbxmlParser: boolean isEmptyElementTag()
+org.kxml2.wap.WbxmlParser: int getAttributeCount()
+org.kxml2.wap.WbxmlParser: java.lang.String getAttributeType(int)
+org.kxml2.wap.WbxmlParser: boolean isAttributeDefault(int)
+org.kxml2.wap.WbxmlParser: java.lang.String getAttributeNamespace(int)
+org.kxml2.wap.WbxmlParser: java.lang.String getAttributeName(int)
+org.kxml2.wap.WbxmlParser: java.lang.String getAttributePrefix(int)
+org.kxml2.wap.WbxmlParser: java.lang.String getAttributeValue(int)
+org.kxml2.wap.WbxmlParser: java.lang.String getAttributeValue(java.lang.String,java.lang.String)
+org.kxml2.wap.WbxmlParser: int getEventType()
+org.kxml2.wap.WbxmlParser: int next()
+org.kxml2.wap.WbxmlParser: int nextToken()
+org.kxml2.wap.WbxmlParser: int nextTag()
+org.kxml2.wap.WbxmlParser: java.lang.String nextText()
+org.kxml2.wap.WbxmlParser: void require(int,java.lang.String,java.lang.String)
+org.kxml2.wap.WbxmlParser: void setInput(java.io.Reader)
+org.kxml2.wap.WbxmlParser: void setInput(java.io.InputStream,java.lang.String)
+org.kxml2.wap.WbxmlParser: void setFeature(java.lang.String,boolean)
+org.kxml2.wap.WbxmlParser: void setProperty(java.lang.String,java.lang.Object)
+org.kxml2.wap.WbxmlParser: boolean adjustNsp()
+org.kxml2.wap.WbxmlParser: void setTable(int,int,java.lang.String[])
+org.kxml2.wap.WbxmlParser: void exception(java.lang.String)
+org.kxml2.wap.WbxmlParser: void selectPage(int,boolean)
+org.kxml2.wap.WbxmlParser: void nextImpl()
+org.kxml2.wap.WbxmlParser: java.lang.Object parseWapExtension(int)
+org.kxml2.wap.WbxmlParser: void readAttr()
+org.kxml2.wap.WbxmlParser: int peekId()
+org.kxml2.wap.WbxmlParser: java.lang.String resolveWapExtension(int,java.lang.Object)
+org.kxml2.wap.WbxmlParser: java.lang.String resolveId(java.lang.String[],int)
+org.kxml2.wap.WbxmlParser: void parseElement(int)
+org.kxml2.wap.WbxmlParser: java.lang.String[] ensureCapacity(java.lang.String[],int)
+org.kxml2.wap.WbxmlParser: int readByte()
+org.kxml2.wap.WbxmlParser: int readInt()
+org.kxml2.wap.WbxmlParser: java.lang.String readStrI()
+org.kxml2.wap.WbxmlParser: java.lang.String readStrT()
+org.kxml2.wap.WbxmlParser: void setTagTable(int,java.lang.String[])
+org.kxml2.wap.WbxmlParser: void setAttrStartTable(int,java.lang.String[])
+org.kxml2.wap.WbxmlParser: void setAttrValueTable(int,java.lang.String[])
+org.kxml2.wap.WbxmlParser: int getWapCode()
+org.kxml2.wap.WbxmlParser: java.lang.Object getWapExtensionData()
+org.kxml2.wap.WbxmlSerializer
+org.kxml2.wap.WbxmlSerializer: java.util.Hashtable stringTable
+org.kxml2.wap.WbxmlSerializer: java.io.OutputStream out
+org.kxml2.wap.WbxmlSerializer: java.io.ByteArrayOutputStream buf
+org.kxml2.wap.WbxmlSerializer: java.io.ByteArrayOutputStream stringTableBuf
+org.kxml2.wap.WbxmlSerializer: java.lang.String pending
+org.kxml2.wap.WbxmlSerializer: int depth
+org.kxml2.wap.WbxmlSerializer: java.lang.String name
+org.kxml2.wap.WbxmlSerializer: java.lang.String namespace
+org.kxml2.wap.WbxmlSerializer: java.util.Vector attributes
+org.kxml2.wap.WbxmlSerializer: java.util.Hashtable attrStartTable
+org.kxml2.wap.WbxmlSerializer: java.util.Hashtable attrValueTable
+org.kxml2.wap.WbxmlSerializer: java.util.Hashtable tagTable
+org.kxml2.wap.WbxmlSerializer: int attrPage
+org.kxml2.wap.WbxmlSerializer: int tagPage
+org.kxml2.wap.WbxmlSerializer: java.lang.String encoding
+org.kxml2.wap.WbxmlSerializer: boolean headerSent
+org.kxml2.wap.WbxmlSerializer: WbxmlSerializer()
+org.kxml2.wap.WbxmlSerializer: org.xmlpull.v1.XmlSerializer attribute(java.lang.String,java.lang.String,java.lang.String)
+org.kxml2.wap.WbxmlSerializer: void cdsect(java.lang.String)
+org.kxml2.wap.WbxmlSerializer: void comment(java.lang.String)
+org.kxml2.wap.WbxmlSerializer: void docdecl(java.lang.String)
+org.kxml2.wap.WbxmlSerializer: void entityRef(java.lang.String)
+org.kxml2.wap.WbxmlSerializer: int getDepth()
+org.kxml2.wap.WbxmlSerializer: boolean getFeature(java.lang.String)
+org.kxml2.wap.WbxmlSerializer: java.lang.String getNamespace()
+org.kxml2.wap.WbxmlSerializer: java.lang.String getName()
+org.kxml2.wap.WbxmlSerializer: java.lang.String getPrefix(java.lang.String,boolean)
+org.kxml2.wap.WbxmlSerializer: java.lang.Object getProperty(java.lang.String)
+org.kxml2.wap.WbxmlSerializer: void ignorableWhitespace(java.lang.String)
+org.kxml2.wap.WbxmlSerializer: void endDocument()
+org.kxml2.wap.WbxmlSerializer: void flush()
+org.kxml2.wap.WbxmlSerializer: void checkPending(boolean)
+org.kxml2.wap.WbxmlSerializer: void processingInstruction(java.lang.String)
+org.kxml2.wap.WbxmlSerializer: void setFeature(java.lang.String,boolean)
+org.kxml2.wap.WbxmlSerializer: void setOutput(java.io.Writer)
+org.kxml2.wap.WbxmlSerializer: void setOutput(java.io.OutputStream,java.lang.String)
+org.kxml2.wap.WbxmlSerializer: void setPrefix(java.lang.String,java.lang.String)
+org.kxml2.wap.WbxmlSerializer: void setProperty(java.lang.String,java.lang.Object)
+org.kxml2.wap.WbxmlSerializer: void startDocument(java.lang.String,java.lang.Boolean)
+org.kxml2.wap.WbxmlSerializer: org.xmlpull.v1.XmlSerializer startTag(java.lang.String,java.lang.String)
+org.kxml2.wap.WbxmlSerializer: org.xmlpull.v1.XmlSerializer text(char[],int,int)
+org.kxml2.wap.WbxmlSerializer: org.xmlpull.v1.XmlSerializer text(java.lang.String)
+org.kxml2.wap.WbxmlSerializer: void writeStr(java.lang.String)
+org.kxml2.wap.WbxmlSerializer: org.xmlpull.v1.XmlSerializer endTag(java.lang.String,java.lang.String)
+org.kxml2.wap.WbxmlSerializer: void writeWapExtension(int,java.lang.Object)
+org.kxml2.wap.WbxmlSerializer: void writeInt(java.io.OutputStream,int)
+org.kxml2.wap.WbxmlSerializer: void writeStrI(java.io.OutputStream,java.lang.String)
+org.kxml2.wap.WbxmlSerializer: void writeStrT(java.lang.String,boolean)
+org.kxml2.wap.WbxmlSerializer: int addToStringTable(java.lang.String,boolean)
+org.kxml2.wap.WbxmlSerializer: void setTagTable(int,java.lang.String[])
+org.kxml2.wap.WbxmlSerializer: void setAttrStartTable(int,java.lang.String[])
+org.kxml2.wap.WbxmlSerializer: void setAttrValueTable(int,java.lang.String[])
+org.kxml2.wap.syncml.SyncML
+org.kxml2.wap.syncml.SyncML: java.lang.String[] TAG_TABLE_0
+org.kxml2.wap.syncml.SyncML: java.lang.String[] TAG_TABLE_1
+org.kxml2.wap.syncml.SyncML: java.lang.String[] TAG_TABLE_2_DM
+org.kxml2.wap.syncml.SyncML: SyncML()
+org.kxml2.wap.syncml.SyncML: org.kxml2.wap.WbxmlParser createParser()
+org.kxml2.wap.syncml.SyncML: org.kxml2.wap.WbxmlSerializer createSerializer()
+org.kxml2.wap.syncml.SyncML: org.kxml2.wap.WbxmlParser createDMParser()
+org.kxml2.wap.syncml.SyncML: org.kxml2.wap.WbxmlSerializer createDMSerializer()
+org.kxml2.wap.syncml.SyncML: void <clinit>()
+org.kxml2.wap.wml.Wml
+org.kxml2.wap.wml.Wml: java.lang.String[] TAG_TABLE
+org.kxml2.wap.wml.Wml: java.lang.String[] ATTR_START_TABLE
+org.kxml2.wap.wml.Wml: java.lang.String[] ATTR_VALUE_TABLE
+org.kxml2.wap.wml.Wml: Wml()
+org.kxml2.wap.wml.Wml: org.kxml2.wap.WbxmlParser createParser()
+org.kxml2.wap.wml.Wml: org.kxml2.wap.WbxmlSerializer createSerializer()
+org.kxml2.wap.wml.Wml: void <clinit>()
+org.kxml2.wap.wv.WV
+org.kxml2.wap.wv.WV: java.lang.String[] tagTablePage0
+org.kxml2.wap.wv.WV: java.lang.String[] tagTablePage1
+org.kxml2.wap.wv.WV: java.lang.String[] tagTablePage2
+org.kxml2.wap.wv.WV: java.lang.String[] tagTablePage3
+org.kxml2.wap.wv.WV: java.lang.String[] tagTablePage4
+org.kxml2.wap.wv.WV: java.lang.String[] tagTablePage5
+org.kxml2.wap.wv.WV: java.lang.String[] tagTablePage6
+org.kxml2.wap.wv.WV: java.lang.String[] tagTablePage7
+org.kxml2.wap.wv.WV: java.lang.String[] tagTablePage8
+org.kxml2.wap.wv.WV: java.lang.String[] tagTablePage9
+org.kxml2.wap.wv.WV: java.lang.String[] tagTablePageA
+org.kxml2.wap.wv.WV: java.lang.String[] attrStartTable
+org.kxml2.wap.wv.WV: java.lang.String[] attrValueTable
+org.kxml2.wap.wv.WV: WV()
+org.kxml2.wap.wv.WV: org.kxml2.wap.WbxmlParser createParser()
+org.kxml2.wap.wv.WV: void <clinit>()
+org.onaips.vnc.ServerManager
+org.onaips.vnc.ServerManager: ServerManager()
+org.onaips.vnc.StartServiceAtBootReceiver
+org.onaips.vnc.StartServiceAtBootReceiver: StartServiceAtBootReceiver()
+org.onaips.vnc.preferences
+org.xmlpull.v1.XmlPullParser
+org.xmlpull.v1.XmlPullParser: java.lang.String NO_NAMESPACE
+org.xmlpull.v1.XmlPullParser: int START_DOCUMENT
+org.xmlpull.v1.XmlPullParser: int END_DOCUMENT
+org.xmlpull.v1.XmlPullParser: int START_TAG
+org.xmlpull.v1.XmlPullParser: int END_TAG
+org.xmlpull.v1.XmlPullParser: int TEXT
+org.xmlpull.v1.XmlPullParser: int CDSECT
+org.xmlpull.v1.XmlPullParser: int ENTITY_REF
+org.xmlpull.v1.XmlPullParser: int IGNORABLE_WHITESPACE
+org.xmlpull.v1.XmlPullParser: int PROCESSING_INSTRUCTION
+org.xmlpull.v1.XmlPullParser: int COMMENT
+org.xmlpull.v1.XmlPullParser: int DOCDECL
+org.xmlpull.v1.XmlPullParser: java.lang.String[] TYPES
+org.xmlpull.v1.XmlPullParser: java.lang.String FEATURE_PROCESS_NAMESPACES
+org.xmlpull.v1.XmlPullParser: java.lang.String FEATURE_REPORT_NAMESPACE_ATTRIBUTES
+org.xmlpull.v1.XmlPullParser: java.lang.String FEATURE_PROCESS_DOCDECL
+org.xmlpull.v1.XmlPullParser: java.lang.String FEATURE_VALIDATION
+org.xmlpull.v1.XmlPullParser: void setFeature(java.lang.String,boolean)
+org.xmlpull.v1.XmlPullParser: boolean getFeature(java.lang.String)
+org.xmlpull.v1.XmlPullParser: void setProperty(java.lang.String,java.lang.Object)
+org.xmlpull.v1.XmlPullParser: java.lang.Object getProperty(java.lang.String)
+org.xmlpull.v1.XmlPullParser: void setInput(java.io.Reader)
+org.xmlpull.v1.XmlPullParser: void setInput(java.io.InputStream,java.lang.String)
+org.xmlpull.v1.XmlPullParser: java.lang.String getInputEncoding()
+org.xmlpull.v1.XmlPullParser: void defineEntityReplacementText(java.lang.String,java.lang.String)
+org.xmlpull.v1.XmlPullParser: int getNamespaceCount(int)
+org.xmlpull.v1.XmlPullParser: java.lang.String getNamespacePrefix(int)
+org.xmlpull.v1.XmlPullParser: java.lang.String getNamespaceUri(int)
+org.xmlpull.v1.XmlPullParser: java.lang.String getNamespace(java.lang.String)
+org.xmlpull.v1.XmlPullParser: int getDepth()
+org.xmlpull.v1.XmlPullParser: java.lang.String getPositionDescription()
+org.xmlpull.v1.XmlPullParser: int getLineNumber()
+org.xmlpull.v1.XmlPullParser: int getColumnNumber()
+org.xmlpull.v1.XmlPullParser: boolean isWhitespace()
+org.xmlpull.v1.XmlPullParser: java.lang.String getText()
+org.xmlpull.v1.XmlPullParser: char[] getTextCharacters(int[])
+org.xmlpull.v1.XmlPullParser: java.lang.String getNamespace()
+org.xmlpull.v1.XmlPullParser: java.lang.String getName()
+org.xmlpull.v1.XmlPullParser: java.lang.String getPrefix()
+org.xmlpull.v1.XmlPullParser: boolean isEmptyElementTag()
+org.xmlpull.v1.XmlPullParser: int getAttributeCount()
+org.xmlpull.v1.XmlPullParser: java.lang.String getAttributeNamespace(int)
+org.xmlpull.v1.XmlPullParser: java.lang.String getAttributeName(int)
+org.xmlpull.v1.XmlPullParser: java.lang.String getAttributePrefix(int)
+org.xmlpull.v1.XmlPullParser: java.lang.String getAttributeType(int)
+org.xmlpull.v1.XmlPullParser: boolean isAttributeDefault(int)
+org.xmlpull.v1.XmlPullParser: java.lang.String getAttributeValue(int)
+org.xmlpull.v1.XmlPullParser: java.lang.String getAttributeValue(java.lang.String,java.lang.String)
+org.xmlpull.v1.XmlPullParser: int getEventType()
+org.xmlpull.v1.XmlPullParser: int next()
+org.xmlpull.v1.XmlPullParser: int nextToken()
+org.xmlpull.v1.XmlPullParser: void require(int,java.lang.String,java.lang.String)
+org.xmlpull.v1.XmlPullParser: java.lang.String nextText()
+org.xmlpull.v1.XmlPullParser: int nextTag()
+org.xmlpull.v1.XmlPullParser: void <clinit>()
+org.xmlpull.v1.XmlPullParserException
+org.xmlpull.v1.XmlPullParserException: java.lang.Throwable detail
+org.xmlpull.v1.XmlPullParserException: int row
+org.xmlpull.v1.XmlPullParserException: int column
+org.xmlpull.v1.XmlPullParserException: XmlPullParserException(java.lang.String)
+org.xmlpull.v1.XmlPullParserException: XmlPullParserException(java.lang.String,org.xmlpull.v1.XmlPullParser,java.lang.Throwable)
+org.xmlpull.v1.XmlPullParserException: java.lang.Throwable getDetail()
+org.xmlpull.v1.XmlPullParserException: int getLineNumber()
+org.xmlpull.v1.XmlPullParserException: int getColumnNumber()
+org.xmlpull.v1.XmlPullParserException: void printStackTrace()
+org.xmlpull.v1.XmlPullParserFactory
+org.xmlpull.v1.XmlPullParserFactory: java.lang.Class referenceContextClass
+org.xmlpull.v1.XmlPullParserFactory: java.lang.String PROPERTY_NAME
+org.xmlpull.v1.XmlPullParserFactory: java.lang.String RESOURCE_NAME
+org.xmlpull.v1.XmlPullParserFactory: java.util.Vector parserClasses
+org.xmlpull.v1.XmlPullParserFactory: java.lang.String classNamesLocation
+org.xmlpull.v1.XmlPullParserFactory: java.util.Vector serializerClasses
+org.xmlpull.v1.XmlPullParserFactory: java.util.Hashtable features
+org.xmlpull.v1.XmlPullParserFactory: XmlPullParserFactory()
+org.xmlpull.v1.XmlPullParserFactory: void setFeature(java.lang.String,boolean)
+org.xmlpull.v1.XmlPullParserFactory: boolean getFeature(java.lang.String)
+org.xmlpull.v1.XmlPullParserFactory: void setNamespaceAware(boolean)
+org.xmlpull.v1.XmlPullParserFactory: boolean isNamespaceAware()
+org.xmlpull.v1.XmlPullParserFactory: void setValidating(boolean)
+org.xmlpull.v1.XmlPullParserFactory: boolean isValidating()
+org.xmlpull.v1.XmlPullParserFactory: org.xmlpull.v1.XmlPullParser newPullParser()
+org.xmlpull.v1.XmlPullParserFactory: org.xmlpull.v1.XmlSerializer newSerializer()
+org.xmlpull.v1.XmlPullParserFactory: org.xmlpull.v1.XmlPullParserFactory newInstance()
+org.xmlpull.v1.XmlPullParserFactory: org.xmlpull.v1.XmlPullParserFactory newInstance(java.lang.String,java.lang.Class)
+org.xmlpull.v1.XmlPullParserFactory: void <clinit>()
+org.xmlpull.v1.XmlSerializer
+org.xmlpull.v1.XmlSerializer: void setFeature(java.lang.String,boolean)
+org.xmlpull.v1.XmlSerializer: boolean getFeature(java.lang.String)
+org.xmlpull.v1.XmlSerializer: void setProperty(java.lang.String,java.lang.Object)
+org.xmlpull.v1.XmlSerializer: java.lang.Object getProperty(java.lang.String)
+org.xmlpull.v1.XmlSerializer: void setOutput(java.io.OutputStream,java.lang.String)
+org.xmlpull.v1.XmlSerializer: void setOutput(java.io.Writer)
+org.xmlpull.v1.XmlSerializer: void startDocument(java.lang.String,java.lang.Boolean)
+org.xmlpull.v1.XmlSerializer: void endDocument()
+org.xmlpull.v1.XmlSerializer: void setPrefix(java.lang.String,java.lang.String)
+org.xmlpull.v1.XmlSerializer: java.lang.String getPrefix(java.lang.String,boolean)
+org.xmlpull.v1.XmlSerializer: int getDepth()
+org.xmlpull.v1.XmlSerializer: java.lang.String getNamespace()
+org.xmlpull.v1.XmlSerializer: java.lang.String getName()
+org.xmlpull.v1.XmlSerializer: org.xmlpull.v1.XmlSerializer startTag(java.lang.String,java.lang.String)
+org.xmlpull.v1.XmlSerializer: org.xmlpull.v1.XmlSerializer attribute(java.lang.String,java.lang.String,java.lang.String)
+org.xmlpull.v1.XmlSerializer: org.xmlpull.v1.XmlSerializer endTag(java.lang.String,java.lang.String)
+org.xmlpull.v1.XmlSerializer: org.xmlpull.v1.XmlSerializer text(java.lang.String)
+org.xmlpull.v1.XmlSerializer: org.xmlpull.v1.XmlSerializer text(char[],int,int)
+org.xmlpull.v1.XmlSerializer: void cdsect(java.lang.String)
+org.xmlpull.v1.XmlSerializer: void entityRef(java.lang.String)
+org.xmlpull.v1.XmlSerializer: void processingInstruction(java.lang.String)
+org.xmlpull.v1.XmlSerializer: void comment(java.lang.String)
+org.xmlpull.v1.XmlSerializer: void docdecl(java.lang.String)
+org.xmlpull.v1.XmlSerializer: void ignorableWhitespace(java.lang.String)
+org.xmlpull.v1.XmlSerializer: void flush()

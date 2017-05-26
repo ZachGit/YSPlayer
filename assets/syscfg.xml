@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<appSettings>
+  <!--服务器IP地址-->
+  <serverip>222.73.136.86</serverip>
+  <!--服务器端口-->
+  <serverport>9801</serverport>
+  <!--播放器ID-->
+  <playid>10003</playid>
+  <!--心跳间隔时间，单位秒-->
+  <heartbeattime>30</heartbeattime>
+  <!-- base program url -->
+  <baseurl>http://222.73.136.86:8088/DMS/MediaStore</baseurl>
+  <mac> </mac>
+  <equipmentId>DEFAULT_EQUIPMENT_ID</equipmentId>
+  <serverVirtualDir>http://222.73.136.86:8088/DMS</serverVirtualDir>
+</appSettings>

@@ -1,0 +1,163 @@
+<Program id="5" name="权限测试1" width="1920px" height="1080px" background="" background-color="#FFFFFF">
+  <ScreenModule id="87bf2b47-03df-4f06-a618-65c0c24d927e" name="LOG" left="0px" top="0px" width="1920px" height="80px" background="" background-color="#90EE90" position="absolute">
+    <ProgramPage id="96b5ad3c-f731-4aa4-bbc6-bde442b40714" name="LOG" left="0px" top="0px" width="1920px" height="80px" background="" background-color="#90EE90" position="relative">
+      <Content materialtype="ImageSlider" id="cf042cc2-f925-404b-b4b8-fe446656c2e6">
+        <Style>
+          <position>absolute</position>
+          <top>0px</top>
+          <left>0px</left>
+          <width>1920px</width>
+          <height>80px</height>
+        </Style>
+        <JsAnimation>
+          <obj>1</obj>
+          <width>1920px</width>
+          <height>80px</height>
+          <duration>3000</duration>
+        </JsAnimation>
+        <Data>
+          <ResURI>http://localhost/DMS/MediaStore/Materials/20130427034931-TopLogo.jpg</ResURI>
+        </Data>
+      </Content>
+    </ProgramPage>
+  </ScreenModule>
+  <ScreenModule id="4d66199a-6adc-4ed0-8a31-76845780ff69" name="APP1" left="0px" top="80px" width="1280px" height="450px" background="" background-color="#FFFF00" position="absolute">
+    <ProgramPage id="75e31b3f-87cd-4c06-80a4-ec6db3280ecf" name="APP" left="0px" top="0px" width="1280px" height="450px" background="" background-color="#FFFF00" position="relative">
+      <Content materialtype="App" id="787b226b-c23f-4bc2-b6c8-e71d0e05ed28">
+        <Style>
+          <position>absolute</position>
+          <top>0px</top>
+          <left>0px</left>
+          <width>1280px</width>
+          <height>450px</height>
+          <z-index>10</z-index>
+        </Style>
+        <iframe>
+          <width>1280px</width>
+          <height>450px</height>
+        </iframe>
+        <Data>
+          <ResURI>http://192.168.100.222:8000/zentaopms/www/index.php?m=user&amp;f=login&amp;referer=L3plbnRhb3Btcy93d3cvaW5kZXgucGhwP209bXkmZj1pbmRleA==</ResURI>
+        </Data>
+      </Content>
+    </ProgramPage>
+  </ScreenModule>
+  <ScreenModule id="35b5f6dd-5e82-4020-bb75-a0793babae37" name="图片" left="1280px" top="80px" width="640px" height="450px" background="" background-color="#404040" position="absolute">
+    <ProgramPage id="cad20d2d-d578-4160-adc8-1f0cb483dda8" name="图片" left="0px" top="0px" width="640px" height="450px" background="" background-color="#404040" position="relative">
+      <Content materialtype="Video" id="908333ea-1690-49f6-90f1-6d740465102e">
+        <Style>
+          <position>absolute</position>
+          <z-index>20</z-index>
+          <top>0px</top>
+          <left>0px</left>
+          <width>640px</width>
+          <height>450px</height>
+        </Style>
+        <JsAnimation>
+          <width>640px</width>
+          <height>50px</height>
+          <autoplay>false</autoplay>
+          <controls>false</controls>
+          <autobuffer>false</autobuffer>
+          <muted>false</muted>
+        </JsAnimation>
+        <Data>
+          <ResURI>http://localhost/DMS/MediaStore/Materials/20130427023046-[白雪公主与猎人]预告片_hd.mp4</ResURI>
+          <ResURI>http://localhost/DMS/MediaStore/Materials/20130427025223-[地心历险记II：神秘岛]预告片_hd.mp4</ResURI>
+          <ResURI>http://localhost/DMS/MediaStore/Materials/20130427023004-[艾尔文与花栗鼠III]预告片_hd.mp4</ResURI>
+        </Data>
+      </Content>
+    </ProgramPage>
+  </ScreenModule>
+  <ScreenModule id="362713c5-2e06-4eca-be1c-fbb8663e7f1e" name="视频" left="1280px" top="530px" width="640px" height="450px" background="" background-color="#262626" position="absolute">
+    <ProgramPage id="ab85082a-9311-4092-9e48-f7bfeef4f77c" name="视频" left="0px" top="0px" width="640px" height="450px" background="" background-color="#262626" position="relative">
+      <Content materialtype="StaticText" id="77d777c9-8c41-4ea6-b169-93890d87bd56">
+        <Style>
+          <position>absolute</position>
+          <top>0px</top>
+          <left>0px</left>
+          <width>640px</width>
+          <height>410px</height>
+          <font-size>80px</font-size>
+          <font-weight>normal</font-weight>
+          <text-align>center</text-align>
+          <background-color>#0070C0</background-color>
+          <background>url(http://localhost/DMS/MediaStore/Materials/20130427022746-computer_kuan_251914_14.jpg) no-repeat</background>
+        </Style>
+        <Data>
+          <ResURI>静态字幕测试!!!</ResURI>
+        </Data>
+      </Content>
+      <Content materialtype="BackgroundVideo" id="3a58f238-fee2-453e-a644-bec492745351">
+        <Style>
+          <position>absolute</position>
+          <top>410.894409179688px</top>
+          <left>3.51252746582031px</left>
+          <width>636px</width>
+          <height>39px</height>
+        </Style>
+        <Animation />
+        <Data>
+          <ResURI>http://localhost/DMS/MediaStore/Materials/20130504105949-陈冠宇 - 爱是我们的.mp3</ResURI>
+        </Data>
+      </Content>
+    </ProgramPage>
+  </ScreenModule>
+  <ScreenModule id="356792d6-6df9-4fed-996e-c0c57add181a" name="滚动字幕1" left="0px" top="980px" width="1920px" height="100px" background="" background-color="#17375E" position="absolute">
+    <ProgramPage id="e9409977-cbb1-436b-bfd9-5e63af96498f" name="滚动字幕" left="0px" top="0px" width="1920px" height="100px" background="" background-color="#17375E" position="relative">
+      <Content materialtype="Subtitles" id="170a412e-a482-4521-8eab-ff111a9ca6db">
+        <Style>
+          <position>absolute</position>
+          <z-index>20</z-index>
+          <top>0px</top>
+          <left>0px</left>
+          <width>1920px</width>
+          <height>100px</height>
+          <background-color>#0070C0</background-color>
+          <color>#000000</color>
+          <font-family>楷体</font-family>
+          <font-style>normal</font-style>
+          <font-variant>normal</font-variant>
+          <font-weight>normal</font-weight>
+          <font-size>80px</font-size>
+        </Style>
+        <Animation>
+          <width>1920px</width>
+          <height>100px</height>
+          <direction>left</direction>
+          <behavior>scroll</behavior>
+          <scrollamount>10</scrollamount>
+          <scrolldelay>90</scrolldelay>
+        </Animation>
+        <Data>
+          <ResURI>1、全市人民齐行动  我为争创全国文明城市家一分2、争创全国文明城市  做文明武汉可爱市民3、争创全国文明城市  建设美好家园4、市文明委号召：我市争创2008年度全国文明城市5、武汉是我家   建设靠大家6、做文明市民   创礼仪武汉7、争创文明城市  建设文明武汉8、排队守秩序   文明又时尚10、我排队   我文明    我礼让  我快乐11、武汉城市精神：勇立潮头、敢为人先、崇尚文明、兼收并蓄12、做当文明市民   做创文明家庭   争做创建全国文明城市排头兵13、喜迎天下客   满意在武汉14、实践基本道德规范  争创全国文明城市15、全面动员  全民参与  积极创建全国文明城市16、创建全国文明城市  树立良好文明形象17、文明是城市之魂   美德是立身之本18、人人动手参与创建    个个争当文明市民19、以发展促文明   以文明求发展20、文明城市你我共建  美好家园你我共享21、文明执法理当先  文明城市文明建22、树立新风贵在坚持   文明创建重在行动23、讲文明话  办文明事  做文明人  创文明城24、文明城市  携手共建25、创建文明城市   构建和谐武汉26、铸诚信形象  建文明城市27、创建全国文明城市   建设温磬美好家园28、和谐城市魅力无限   文明武汉精彩有约29、积极行动起来   投身文明城市创建30、献出你的爱心   共创温馨家园31、加强道德建设   共建美好家园32、服务人民   奉献社会   传承文明33、同一个世界   同一个梦想34、爱国守法、明礼诚信、团结友善、勤俭自强、敬业奉献35、“四进社区”科教、文体、法律和卫生进社区36、家庭美德基本要求尊老爱幼   男女平等   夫妻和睦   勤俭持家   邻里团结37、守法交通   文明出行   用实际行动支持北京奥运38、文明创建重在行动   树立新风贵在坚持39、公德装在心中   文明贵在行动40、檫亮服务窗口   创建全国文明城市 41、倡导文明新风   弘扬社会主义核心价值体系42、百年奥运到我家   文明出行支持她43、立足本职岗位   争做文明使者44、规范文明行为   塑造文明形象45、文明从脚下做起   创建自你我做起46、人人都是文明形象   处处都是和谐环境47、家家争做文明家庭   人人参与创建活动48、文明人塑造文明城   文明城彰显文明人49、从我做起   告别陋习   树立文明新风尚50、文明从一点一滴做起：说文明话，做文明事，做文明人51、在家庭做一个好成员   在单位做一个好职工   在社会做一个好公民52、文明用语从我做起   文明举止从我做起53、言行有礼仪   举止有规范54、上车不争先，下车不恐后，老弱扶一把，人人把你夸55、文明礼让   平安出行56、车让人，让出一份文明人让车，让出一份安全车让车，让出一份秩序57、你让我让   心情舒畅58、倡导排队   倡导礼让   倡导文明共建秩序   共享效率   共创和谐59、做文明市民   建文明城市60、同爱一方热土   共建文明家园61、文明城市全民共建   美好家园你我共享62、文明武汉文明人   我的城市我的家63、一言一行总关情   携手共建文明城64、文明见于细节   创建从我做起65、武汉是我家   清洁靠大家66、做文明市民   创文明城市67、文明武汉   温馨家园68、文明乘车   快乐同行69、圆百年奥运梦   展文明城市风70、文明交通   文明武汉71、提高公民法律素质   建设全国文明城市72、从我做起，从小事做起，争创全国文明城市73、文明城市   以市民为本74、来了就是武汉人   文明武汉欢迎您75、人人讲文明   处处重礼节76、净一点   静一点   敬一点77、你我讲文明   武汉更文明 !</ResURI>
+        </Data>
+      </Content>
+    </ProgramPage>
+  </ScreenModule>
+  <ScreenModule id="e5f28a2b-8071-4acc-880d-df050273acd9" name="APP2" left="0px" top="530px" width="1280px" height="450px" background="" background-color="#7030A0" position="absolute">
+    <ProgramPage id="0f2006ec-f1ae-4767-b071-abff9347f143" name="APP2" left="0px" top="0px" width="1280px" height="450px" background="" background-color="#7030A0" position="relative">
+      <Content materialtype="ImageSlider" id="f2e93038-f80f-4017-9af3-0afd8915b6f7">
+        <Style>
+          <position>absolute</position>
+          <top>0px</top>
+          <left>0px</left>
+          <width>1280px</width>
+          <height>450px</height>
+        </Style>
+        <JsAnimation>
+          <obj>1</obj>
+          <width>1280px</width>
+          <height>450px</height>
+          <duration>3000</duration>
+        </JsAnimation>
+        <Data>
+          <ResURI>http://localhost/DMS/MediaStore/Materials/20130427022746-computer_kuan_251914_14.jpg</ResURI>
+          <ResURI>http://localhost/DMS/MediaStore/Materials/20130427022656-215542b6lvbblv2a6s6dam.jpg</ResURI>
+          <ResURI>http://localhost/DMS/MediaStore/Materials/20130427022115-1008020203463c9d65b8af0ce8.jpg</ResURI>
+          <ResURI>http://localhost/DMS/MediaStore/Materials/20130427022459-202345120322510963.jpg</ResURI>
+        </Data>
+      </Content>
+    </ProgramPage>
+  </ScreenModule>
+</Program>

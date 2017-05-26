@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Command CommType='Reboot' PlayerID='654321' TaskNO='RP20130220'>
+   <Value>wby</Value>
+   <Data>playlist</Data>
+</Command>

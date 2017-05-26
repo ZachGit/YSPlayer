@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+<FrameLayout android:orientation="vertical" android:layout_width="1280.0dip" android:layout_height="720.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">    
+    <WebView
+        android:id="@+id/wv"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="49"
+        /> 
+</FrameLayout>
+ -->
+ 
+ <AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    <!-- 
+    <SurfaceView android:id="@+id/surfaceViewVideo"
+       android:layout_height="wrap_content"
+       android:layout_width="wrap_content"  > 
+   </SurfaceView>       
+	 -->
+	                
+    <WebView
+        android:id="@+id/wv"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        />
+      
+</AbsoluteLayout>    

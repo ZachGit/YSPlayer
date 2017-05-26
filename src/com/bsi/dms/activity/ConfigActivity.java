@@ -1,0 +1,358 @@
+package com.bsi.dms.activity;
+
+import java.io.File;
+import java.io.IOException;
+import java.net.InetAddress;
+import java.net.NetworkInterface;
+import java.util.Collections;
+import java.util.List;
+
+import javax.xml.parsers.DocumentBuilder;
+import javax.xml.parsers.DocumentBuilderFactory;
+import javax.xml.transform.Result;
+import javax.xml.transform.Source;
+import javax.xml.transform.Transformer;
+import javax.xml.transform.TransformerFactory;
+
+import org.apache.http.conn.util.InetAddressUtils;
+import org.w3c.dom.Document;
+
+import android.app.Activity;
+import android.app.AlertDialog;
+import android.content.ComponentName;
+import android.content.DialogInterface;
+import android.content.Intent;
+import android.content.SharedPreferences;
+import android.os.Bundle;
+import android.util.Log;
+import android.view.View;
+import android.view.inputmethod.InputMethodManager;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.TextView;
+import android.widget.Toast;
+
+import com.bsi.dms.R;
+import com.bsi.dms.bean.Syscfg;
+import com.bsi.dms.config.PlayerApplication;
+import com.bsi.dms.prompt.NetworkStatusWatcher;
+import com.bsi.dms.prompt.PromptManager;
+import com.bsi.dms.utils.CommonUtil;
+import com.bsi.dms.utils.Macutils;
+import com.bsi.dms.xmlcreate.XMLTaskCreate;
+
+public class ConfigActivity extends Activity {
+	private static final String TAG = "ConfigActivity";
+	private Button btnSet = null;
+	private Button btnCancel = null;
+	private Button btnClearAllData = null;
+	private Button btnSetnet = null;
+	private EditText etIP = null;
+	private EditText etPort = null;
+	private EditText etPlayid = null;
+	private EditText etHBtime = null;
+	private EditText etBaseurl = null;
+	private TextView wifiMac = null;
+	private TextView wifiIp = null;
+	private TextView playerversion = null;
+	private TextView onlineStatus = null;
+
+	// 保存
+	private DocumentBuilderFactory dbf = null;
+	private DocumentBuilder db = null;
+	private Document doc = null;
+	private TransformerFactory tff = null;
+	private Transformer tf = null;
+	private Source in = null;
+	private Result out = null;
+
+	private SharedPreferences preferences;
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		// TODO Auto-generated method stub
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_config);// 在窗口中显示layout文件
+
+		wifiMac = (TextView) this.findViewById(R.id.wifimac);
+		playerversion = (TextView) this.findViewById(R.id.playerversion);
+		btnSet = (Button) findViewById(R.id.setting);
+		btnCancel = (Button) findViewById(R.id.cancel);
+		btnClearAllData = (Button) findViewById(R.id.clearalldata);
+		btnSetnet = (Button) findViewById(R.id.setnet);
+		etIP = (EditText) findViewById(R.id.serverip);
+		wifiIp = (TextView) findViewById(R.id.wifiip);
+		etPort = (EditText) findViewById(R.id.serverport);
+		/*
+		 * etPlayid = (EditText)findViewById(R.id.playid); etHBtime =
+		 * (EditText)findViewById(R.id.heartbeattime); etBaseurl =
+		 * (EditText)findViewById(R.id.baseurl);
+		 */
+
+		Syscfg sys = PlayerApplication.getInstance().sysconfig;
+
+		String mac = sys.getMac();
+		if (mac == null || "".equals(mac)) {
+			mac = CommonUtil.getLocalMacAddress();
+		      if (mac.equals("02:00:00:00:00:00"))
+		      {
+		    	  mac = Macutils.getMac();
+		    	  sys.setMac(mac);
+		      }
+		}
+		wifiMac.setText(mac);
+		wifiIp.setText(getIPAddress(true));
+		playerversion.setText("版本号： V"
+				+ PlayerApplication.getInstance().getVersion());
+		etIP.setText((CharSequence) sys.getServerip());
+		etPort.setText((CharSequence) sys.getServerport());
+		/*
+		 * etPlayid.setText( (CharSequence)sys.getPlayid() );
+		 * etHBtime.setText((CharSequence)sys.getHeartbeattime().toString() );
+		 * etBaseurl.setText((CharSequence)sys.getBaseurl());
+		 */
+
+		btnSet.setOnClickListener(new Button.OnClickListener() {
+			public void onClick(View v) {
+				String strIP = etIP.getText().toString();
+				String strPort = etPort.getText().toString();
+				/*
+				 * String strPlayid = etPlayid.getText().toString(); String
+				 * strHBtime = etHBtime.getText().toString(); String strBaseurl
+				 * = etBaseurl.getText().toString();
+				 */
+				Syscfg syscfg = PlayerApplication.getInstance().sysconfig;
+				String strPlayid = syscfg.getPlayid();
+				String strHBtime = syscfg.getHeartbeattime().toString();
+				String strBaseurl = syscfg.getBaseurl();
+				String equipmentId = syscfg.getEquipmentId();
+				String serverVirtualDir = syscfg.getServerVirtualDir();
+
+				// add preference
+
+				if (!check_ip(strIP)) {
+					PromptManager.getInstance().toast(R.string.ipnput,
+							PromptManager.ID_SETTING);
+					return;
+				}
+				if (!isNumeric(strPort)) {
+					// Toast toast = Toast.makeText(getApplicationContext(),
+					// "请输入数字!", Toast.LENGTH_LONG);
+					// toast.show();
+					PromptManager.getInstance().toast(R.string.numInput,
+							PromptManager.ID_SETTING);
+					return;
+				}
+				/*
+				 * SharedPreferences userConf
+				 * =getPreferences(Activity.MODE_PRIVATE);
+				 * SharedPreferences.Editor confEdit = userConf.edit();
+				 * confEdit.putString("serverip", strIP);
+				 * confEdit.putString("serverport", strPort); confEdit.commit();
+				 */
+
+				if ("".equals(wifiMac.getText().toString().trim())) {
+					PromptManager.getInstance().toast(R.string.saveFail,
+							PromptManager.ID_NETWORK);
+					return;
+				}
+
+				XMLTaskCreate xmlCreate = null;
+				try {
+					xmlCreate = new XMLTaskCreate();
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+
+				syscfg.setServerip(strIP);
+				syscfg.setServerport(strPort);
+
+				// 生成xml文件
+				String strSyscfg = xmlCreate.createConfigXml(strIP, strPort,
+						strPlayid, strHBtime, strBaseurl, equipmentId,
+						serverVirtualDir);
+
+				// 将设置后的数据保存到syscfg.xml中
+				try {
+					CommonUtil.writeCfgXml(strSyscfg, "syscfg.xml");
+					CommonUtil.deleteAllDir(CommonUtil.getSyscfgPath()
+							+ File.separator + "syscfg.xml.bak");
+					ConfigActivity.this.finish();
+				} catch (IOException e) {
+					PromptManager.getInstance()
+							.toast(R.string.writeConfigError,
+									PromptManager.ID_SETTING);
+					e.printStackTrace();
+				}
+			}
+		});
+
+		btnCancel.setOnClickListener(new Button.OnClickListener() {
+			public void onClick(View v) {
+				/* 关闭当前的Activity */
+				ConfigActivity.this.finish();
+			}
+		});
+		btnClearAllData.setOnClickListener(new Button.OnClickListener() {
+			public void onClick(View v) {
+				/* 关闭当前的Activity */
+				// ConfigActivity.this.finish();
+				// CommonUtil.clearAllLocalData();
+				new AlertDialog.Builder(ConfigActivity.this)
+						.setMessage("确定全部清除本地数据吗?")
+						.setPositiveButton("确定",
+								new DialogInterface.OnClickListener() {
+									public void onClick(DialogInterface dialog,
+											int which) {
+										CommonUtil.clearAllLocalData();
+									}
+								})
+						.setNegativeButton("取消",
+								new DialogInterface.OnClickListener() {
+									@Override
+									public void onClick(DialogInterface arg0,
+											int arg1) {
+										return;
+									}
+
+								}).show();
+			}
+		});
+
+		btnSetnet.setOnClickListener(new Button.OnClickListener() {
+			public void onClick(View v) {
+				startActivity(new Intent(
+						android.provider.Settings.ACTION_SETTINGS));
+
+				/*
+				 * Intent intent = new Intent("/"); ComponentName cm = new
+				 * ComponentName
+				 * ("com.android.settings","com.android.settings.WirelessSettings"
+				 * ); intent.setComponent(cm);
+				 * intent.setAction("android.intent.action.VIEW");
+				 * ConfigActivity.this.startActivityForResult( intent, 0);
+				 */
+			}
+		});
+		onlineStatus = (TextView) findViewById(R.id.onlineStatus);
+		setOnlineStatus();
+	}
+
+	private void setOnlineStatus() {
+		if (onlineStatus == null) {
+			return;
+		}
+		String onlineStatusString = NetworkStatusWatcher.getInstance()
+				.isOnline() ? getResources().getString(R.string.online)
+				: getResources().getString(R.string.offline);
+		onlineStatus.setText(onlineStatusString);
+	}
+
+	@Override
+	protected void onPause() {
+		super.onPause();
+		hideImm();
+	}
+
+	private void hideImm() {
+		((InputMethodManager) getSystemService(INPUT_METHOD_SERVICE))
+				.hideSoftInputFromWindow(this.getCurrentFocus()
+						.getWindowToken(), InputMethodManager.HIDE_NOT_ALWAYS);
+	}
+
+	public static String getIPAddress(boolean useIPv4) {
+		try {
+			List<NetworkInterface> interfaces = Collections
+					.list(NetworkInterface.getNetworkInterfaces());
+			for (NetworkInterface intf : interfaces) {
+				List<InetAddress> addrs = Collections.list(intf
+						.getInetAddresses());
+				for (InetAddress addr : addrs) {
+					if (!addr.isLoopbackAddress()) {
+						String sAddr = addr.getHostAddress().toUpperCase();
+						boolean isIPv4 = InetAddressUtils.isIPv4Address(sAddr);
+						if (useIPv4) {
+							if (isIPv4)
+								return sAddr;
+						} else {
+							if (!isIPv4) {
+								int delim = sAddr.indexOf('%'); // drop ip6 port
+																// suffix
+								return delim < 0 ? sAddr : sAddr.substring(0,
+										delim);
+							}
+						}
+					}
+				}
+			}
+		} catch (Exception ex) {
+		} // for now eat exceptions
+		return "";
+	}
+
+	public boolean isNumeric(String str) {
+		if (str.trim().length() == 0)
+			return false;
+		for (int i = str.length(); --i >= 0;) {
+			int chr = str.charAt(i);
+			if (chr < 48 || chr > 57) {
+				return false;
+			}
+		}
+		return true;
+	}
+
+	public boolean check_ip(String str) {
+		int i = 0, count = 0;
+		for (; i < str.length(); i++) {
+			if (!(str.charAt(i) >= 48 && str.charAt(i) <= 57)) {
+				if (str.charAt(i) == 46) {
+					count++;
+					continue;
+				}
+				return false;
+			}
+		}
+		if (count == 3)
+			return true;
+		else
+			return false;
+	}
+	// private final class ButtonClickListener implements View.OnClickListener{
+	// public void onClick(View v){
+	// String strIP = etIP.getText().toString();
+	// String strPort = etPort.getText().toString();
+	// String strPlayid = etPlayid.getText().toString();
+	// String strHBtime = etHBtime.getText().toString();
+	//
+	// XMLTaskCreate xmlCreate = null;
+	// try {
+	// xmlCreate = new XMLTaskCreate();
+	// } catch (Exception e) {
+	// e.printStackTrace();
+	// }
+	//
+	// //生成xml文件
+	// String strSyscfg = xmlCreate.createConfigXml(strIP, strPort, strPlayid,
+	// strHBtime);
+	// //将设置后的数据保存到syscfg.xml中
+	//
+	// }
+	// }
+
+	// public void saveFile(){
+	// dbf = DocumentBuilderFactory.newInstance();//实例化工厂类
+	// dbf.setValidating(false);//不进行有效性检查
+	// dbf.setNamespaceAware(true);
+	//
+	// db = dbf.newDocumentBuilder();//实例化DocumentBuilder类
+	//
+	// doc = db.newDocument();//实例化Document类
+	//
+	// tff = TransformerFactory.newInstance();
+	// tf = tff.newTransformer();
+	//
+	// in = new DOMSource(doc);
+	// }
+
+}

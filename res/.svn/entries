@@ -1,0 +1,73 @@
+10
+
+dir
+3580
+http://192.168.9.252:12345/svn/DMS_DEV/Android_Apps/dmtp_prj/%E5%BC%80%E5%8F%91%E5%BA%93/3-%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3/3-%E7%BC%96%E7%A0%81/Release/V3.1.1.11/Player-V3.1.1.11/res
+http://192.168.9.252:12345/svn/DMS_DEV
+
+
+
+2013-07-18T03:14:58.640625Z
+3548
+dms_zuoshu
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+0db3dfa9-fce9-2c44-b42e-3bb5d7a1cb97
+
+values-sw720dp-land
+dir
+
+drawable
+dir
+
+drawable-xxhdpi
+dir
+
+raw
+dir
+
+drawable-xhdpi
+dir
+
+values
+dir
+
+xml
+dir
+
+values-sw600dp
+dir
+
+drawable-hdpi
+dir
+
+values-v11
+dir
+
+menu
+dir
+
+values-v14
+dir
+
+drawable-ldpi
+dir
+
+drawable-mdpi
+dir
+
+layout
+dir
+
