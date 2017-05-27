@@ -17,6 +17,7 @@ import com.bsi.dms.config.PlayerApplication;
 import com.bsi.dms.config.PlayerConst;
 import com.bsi.dms.deamon.DeamonConst;
 import com.bsi.dms.download.DownloadEngine;
+import com.bsi.dms.tts.ApkInstaller;
 import com.bsi.dms.utils.CommonUtil;
 import com.bsi.dms.webservice.UpdateWebService;
 import com.bsi.dms.webservice.UpdateWebServiceImpl;
@@ -221,23 +222,28 @@ public class UpdateManagerImpl implements UpdateManager {
 		setInstallType(detail.getInstallType());
 		setInstallTime(detail.getInstallTime());
 		
-//		Intent i = new Intent(Intent.ACTION_VIEW);
-//		i.setDataAndType(Uri.parse("file://" + fileSavePath), "applicationnd.android.package-archive");
-//		i.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-//		PlayerApplication.getInstance().startActivity(i);
-		// Install downloaded apk in deamon app to start after install
 //		CommonUtil.installApk(fileSavePath);
-		Intent deamonIntent = new Intent();
-		deamonIntent.setAction(DeamonConst.SERVICE_ACTION);
-		deamonIntent.putExtra(DeamonConst.INTENT, DeamonConst.INSTALL);
-		deamonIntent.putExtra(DeamonConst.INSTALL_FILE, fileSavePath);
-		deamonIntent
-				.putExtra(DeamonConst.INSTALL_TYPE, detail.getInstallType());
-		deamonIntent
-				.putExtra(DeamonConst.INSTALL_TIME, detail.getInstallTime());
-		deamonIntent.putExtra(DeamonConst.INSTALL_CURRENT_VERSION,
-				detail.getCurrentVersion());
-		PlayerApplication.getInstance().startService(deamonIntent);
+		Intent i = new Intent(Intent.ACTION_VIEW);	
+		i.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+		i.setDataAndType(Uri.parse("file://" + fileSavePath), "application/vnd.android.package-archive");
+		PlayerApplication.getInstance().startActivity(i);
+		System.out.println("UpdateManagerImpl >>"+i);
+//		 Install downloaded apk in deamon app to start after install
+		System.out.println("fileSavePath >> "+fileSavePath);
+//		CommonUtil.installApk(fileSavePath);//单独运用此方法安装无反应，调用的是linux底层脚本
+//		Intent deamonIntent = new Intent();
+//		deamonIntent.setAction(DeamonConst.SERVICE_ACTION);
+//		deamonIntent.putExtra(DeamonConst.INTENT, DeamonConst.INSTALL);
+//		deamonIntent.putExtra(DeamonConst.INSTALL_FILE, fileSavePath);
+//		System.out.println("UpdateManagerImpl >>"+fileSavePath);
+//		deamonIntent
+//				.putExtra(DeamonConst.INSTALL_TYPE, detail.getInstallType());
+//		deamonIntent
+//				.putExtra(DeamonConst.INSTALL_TIME, detail.getInstallTime());
+//		deamonIntent.putExtra(DeamonConst.INSTALL_CURRENT_VERSION,
+//				detail.getCurrentVersion());
+//		System.out.println("UpdateManagerImpl startService >>"+deamonIntent);
+//		PlayerApplication.getInstance().startService(deamonIntent);
 	}
 
 	@Override

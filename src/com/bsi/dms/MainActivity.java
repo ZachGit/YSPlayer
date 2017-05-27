@@ -299,11 +299,11 @@ public class MainActivity extends Activity {
 	                mSECOND = mCalendar.get(Calendar.SECOND);
 	                Log.i("TAG", mHour + "时" + "  " + mMinute + "分" +mSECOND+"秒"+"当前标签值："+booleanTime);
 	                //计算出秒
-	                if(mMinute == 15 && !booleanTime){
+	                if(mMinute == 2 && !booleanTime){
                         Log.i("TAG", "到判断时间重启 ："+booleanTime );
                         saveSharedPreferences(true);
     	                starApp();
-	                }else if(mMinute == 16 && booleanTime){
+	                }else if(mMinute == 3 && booleanTime){
 	                	saveSharedPreferences(false);
 	                	Log.i("TAG", "到判断时间重启后 ："+booleanTime );
 	                }

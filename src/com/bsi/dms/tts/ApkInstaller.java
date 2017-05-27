@@ -93,7 +93,7 @@ public class ApkInstaller {
 		}
 		return true;
 	}
-	private static void installApk(Context context, String apkPath) {
+	public static void installApk(Context context, String apkPath) {
 		Intent intent = new Intent(Intent.ACTION_VIEW);
 		intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
 		intent.setDataAndType(Uri.fromFile(new File(apkPath)),
