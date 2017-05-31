@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.bsi.dms"
-    android:versionCode="1"
-    android:versionName="4.0.0.0" >
+    android:versionCode="2"
+    android:versionName="4.1.0.0" >
 
     <!-- android:sharedUserId="android.uid.system" -->
     <uses-permission android:name="android.permission.INTERNET" />
@@ -33,7 +33,7 @@
         android:targetSdkVersion="19" />
 
     <application
-        android:name=".config.PlayerApplication"
+        android:name="com.bsi.dms.config.PlayerApplication"
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
